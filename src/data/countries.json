@@ -13,7 +13,18 @@
     "lng": 1.5,
     "capital": "Andorra la Vella",
     "region": "Europe",
-    "population": 88406
+    "population": 88406,
+    "borders": [
+      "FR",
+      "ES"
+    ],
+    "unMember": true,
+    "area": 468,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AE",
@@ -29,7 +40,18 @@
     "lng": 54,
     "capital": "Abu Dhabi",
     "region": "Asia",
-    "population": 11294243
+    "population": 11294243,
+    "borders": [
+      "OM",
+      "SA"
+    ],
+    "unMember": true,
+    "area": 83600,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "AF",
@@ -45,7 +67,22 @@
     "lng": 65,
     "capital": "Kabul",
     "region": "Asia",
-    "population": 43844000
+    "population": 43844000,
+    "borders": [
+      "IR",
+      "PK",
+      "TM",
+      "UZ",
+      "TJ",
+      "CN"
+    ],
+    "unMember": true,
+    "area": 652230,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AG",
@@ -59,7 +96,15 @@
     "lng": -61.8,
     "capital": "Saint John's",
     "region": "Americas",
-    "population": 103603
+    "population": 103603,
+    "borders": [],
+    "unMember": true,
+    "area": 442,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AI",
@@ -73,7 +118,15 @@
     "lng": -63.16666666,
     "capital": "The Valley",
     "region": "Americas",
-    "population": 16010
+    "population": 16010,
+    "borders": [],
+    "unMember": false,
+    "area": 91,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AL",
@@ -91,7 +144,20 @@
     "lng": 20,
     "capital": "Tirana",
     "region": "Europe",
-    "population": 2363314
+    "population": 2363314,
+    "borders": [
+      "ME",
+      "GR",
+      "MK",
+      "XK"
+    ],
+    "unMember": true,
+    "area": 28748,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AM",
@@ -108,7 +174,20 @@
     "lng": 45,
     "capital": "Yerevan",
     "region": "Asia",
-    "population": 3076200
+    "population": 3076200,
+    "borders": [
+      "AZ",
+      "GE",
+      "IR",
+      "TR"
+    ],
+    "unMember": true,
+    "area": 29743,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AO",
@@ -125,7 +204,20 @@
     "lng": 18.5,
     "capital": "Luanda",
     "region": "Africa",
-    "population": 36170961
+    "population": 36170961,
+    "borders": [
+      "CG",
+      "CD",
+      "ZM",
+      "NA"
+    ],
+    "unMember": true,
+    "area": 1246700,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AQ",
@@ -138,7 +230,15 @@
     "lat": -90,
     "lng": 0,
     "region": "Antarctic",
-    "population": 1300
+    "population": 1300,
+    "borders": [],
+    "unMember": false,
+    "area": 14000000,
+    "carSide": "right",
+    "continents": [
+      "Antarctica"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AR",
@@ -154,7 +254,21 @@
     "lng": -64,
     "capital": "Buenos Aires",
     "region": "Americas",
-    "population": 46735004
+    "population": 46735004,
+    "borders": [
+      "BO",
+      "BR",
+      "CL",
+      "PY",
+      "UY"
+    ],
+    "unMember": true,
+    "area": 2780400,
+    "carSide": "right",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AS",
@@ -171,7 +285,15 @@
     "lng": -170,
     "capital": "Pago Pago",
     "region": "Oceania",
-    "population": 49710
+    "population": 49710,
+    "borders": [],
+    "unMember": false,
+    "area": 199,
+    "carSide": "right",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AT",
@@ -188,7 +310,24 @@
     "lng": 13.33333333,
     "capital": "Vienna",
     "region": "Europe",
-    "population": 9200931
+    "population": 9200931,
+    "borders": [
+      "CZ",
+      "DE",
+      "HU",
+      "IT",
+      "LI",
+      "SK",
+      "SI",
+      "CH"
+    ],
+    "unMember": true,
+    "area": 83871,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AU",
@@ -203,7 +342,15 @@
     "lng": 133,
     "capital": "Canberra",
     "region": "Oceania",
-    "population": 27536874
+    "population": 27536874,
+    "borders": [],
+    "unMember": true,
+    "area": 7692024,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AW",
@@ -217,7 +364,15 @@
     "lng": -69.96666666,
     "capital": "Oranjestad",
     "region": "Americas",
-    "population": 107566
+    "population": 107566,
+    "borders": [],
+    "unMember": false,
+    "area": 180,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AX",
@@ -234,7 +389,15 @@
     "lng": 19.9,
     "capital": "Mariehamn",
     "region": "Europe",
-    "population": 30654
+    "population": 30654,
+    "borders": [],
+    "unMember": false,
+    "area": 1580,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "AZ",
@@ -250,7 +413,22 @@
     "lng": 47.5,
     "capital": "Baku",
     "region": "Asia",
-    "population": 10241722
+    "population": 10241722,
+    "borders": [
+      "AM",
+      "GE",
+      "IR",
+      "RU",
+      "TR"
+    ],
+    "unMember": true,
+    "area": 86600,
+    "carSide": "right",
+    "continents": [
+      "Europe",
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BA",
@@ -266,7 +444,19 @@
     "lng": 18,
     "capital": "Sarajevo",
     "region": "Europe",
-    "population": 3422000
+    "population": 3422000,
+    "borders": [
+      "HR",
+      "ME",
+      "RS"
+    ],
+    "unMember": true,
+    "area": 51209,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BB",
@@ -280,7 +470,15 @@
     "lng": -59.53333333,
     "capital": "Bridgetown",
     "region": "Americas",
-    "population": 267800
+    "population": 267800,
+    "borders": [],
+    "unMember": true,
+    "area": 430,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BD",
@@ -296,7 +494,18 @@
     "lng": 90,
     "capital": "Dhaka",
     "region": "Asia",
-    "population": 169828911
+    "population": 169828911,
+    "borders": [
+      "MM",
+      "IN"
+    ],
+    "unMember": true,
+    "area": 147570,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "BE",
@@ -318,7 +527,20 @@
     "lng": 4,
     "capital": "Brussels",
     "region": "Europe",
-    "population": 11825551
+    "population": 11825551,
+    "borders": [
+      "FR",
+      "DE",
+      "LU",
+      "NL"
+    ],
+    "unMember": true,
+    "area": 30528,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BF",
@@ -332,7 +554,22 @@
     "lng": -2,
     "capital": "Ouagadougou",
     "region": "Africa",
-    "population": 24070553
+    "population": 24070553,
+    "borders": [
+      "BJ",
+      "CI",
+      "GH",
+      "ML",
+      "NE",
+      "TG"
+    ],
+    "unMember": true,
+    "area": 272967,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BG",
@@ -348,7 +585,21 @@
     "lng": 25,
     "capital": "Sofia",
     "region": "Europe",
-    "population": 6437360
+    "population": 6437360,
+    "borders": [
+      "GR",
+      "MK",
+      "RO",
+      "RS",
+      "TR"
+    ],
+    "unMember": true,
+    "area": 110879,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BH",
@@ -364,7 +615,15 @@
     "lng": 50.55,
     "capital": "Manama",
     "region": "Asia",
-    "population": 1594654
+    "population": 1594654,
+    "borders": [],
+    "unMember": true,
+    "area": 765,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BI",
@@ -381,7 +640,19 @@
     "lng": 30,
     "capital": "Gitega",
     "region": "Africa",
-    "population": 12332788
+    "population": 12332788,
+    "borders": [
+      "CD",
+      "RW",
+      "TZ"
+    ],
+    "unMember": true,
+    "area": 27834,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BJ",
@@ -397,7 +668,20 @@
     "lng": 2.25,
     "capital": "Porto-Novo",
     "region": "Africa",
-    "population": 13224860
+    "population": 13224860,
+    "borders": [
+      "BF",
+      "NE",
+      "NG",
+      "TG"
+    ],
+    "unMember": true,
+    "area": 112622,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BL",
@@ -414,7 +698,15 @@
     "lng": -63.41666666,
     "capital": "Gustavia",
     "region": "Americas",
-    "population": 10562
+    "population": 10562,
+    "borders": [],
+    "unMember": false,
+    "area": 21,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BM",
@@ -431,7 +723,15 @@
     "lng": -64.75,
     "capital": "Hamilton",
     "region": "Americas",
-    "population": 64055
+    "population": 64055,
+    "borders": [],
+    "unMember": false,
+    "area": 54,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BN",
@@ -449,7 +749,17 @@
     "lng": 114.66666666,
     "capital": "Bandar Seri Begawan",
     "region": "Asia",
-    "population": 455500
+    "population": 455500,
+    "borders": [
+      "MY"
+    ],
+    "unMember": true,
+    "area": 5765,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BO",
@@ -471,7 +781,21 @@
     "lng": -65,
     "capital": "Sucre",
     "region": "Americas",
-    "population": 11365333
+    "population": 11365333,
+    "borders": [
+      "AR",
+      "BR",
+      "CL",
+      "PY",
+      "PE"
+    ],
+    "unMember": true,
+    "area": 1098581,
+    "carSide": "right",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BQ",
@@ -487,7 +811,15 @@
     "lng": -68.25,
     "capital": "Kralendijk",
     "region": "Americas",
-    "population": 31980
+    "population": 31980,
+    "borders": [],
+    "unMember": false,
+    "area": 328,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BR",
@@ -504,7 +836,26 @@
     "lng": -55,
     "capital": "Brasília",
     "region": "Americas",
-    "population": 213421037
+    "population": 213421037,
+    "borders": [
+      "AR",
+      "BO",
+      "CO",
+      "GF",
+      "GY",
+      "PY",
+      "PE",
+      "SR",
+      "UY",
+      "VE"
+    ],
+    "unMember": true,
+    "area": 8515767,
+    "carSide": "right",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "BS",
@@ -519,7 +870,15 @@
     "lng": -77.3963,
     "capital": "Nassau",
     "region": "Americas",
-    "population": 398165
+    "population": 398165,
+    "borders": [],
+    "unMember": true,
+    "area": 13943,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BT",
@@ -534,7 +893,18 @@
     "lng": 90.5,
     "capital": "Thimphu",
     "region": "Asia",
-    "population": 784043
+    "population": 784043,
+    "borders": [
+      "CN",
+      "IN"
+    ],
+    "unMember": true,
+    "area": 38394,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BV",
@@ -549,7 +919,15 @@
     "lat": -54.4208,
     "lng": 3.3464,
     "region": "Antarctic",
-    "population": 0
+    "population": 0,
+    "borders": [],
+    "unMember": false,
+    "area": 49,
+    "carSide": "right",
+    "continents": [
+      "Antarctica"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BW",
@@ -565,7 +943,20 @@
     "lng": 24,
     "capital": "Gaborone",
     "region": "Africa",
-    "population": 2359609
+    "population": 2359609,
+    "borders": [
+      "NA",
+      "ZA",
+      "ZM",
+      "ZW"
+    ],
+    "unMember": true,
+    "area": 582000,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BY",
@@ -583,7 +974,21 @@
     "lng": 28,
     "capital": "Minsk",
     "region": "Europe",
-    "population": 9109280
+    "population": 9109280,
+    "borders": [
+      "LV",
+      "LT",
+      "PL",
+      "RU",
+      "UA"
+    ],
+    "unMember": true,
+    "area": 207600,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "BZ",
@@ -597,7 +1002,18 @@
     "lng": -88.75,
     "capital": "Belmopan",
     "region": "Americas",
-    "population": 417634
+    "population": 417634,
+    "borders": [
+      "GT",
+      "MX"
+    ],
+    "unMember": true,
+    "area": 22966,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CA",
@@ -611,7 +1027,17 @@
     "lng": -95,
     "capital": "Ottawa",
     "region": "Americas",
-    "population": 41651653
+    "population": 41651653,
+    "borders": [
+      "US"
+    ],
+    "unMember": true,
+    "area": 9984670,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "CC",
@@ -628,7 +1054,15 @@
     "lng": 96.871,
     "capital": "West Island",
     "region": "Oceania",
-    "population": 593
+    "population": 593,
+    "borders": [],
+    "unMember": false,
+    "area": 14,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CD",
@@ -646,7 +1080,25 @@
     "lng": 25,
     "capital": "Kinshasa",
     "region": "Africa",
-    "population": 112832000
+    "population": 112832000,
+    "borders": [
+      "AO",
+      "BI",
+      "CF",
+      "CG",
+      "RW",
+      "SS",
+      "TZ",
+      "UG",
+      "ZM"
+    ],
+    "unMember": true,
+    "area": 2344858,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CF",
@@ -661,7 +1113,22 @@
     "lng": 21,
     "capital": "Bangui",
     "region": "Africa",
-    "population": 6470307
+    "population": 6470307,
+    "borders": [
+      "CM",
+      "TD",
+      "CD",
+      "CG",
+      "SS",
+      "SD"
+    ],
+    "unMember": true,
+    "area": 622984,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CG",
@@ -677,7 +1144,21 @@
     "lng": 15,
     "capital": "Brazzaville",
     "region": "Africa",
-    "population": 6142180
+    "population": 6142180,
+    "borders": [
+      "AO",
+      "CM",
+      "CF",
+      "CD",
+      "GA"
+    ],
+    "unMember": true,
+    "area": 342000,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CH",
@@ -696,7 +1177,21 @@
     "lng": 8,
     "capital": "Bern",
     "region": "Europe",
-    "population": 9082848
+    "population": 9082848,
+    "borders": [
+      "AT",
+      "FR",
+      "IT",
+      "LI",
+      "DE"
+    ],
+    "unMember": true,
+    "area": 41284,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CI",
@@ -713,7 +1208,21 @@
     "lng": -5,
     "capital": "Yamoussoukro",
     "region": "Africa",
-    "population": 31719275
+    "population": 31719275,
+    "borders": [
+      "BF",
+      "GH",
+      "GN",
+      "LR",
+      "ML"
+    ],
+    "unMember": true,
+    "area": 322463,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CK",
@@ -728,7 +1237,15 @@
     "lng": -159.76666666,
     "capital": "Avarua",
     "region": "Oceania",
-    "population": 15040
+    "population": 15040,
+    "borders": [],
+    "unMember": false,
+    "area": 236,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CL",
@@ -744,7 +1261,19 @@
     "lng": -71,
     "capital": "Santiago",
     "region": "Americas",
-    "population": 20206953
+    "population": 20206953,
+    "borders": [
+      "AR",
+      "BO",
+      "PE"
+    ],
+    "unMember": true,
+    "area": 756102,
+    "carSide": "right",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CM",
@@ -760,7 +1289,22 @@
     "lng": 12,
     "capital": "Yaoundé",
     "region": "Africa",
-    "population": 29442327
+    "population": 29442327,
+    "borders": [
+      "CF",
+      "TD",
+      "CG",
+      "GQ",
+      "GA",
+      "NG"
+    ],
+    "unMember": true,
+    "area": 475442,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CN",
@@ -780,7 +1324,32 @@
     "lng": 105,
     "capital": "Beijing",
     "region": "Asia",
-    "population": 1408280000
+    "population": 1408280000,
+    "borders": [
+      "AF",
+      "BT",
+      "MM",
+      "HK",
+      "IN",
+      "KZ",
+      "NP",
+      "KP",
+      "KG",
+      "LA",
+      "MO",
+      "MN",
+      "PK",
+      "RU",
+      "TJ",
+      "VN"
+    ],
+    "unMember": true,
+    "area": 9706961,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CO",
@@ -796,7 +1365,21 @@
     "lng": -72,
     "capital": "Bogotá",
     "region": "Americas",
-    "population": 53057212
+    "population": 53057212,
+    "borders": [
+      "BR",
+      "EC",
+      "PA",
+      "PE",
+      "VE"
+    ],
+    "unMember": true,
+    "area": 1141748,
+    "carSide": "right",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CR",
@@ -812,7 +1395,18 @@
     "lng": -84,
     "capital": "San José",
     "region": "Americas",
-    "population": 5309625
+    "population": 5309625,
+    "borders": [
+      "NI",
+      "PA"
+    ],
+    "unMember": true,
+    "area": 51100,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CU",
@@ -828,7 +1422,15 @@
     "lng": -80,
     "capital": "Havana",
     "region": "Americas",
-    "population": 9748007
+    "population": 9748007,
+    "borders": [],
+    "unMember": true,
+    "area": 109884,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CV",
@@ -844,7 +1446,15 @@
     "lng": -23.0418,
     "capital": "Praia",
     "region": "Africa",
-    "population": 491233
+    "population": 491233,
+    "borders": [],
+    "unMember": true,
+    "area": 4033,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CW",
@@ -863,7 +1473,15 @@
     "lng": -68.933333,
     "capital": "Willemstad",
     "region": "Americas",
-    "population": 156115
+    "population": 156115,
+    "borders": [],
+    "unMember": false,
+    "area": 444,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CX",
@@ -878,7 +1496,15 @@
     "lng": 105.66666666,
     "capital": "Flying Fish Cove",
     "region": "Oceania",
-    "population": 1692
+    "population": 1692,
+    "borders": [],
+    "unMember": false,
+    "area": 135,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CY",
@@ -897,7 +1523,15 @@
     "lng": 33,
     "capital": "Nicosia",
     "region": "Europe",
-    "population": 1442614
+    "population": 1442614,
+    "borders": [],
+    "unMember": true,
+    "area": 9251,
+    "carSide": "left",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "CZ",
@@ -914,7 +1548,20 @@
     "lng": 15.5,
     "capital": "Prague",
     "region": "Europe",
-    "population": 10882341
+    "population": 10882341,
+    "borders": [
+      "AT",
+      "DE",
+      "PL",
+      "SK"
+    ],
+    "unMember": true,
+    "area": 78865,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "DE",
@@ -930,7 +1577,25 @@
     "lng": 9,
     "capital": "Berlin",
     "region": "Europe",
-    "population": 83491249
+    "population": 83491249,
+    "borders": [
+      "AT",
+      "BE",
+      "CZ",
+      "DK",
+      "FR",
+      "LU",
+      "NL",
+      "PL",
+      "CH"
+    ],
+    "unMember": true,
+    "area": 357114,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "DJ",
@@ -950,7 +1615,19 @@
     "lng": 43,
     "capital": "Djibouti",
     "region": "Africa",
-    "population": 1066809
+    "population": 1066809,
+    "borders": [
+      "ER",
+      "ET",
+      "SO"
+    ],
+    "unMember": true,
+    "area": 23200,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "DK",
@@ -967,7 +1644,17 @@
     "lng": 10,
     "capital": "Copenhagen",
     "region": "Europe",
-    "population": 6011488
+    "population": 6011488,
+    "borders": [
+      "DE"
+    ],
+    "unMember": true,
+    "area": 43094,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "DM",
@@ -984,7 +1671,15 @@
     "lng": -61.33333333,
     "capital": "Roseau",
     "region": "Americas",
-    "population": 67408
+    "population": 67408,
+    "borders": [],
+    "unMember": true,
+    "area": 751,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "DO",
@@ -998,7 +1693,17 @@
     "lng": -70.66666666,
     "capital": "Santo Domingo",
     "region": "Americas",
-    "population": 10771504
+    "population": 10771504,
+    "borders": [
+      "HT"
+    ],
+    "unMember": true,
+    "area": 48671,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "DZ",
@@ -1015,7 +1720,23 @@
     "lng": 3,
     "capital": "Algiers",
     "region": "Africa",
-    "population": 47400000
+    "population": 47400000,
+    "borders": [
+      "TN",
+      "LY",
+      "NE",
+      "EH",
+      "MR",
+      "ML",
+      "MA"
+    ],
+    "unMember": true,
+    "area": 2381741,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "EC",
@@ -1031,7 +1752,18 @@
     "lng": -77.5,
     "capital": "Quito",
     "region": "Americas",
-    "population": 18103660
+    "population": 18103660,
+    "borders": [
+      "CO",
+      "PE"
+    ],
+    "unMember": true,
+    "area": 276841,
+    "carSide": "right",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "EE",
@@ -1048,7 +1780,18 @@
     "lng": 26,
     "capital": "Tallinn",
     "region": "Europe",
-    "population": 1369995
+    "population": 1369995,
+    "borders": [
+      "LV",
+      "RU"
+    ],
+    "unMember": true,
+    "area": 45227,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "EG",
@@ -1063,7 +1806,20 @@
     "lng": 30,
     "capital": "Cairo",
     "region": "Africa",
-    "population": 107271260
+    "population": 107271260,
+    "borders": [
+      "IL",
+      "LY",
+      "PS",
+      "SD"
+    ],
+    "unMember": true,
+    "area": 1002450,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "EH",
@@ -1079,7 +1835,19 @@
     "lng": -13,
     "capital": "El Aaiún",
     "region": "Africa",
-    "population": 600904
+    "population": 600904,
+    "borders": [
+      "DZ",
+      "MR",
+      "MA"
+    ],
+    "unMember": false,
+    "area": 266000,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "ER",
@@ -1098,7 +1866,19 @@
     "lng": 39,
     "capital": "Asmara",
     "region": "Africa",
-    "population": 3607000
+    "population": 3607000,
+    "borders": [
+      "DJ",
+      "ET",
+      "SD"
+    ],
+    "unMember": true,
+    "area": 117600,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "ES",
@@ -1114,7 +1894,21 @@
     "lng": -4,
     "capital": "Madrid",
     "region": "Europe",
-    "population": 49315949
+    "population": 49315949,
+    "borders": [
+      "AD",
+      "FR",
+      "GI",
+      "PT",
+      "MA"
+    ],
+    "unMember": true,
+    "area": 505992,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "ET",
@@ -1131,7 +1925,22 @@
     "lng": 38,
     "capital": "Addis Ababa",
     "region": "Africa",
-    "population": 111652998
+    "population": 111652998,
+    "borders": [
+      "DJ",
+      "ER",
+      "KE",
+      "SO",
+      "SS",
+      "SD"
+    ],
+    "unMember": true,
+    "area": 1104300,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "FI",
@@ -1149,7 +1958,19 @@
     "lng": 26,
     "capital": "Helsinki",
     "region": "Europe",
-    "population": 5650325
+    "population": 5650325,
+    "borders": [
+      "NO",
+      "SE",
+      "RU"
+    ],
+    "unMember": true,
+    "area": 338455,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "FJ",
@@ -1167,7 +1988,15 @@
     "lng": 178.065,
     "capital": "Suva",
     "region": "Oceania",
-    "population": 900869
+    "population": 900869,
+    "borders": [],
+    "unMember": true,
+    "area": 18272,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "FK",
@@ -1183,7 +2012,15 @@
     "lng": -59,
     "capital": "Stanley",
     "region": "Americas",
-    "population": 3662
+    "population": 3662,
+    "borders": [],
+    "unMember": false,
+    "area": 12173,
+    "carSide": "left",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "FO",
@@ -1199,7 +2036,15 @@
     "lng": -7,
     "capital": "Tórshavn",
     "region": "Europe",
-    "population": 54885
+    "population": 54885,
+    "borders": [],
+    "unMember": false,
+    "area": 1393,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "FR",
@@ -1215,7 +2060,24 @@
     "lng": 2,
     "capital": "Paris",
     "region": "Europe",
-    "population": 66351959
+    "population": 66351959,
+    "borders": [
+      "AD",
+      "BE",
+      "DE",
+      "IT",
+      "LU",
+      "MC",
+      "ES",
+      "CH"
+    ],
+    "unMember": true,
+    "area": 543908,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GA",
@@ -1231,7 +2093,19 @@
     "lng": 11.75,
     "capital": "Libreville",
     "region": "Africa",
-    "population": 2469296
+    "population": 2469296,
+    "borders": [
+      "CM",
+      "CG",
+      "GQ"
+    ],
+    "unMember": true,
+    "area": 267668,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GB",
@@ -1248,7 +2122,17 @@
     "lng": -2,
     "capital": "London",
     "region": "Europe",
-    "population": 69281437
+    "population": 69281437,
+    "borders": [
+      "IE"
+    ],
+    "unMember": true,
+    "area": 244376,
+    "carSide": "left",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GD",
@@ -1262,7 +2146,15 @@
     "lng": -61.66666666,
     "capital": "St. George's",
     "region": "Americas",
-    "population": 109021
+    "population": 109021,
+    "borders": [],
+    "unMember": true,
+    "area": 344,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GE",
@@ -1277,7 +2169,20 @@
     "lng": 43.5,
     "capital": "Tbilisi",
     "region": "Asia",
-    "population": 4000921
+    "population": 4000921,
+    "borders": [
+      "AM",
+      "AZ",
+      "RU",
+      "TR"
+    ],
+    "unMember": true,
+    "area": 69700,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GF",
@@ -1293,7 +2198,18 @@
     "lng": -53,
     "capital": "Cayenne",
     "region": "Americas",
-    "population": 292354
+    "population": 292354,
+    "borders": [
+      "BR",
+      "SR"
+    ],
+    "unMember": false,
+    "area": 83534,
+    "carSide": "right",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GG",
@@ -1309,7 +2225,15 @@
     "lng": -2.58333333,
     "capital": "St. Peter Port",
     "region": "Europe",
-    "population": 64781
+    "population": 64781,
+    "borders": [],
+    "unMember": false,
+    "area": 78,
+    "carSide": "left",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GH",
@@ -1324,7 +2248,19 @@
     "lng": -2,
     "capital": "Accra",
     "region": "Africa",
-    "population": 33742380
+    "population": 33742380,
+    "borders": [
+      "BF",
+      "CI",
+      "TG"
+    ],
+    "unMember": true,
+    "area": 238533,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GI",
@@ -1338,7 +2274,17 @@
     "lng": -5.35,
     "capital": "Gibraltar",
     "region": "Europe",
-    "population": 38000
+    "population": 38000,
+    "borders": [
+      "ES"
+    ],
+    "unMember": false,
+    "area": 6,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GL",
@@ -1353,7 +2299,15 @@
     "lng": -40,
     "capital": "Nuuk",
     "region": "Americas",
-    "population": 56542
+    "population": 56542,
+    "borders": [],
+    "unMember": false,
+    "area": 2166086,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GM",
@@ -1368,7 +2322,17 @@
     "lng": -16.56666666,
     "capital": "Banjul",
     "region": "Africa",
-    "population": 2422712
+    "population": 2422712,
+    "borders": [
+      "SN"
+    ],
+    "unMember": true,
+    "area": 10689,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GN",
@@ -1384,7 +2348,22 @@
     "lng": -10,
     "capital": "Conakry",
     "region": "Africa",
-    "population": 14363931
+    "population": 14363931,
+    "borders": [
+      "CI",
+      "GW",
+      "LR",
+      "ML",
+      "SN",
+      "SL"
+    ],
+    "unMember": true,
+    "area": 245857,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GP",
@@ -1399,7 +2378,15 @@
     "lng": -61.583333,
     "capital": "Basse-Terre",
     "region": "Americas",
-    "population": 378561
+    "population": 378561,
+    "borders": [],
+    "unMember": false,
+    "area": 1628,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GQ",
@@ -1417,7 +2404,18 @@
     "lng": 10,
     "capital": "Ciudad de la Paz",
     "region": "Africa",
-    "population": 1668768
+    "population": 1668768,
+    "borders": [
+      "CM",
+      "GA"
+    ],
+    "unMember": true,
+    "area": 28051,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GR",
@@ -1434,7 +2432,20 @@
     "lng": 22,
     "capital": "Athens",
     "region": "Europe",
-    "population": 10400720
+    "population": 10400720,
+    "borders": [
+      "AL",
+      "BG",
+      "TR",
+      "MK"
+    ],
+    "unMember": true,
+    "area": 131990,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GS",
@@ -1449,7 +2460,15 @@
     "lng": -37,
     "capital": "King Edward Point",
     "region": "Antarctic",
-    "population": 0
+    "population": 0,
+    "borders": [],
+    "unMember": false,
+    "area": 3903,
+    "carSide": "right",
+    "continents": [
+      "Antarctica"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GT",
@@ -1464,7 +2483,20 @@
     "lng": -90.25,
     "capital": "Guatemala City",
     "region": "Americas",
-    "population": 18079810
+    "population": 18079810,
+    "borders": [
+      "BZ",
+      "SV",
+      "HN",
+      "MX"
+    ],
+    "unMember": true,
+    "area": 108889,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GU",
@@ -1479,7 +2511,15 @@
     "lng": 144.78333333,
     "capital": "Hagåtña",
     "region": "Oceania",
-    "population": 153836
+    "population": 153836,
+    "borders": [],
+    "unMember": false,
+    "area": 549,
+    "carSide": "right",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GW",
@@ -1495,7 +2535,18 @@
     "lng": -15,
     "capital": "Bissau",
     "region": "Africa",
-    "population": 1781308
+    "population": 1781308,
+    "borders": [
+      "GN",
+      "SN"
+    ],
+    "unMember": false,
+    "area": 36125,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "GY",
@@ -1510,7 +2561,19 @@
     "lng": -59,
     "capital": "Georgetown",
     "region": "Americas",
-    "population": 772975
+    "population": 772975,
+    "borders": [
+      "BR",
+      "SR",
+      "VE"
+    ],
+    "unMember": true,
+    "area": 214969,
+    "carSide": "left",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "HK",
@@ -1525,7 +2588,17 @@
     "lng": 114.188,
     "capital": "City of Victoria",
     "region": "Asia",
-    "population": 7527500
+    "population": 7527500,
+    "borders": [
+      "CN"
+    ],
+    "unMember": false,
+    "area": 1104,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "HM",
@@ -1538,7 +2611,15 @@
     "lat": -53.0818,
     "lng": 73.5042,
     "region": "Antarctic",
-    "population": 0
+    "population": 0,
+    "borders": [],
+    "unMember": false,
+    "area": 412,
+    "carSide": "right",
+    "continents": [
+      "Antarctica"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "HN",
@@ -1554,7 +2635,19 @@
     "lng": -86.5,
     "capital": "Tegucigalpa",
     "region": "Americas",
-    "population": 9892632
+    "population": 9892632,
+    "borders": [
+      "GT",
+      "SV",
+      "NI"
+    ],
+    "unMember": true,
+    "area": 112492,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "HR",
@@ -1571,7 +2664,21 @@
     "lng": 15.5,
     "capital": "Zagreb",
     "region": "Europe",
-    "population": 3866233
+    "population": 3866233,
+    "borders": [
+      "BA",
+      "HU",
+      "ME",
+      "RS",
+      "SI"
+    ],
+    "unMember": true,
+    "area": 56594,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "HT",
@@ -1588,7 +2695,17 @@
     "lng": -72.41666666,
     "capital": "Port-au-Prince",
     "region": "Americas",
-    "population": 11867032
+    "population": 11867032,
+    "borders": [
+      "DO"
+    ],
+    "unMember": true,
+    "area": 27750,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "HU",
@@ -1602,7 +2719,23 @@
     "lng": 20,
     "capital": "Budapest",
     "region": "Europe",
-    "population": 9539502
+    "population": 9539502,
+    "borders": [
+      "AT",
+      "HR",
+      "RO",
+      "RS",
+      "SK",
+      "SI",
+      "UA"
+    ],
+    "unMember": true,
+    "area": 93028,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "ID",
@@ -1618,7 +2751,19 @@
     "lng": 120,
     "capital": "Jakarta",
     "region": "Asia",
-    "population": 284438782
+    "population": 284438782,
+    "borders": [
+      "TL",
+      "MY",
+      "PG"
+    ],
+    "unMember": true,
+    "area": 1904569,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "IE",
@@ -1635,7 +2780,17 @@
     "lng": -8,
     "capital": "Dublin",
     "region": "Europe",
-    "population": 5458600
+    "population": 5458600,
+    "borders": [
+      "GB"
+    ],
+    "unMember": true,
+    "area": 70273,
+    "carSide": "left",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "IL",
@@ -1651,7 +2806,21 @@
     "lng": 35.13,
     "capital": "Jerusalem",
     "region": "Asia",
-    "population": 10134800
+    "population": 10134800,
+    "borders": [
+      "EG",
+      "JO",
+      "LB",
+      "PS",
+      "SY"
+    ],
+    "unMember": true,
+    "area": 21937,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "IM",
@@ -1668,7 +2837,15 @@
     "lng": -4.5,
     "capital": "Douglas",
     "region": "Europe",
-    "population": 84530
+    "population": 84530,
+    "borders": [],
+    "unMember": false,
+    "area": 572,
+    "carSide": "left",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "IN",
@@ -1686,7 +2863,22 @@
     "lng": 77,
     "capital": "New Delhi",
     "region": "Asia",
-    "population": 1417492000
+    "population": 1417492000,
+    "borders": [
+      "BD",
+      "BT",
+      "MM",
+      "CN",
+      "NP",
+      "PK"
+    ],
+    "unMember": true,
+    "area": 3287263,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "IO",
@@ -1700,7 +2892,15 @@
     "lng": 71.5,
     "capital": "Diego Garcia",
     "region": "Africa",
-    "population": 0
+    "population": 0,
+    "borders": [],
+    "unMember": false,
+    "area": 60,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "IQ",
@@ -1716,7 +2916,22 @@
     "lng": 44,
     "capital": "Baghdad",
     "region": "Asia",
-    "population": 46118793
+    "population": 46118793,
+    "borders": [
+      "IR",
+      "JO",
+      "KW",
+      "SA",
+      "SY",
+      "TR"
+    ],
+    "unMember": true,
+    "area": 438317,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "IR",
@@ -1733,7 +2948,23 @@
     "lng": 53,
     "capital": "Tehran",
     "region": "Asia",
-    "population": 85961000
+    "population": 85961000,
+    "borders": [
+      "AF",
+      "AM",
+      "AZ",
+      "IQ",
+      "PK",
+      "TR",
+      "TM"
+    ],
+    "unMember": true,
+    "area": 1648195,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "saturday"
   },
   {
     "code": "IS",
@@ -1750,7 +2981,15 @@
     "lng": -18,
     "capital": "Reykjavik",
     "region": "Europe",
-    "population": 391810
+    "population": 391810,
+    "borders": [],
+    "unMember": true,
+    "area": 103000,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "IT",
@@ -1766,7 +3005,22 @@
     "lng": 12.83333333,
     "capital": "Rome",
     "region": "Europe",
-    "population": 58927633
+    "population": 58927633,
+    "borders": [
+      "AT",
+      "FR",
+      "SM",
+      "SI",
+      "CH",
+      "VA"
+    ],
+    "unMember": true,
+    "area": 301336,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "JM",
@@ -1780,7 +3034,15 @@
     "lng": -77.5,
     "capital": "Kingston",
     "region": "Americas",
-    "population": 2825544
+    "population": 2825544,
+    "borders": [],
+    "unMember": true,
+    "area": 10991,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "JO",
@@ -1796,7 +3058,21 @@
     "lng": 36,
     "capital": "Amman",
     "region": "Asia",
-    "population": 11734000
+    "population": 11734000,
+    "borders": [
+      "IQ",
+      "IL",
+      "PS",
+      "SA",
+      "SY"
+    ],
+    "unMember": true,
+    "area": 89342,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "JP",
@@ -1812,7 +3088,15 @@
     "lng": 138,
     "capital": "Tokyo",
     "region": "Asia",
-    "population": 123210000
+    "population": 123210000,
+    "borders": [],
+    "unMember": true,
+    "area": 377930,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "KE",
@@ -1828,7 +3112,21 @@
     "lng": 38,
     "capital": "Nairobi",
     "region": "Africa",
-    "population": 53330978
+    "population": 53330978,
+    "borders": [
+      "ET",
+      "SO",
+      "SS",
+      "TZ",
+      "UG"
+    ],
+    "unMember": true,
+    "area": 580367,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "KG",
@@ -1846,7 +3144,20 @@
     "lng": 75,
     "capital": "Bishkek",
     "region": "Asia",
-    "population": 7281800
+    "population": 7281800,
+    "borders": [
+      "CN",
+      "KZ",
+      "TJ",
+      "UZ"
+    ],
+    "unMember": true,
+    "area": 199951,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "KH",
@@ -1861,7 +3172,19 @@
     "lng": 105,
     "capital": "Phnom Penh",
     "region": "Asia",
-    "population": 17577760
+    "population": 17577760,
+    "borders": [
+      "LA",
+      "TH",
+      "VN"
+    ],
+    "unMember": true,
+    "area": 181035,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "KI",
@@ -1878,7 +3201,15 @@
     "lng": 173,
     "capital": "South Tarawa",
     "region": "Oceania",
-    "population": 120740
+    "population": 120740,
+    "borders": [],
+    "unMember": true,
+    "area": 811,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "KM",
@@ -1896,7 +3227,15 @@
     "lng": 44.25,
     "capital": "Moroni",
     "region": "Africa",
-    "population": 919901
+    "population": 919901,
+    "borders": [],
+    "unMember": true,
+    "area": 1862,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "KN",
@@ -1911,7 +3250,15 @@
     "lng": -62.75,
     "capital": "Basseterre",
     "region": "Americas",
-    "population": 51320
+    "population": 51320,
+    "borders": [],
+    "unMember": true,
+    "area": 261,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "KP",
@@ -1932,7 +3279,19 @@
     "lng": 127,
     "capital": "Pyongyang",
     "region": "Asia",
-    "population": 25950000
+    "population": 25950000,
+    "borders": [
+      "CN",
+      "KR",
+      "RU"
+    ],
+    "unMember": true,
+    "area": 120538,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "KR",
@@ -1950,7 +3309,17 @@
     "lng": 127.5,
     "capital": "Seoul",
     "region": "Asia",
-    "population": 51159889
+    "population": 51159889,
+    "borders": [
+      "KP"
+    ],
+    "unMember": true,
+    "area": 100210,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "KW",
@@ -1966,7 +3335,18 @@
     "lng": 45.75,
     "capital": "Kuwait City",
     "region": "Asia",
-    "population": 4881254
+    "population": 4881254,
+    "borders": [
+      "IQ",
+      "SA"
+    ],
+    "unMember": true,
+    "area": 17818,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "KY",
@@ -1980,7 +3360,15 @@
     "lng": -81.2546,
     "capital": "George Town",
     "region": "Americas",
-    "population": 84738
+    "population": 84738,
+    "borders": [],
+    "unMember": false,
+    "area": 264,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "KZ",
@@ -2001,7 +3389,21 @@
     "lng": 66.9237,
     "capital": "Astana",
     "region": "Asia",
-    "population": 20426568
+    "population": 20426568,
+    "borders": [
+      "CN",
+      "KG",
+      "RU",
+      "TM",
+      "UZ"
+    ],
+    "unMember": true,
+    "area": 2724900,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "LA",
@@ -2018,7 +3420,21 @@
     "lng": 105,
     "capital": "Vientiane",
     "region": "Asia",
-    "population": 7647000
+    "population": 7647000,
+    "borders": [
+      "MM",
+      "KH",
+      "CN",
+      "TH",
+      "VN"
+    ],
+    "unMember": true,
+    "area": 236800,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "LB",
@@ -2034,7 +3450,18 @@
     "lng": 35.83333333,
     "capital": "Beirut",
     "region": "Asia",
-    "population": 5490000
+    "population": 5490000,
+    "borders": [
+      "IL",
+      "SY"
+    ],
+    "unMember": true,
+    "area": 10452,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "LC",
@@ -2048,7 +3475,15 @@
     "lng": -60.96666666,
     "capital": "Castries",
     "region": "Americas",
-    "population": 184100
+    "population": 184100,
+    "borders": [],
+    "unMember": true,
+    "area": 616,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "LI",
@@ -2064,7 +3499,18 @@
     "lng": 9.53333333,
     "capital": "Vaduz",
     "region": "Europe",
-    "population": 40900
+    "population": 40900,
+    "borders": [
+      "AT",
+      "CH"
+    ],
+    "unMember": true,
+    "area": 160,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "LK",
@@ -2080,7 +3526,15 @@
     "lng": 81,
     "capital": "Sri Jayawardenepura Kotte",
     "region": "Asia",
-    "population": 21763170
+    "population": 21763170,
+    "borders": [],
+    "unMember": true,
+    "area": 65610,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "LR",
@@ -2095,7 +3549,19 @@
     "lng": -9.5,
     "capital": "Monrovia",
     "region": "Africa",
-    "population": 5248621
+    "population": 5248621,
+    "borders": [
+      "GN",
+      "CI",
+      "SL"
+    ],
+    "unMember": true,
+    "area": 111369,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "LS",
@@ -2111,7 +3577,17 @@
     "lng": 28.5,
     "capital": "Maseru",
     "region": "Africa",
-    "population": 2116427
+    "population": 2116427,
+    "borders": [
+      "ZA"
+    ],
+    "unMember": true,
+    "area": 30355,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "LT",
@@ -2127,7 +3603,20 @@
     "lng": 24,
     "capital": "Vilnius",
     "region": "Europe",
-    "population": 2894886
+    "population": 2894886,
+    "borders": [
+      "BY",
+      "LV",
+      "PL",
+      "RU"
+    ],
+    "unMember": true,
+    "area": 65300,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "LU",
@@ -2145,7 +3634,19 @@
     "lng": 6.16666666,
     "capital": "Luxembourg",
     "region": "Europe",
-    "population": 681973
+    "population": 681973,
+    "borders": [
+      "BE",
+      "FR",
+      "DE"
+    ],
+    "unMember": true,
+    "area": 2586,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "LV",
@@ -2161,7 +3662,20 @@
     "lng": 25,
     "capital": "Riga",
     "region": "Europe",
-    "population": 1829000
+    "population": 1829000,
+    "borders": [
+      "BY",
+      "EE",
+      "LT",
+      "RU"
+    ],
+    "unMember": true,
+    "area": 64559,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "LY",
@@ -2177,7 +3691,22 @@
     "lng": 17,
     "capital": "Tripoli",
     "region": "Africa",
-    "population": 7459000
+    "population": 7459000,
+    "borders": [
+      "DZ",
+      "TD",
+      "EG",
+      "NE",
+      "SD",
+      "TN"
+    ],
+    "unMember": true,
+    "area": 1759540,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "MA",
@@ -2193,7 +3722,19 @@
     "lng": -5,
     "capital": "Rabat",
     "region": "Africa",
-    "population": 36828330
+    "population": 36828330,
+    "borders": [
+      "DZ",
+      "EH",
+      "ES"
+    ],
+    "unMember": true,
+    "area": 446550,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MC",
@@ -2209,7 +3750,17 @@
     "lng": 7.4,
     "capital": "Monaco",
     "region": "Europe",
-    "population": 38423
+    "population": 38423,
+    "borders": [
+      "FR"
+    ],
+    "unMember": true,
+    "area": 2.02,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MD",
@@ -2226,7 +3777,18 @@
     "lng": 29,
     "capital": "Chișinău",
     "region": "Europe",
-    "population": 2749076
+    "population": 2749076,
+    "borders": [
+      "RO",
+      "UA"
+    ],
+    "unMember": true,
+    "area": 33847,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "ME",
@@ -2241,7 +3803,21 @@
     "lng": 19.3,
     "capital": "Podgorica",
     "region": "Europe",
-    "population": 623327
+    "population": 623327,
+    "borders": [
+      "AL",
+      "BA",
+      "HR",
+      "XK",
+      "RS"
+    ],
+    "unMember": true,
+    "area": 13812,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MF",
@@ -2258,7 +3834,17 @@
     "lng": -63.0501,
     "capital": "Marigot",
     "region": "Americas",
-    "population": 31496
+    "population": 31496,
+    "borders": [
+      "SX"
+    ],
+    "unMember": false,
+    "area": 53,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MG",
@@ -2275,7 +3861,15 @@
     "lng": 47,
     "capital": "Antananarivo",
     "region": "Africa",
-    "population": 31727042
+    "population": 31727042,
+    "borders": [],
+    "unMember": true,
+    "area": 587041,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MK",
@@ -2293,7 +3887,21 @@
     "lng": 22,
     "capital": "Skopje",
     "region": "Europe",
-    "population": 1822612
+    "population": 1822612,
+    "borders": [
+      "AL",
+      "BG",
+      "GR",
+      "XK",
+      "RS"
+    ],
+    "unMember": true,
+    "area": 25713,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "ML",
@@ -2309,7 +3917,23 @@
     "lng": -4,
     "capital": "Bamako",
     "region": "Africa",
-    "population": 22395489
+    "population": 22395489,
+    "borders": [
+      "DZ",
+      "BF",
+      "GN",
+      "CI",
+      "MR",
+      "NE",
+      "SN"
+    ],
+    "unMember": true,
+    "area": 1240192,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MM",
@@ -2326,7 +3950,21 @@
     "lng": 98,
     "capital": "Naypyidaw",
     "region": "Asia",
-    "population": 51316756
+    "population": 51316756,
+    "borders": [
+      "BD",
+      "CN",
+      "IN",
+      "LA",
+      "TH"
+    ],
+    "unMember": true,
+    "area": 676578,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MN",
@@ -2340,7 +3978,18 @@
     "lng": 105,
     "capital": "Ulan Bator",
     "region": "Asia",
-    "population": 3544835
+    "population": 3544835,
+    "borders": [
+      "CN",
+      "RU"
+    ],
+    "unMember": true,
+    "area": 1564110,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MO",
@@ -2358,7 +4007,17 @@
     "lat": 22.16666666,
     "lng": 113.55,
     "region": "Asia",
-    "population": 685900
+    "population": 685900,
+    "borders": [
+      "CN"
+    ],
+    "unMember": false,
+    "area": 30,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MQ",
@@ -2372,7 +4031,15 @@
     "lng": -61,
     "capital": "Fort-de-France",
     "region": "Americas",
-    "population": 349925
+    "population": 349925,
+    "borders": [],
+    "unMember": false,
+    "area": 1128,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MR",
@@ -2388,7 +4055,20 @@
     "lng": -12,
     "capital": "Nouakchott",
     "region": "Africa",
-    "population": 4927532
+    "population": 4927532,
+    "borders": [
+      "DZ",
+      "ML",
+      "SN",
+      "EH"
+    ],
+    "unMember": true,
+    "area": 1030700,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MS",
@@ -2402,7 +4082,15 @@
     "lng": -62.2,
     "capital": "Plymouth",
     "region": "Americas",
-    "population": 4386
+    "population": 4386,
+    "borders": [],
+    "unMember": false,
+    "area": 102,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MT",
@@ -2418,7 +4106,15 @@
     "lng": 14.3754,
     "capital": "Valletta",
     "region": "Europe",
-    "population": 574250
+    "population": 574250,
+    "borders": [],
+    "unMember": true,
+    "area": 316,
+    "carSide": "left",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MU",
@@ -2434,7 +4130,15 @@
     "lng": 57.55,
     "capital": "Port Louis",
     "region": "Africa",
-    "population": 1243741
+    "population": 1243741,
+    "borders": [],
+    "unMember": true,
+    "area": 2040,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MV",
@@ -2451,7 +4155,15 @@
     "lng": 73,
     "capital": "Malé",
     "region": "Asia",
-    "population": 515132
+    "population": 515132,
+    "borders": [],
+    "unMember": true,
+    "area": 300,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "MW",
@@ -2466,7 +4178,19 @@
     "lng": 34,
     "capital": "Lilongwe",
     "region": "Africa",
-    "population": 20734262
+    "population": 20734262,
+    "borders": [
+      "MZ",
+      "TZ",
+      "ZM"
+    ],
+    "unMember": true,
+    "area": 118484,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MX",
@@ -2483,7 +4207,19 @@
     "lng": -102,
     "capital": "Mexico City",
     "region": "Americas",
-    "population": 130575786
+    "population": 130575786,
+    "borders": [
+      "BZ",
+      "GT",
+      "US"
+    ],
+    "unMember": true,
+    "area": 1964375,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "MY",
@@ -2497,7 +4233,19 @@
     "lng": 112.5,
     "capital": "Kuala Lumpur",
     "region": "Asia",
-    "population": 34231700
+    "population": 34231700,
+    "borders": [
+      "BN",
+      "ID",
+      "TH"
+    ],
+    "unMember": true,
+    "area": 330803,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "MZ",
@@ -2513,7 +4261,22 @@
     "lng": 35,
     "capital": "Maputo",
     "region": "Africa",
-    "population": 34090466
+    "population": 34090466,
+    "borders": [
+      "MW",
+      "ZA",
+      "SZ",
+      "TZ",
+      "ZM",
+      "ZW"
+    ],
+    "unMember": true,
+    "area": 801590,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "NA",
@@ -2529,7 +4292,20 @@
     "lng": 17,
     "capital": "Windhoek",
     "region": "Africa",
-    "population": 3022401
+    "population": 3022401,
+    "borders": [
+      "AO",
+      "BW",
+      "ZA",
+      "ZM"
+    ],
+    "unMember": true,
+    "area": 825615,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "NC",
@@ -2543,7 +4319,15 @@
     "lng": 165.5,
     "capital": "Nouméa",
     "region": "Oceania",
-    "population": 264596
+    "population": 264596,
+    "borders": [],
+    "unMember": false,
+    "area": 18575,
+    "carSide": "right",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "NE",
@@ -2559,7 +4343,23 @@
     "lng": 8,
     "capital": "Niamey",
     "region": "Africa",
-    "population": 26312034
+    "population": 26312034,
+    "borders": [
+      "DZ",
+      "BJ",
+      "BF",
+      "TD",
+      "LY",
+      "ML",
+      "NG"
+    ],
+    "unMember": true,
+    "area": 1267000,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "NF",
@@ -2575,7 +4375,15 @@
     "lng": 167.95,
     "capital": "Kingston",
     "region": "Oceania",
-    "population": 2188
+    "population": 2188,
+    "borders": [],
+    "unMember": false,
+    "area": 36,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "NG",
@@ -2592,7 +4400,20 @@
     "lng": 8,
     "capital": "Abuja",
     "region": "Africa",
-    "population": 223800000
+    "population": 223800000,
+    "borders": [
+      "BJ",
+      "CM",
+      "TD",
+      "NE"
+    ],
+    "unMember": true,
+    "area": 923768,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "NI",
@@ -2608,7 +4429,18 @@
     "lng": -85,
     "capital": "Managua",
     "region": "Americas",
-    "population": 6803886
+    "population": 6803886,
+    "borders": [
+      "CR",
+      "HN"
+    ],
+    "unMember": true,
+    "area": 130373,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "NL",
@@ -2626,7 +4458,18 @@
     "lng": 5.75,
     "capital": "Amsterdam",
     "region": "Europe",
-    "population": 18100436
+    "population": 18100436,
+    "borders": [
+      "BE",
+      "DE"
+    ],
+    "unMember": true,
+    "area": 41865,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "NO",
@@ -2645,7 +4488,19 @@
     "lng": 10,
     "capital": "Oslo",
     "region": "Europe",
-    "population": 5606944
+    "population": 5606944,
+    "borders": [
+      "FI",
+      "SE",
+      "RU"
+    ],
+    "unMember": true,
+    "area": 386224,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "NP",
@@ -2661,7 +4516,18 @@
     "lng": 84,
     "capital": "Kathmandu",
     "region": "Asia",
-    "population": 29911840
+    "population": 29911840,
+    "borders": [
+      "CN",
+      "IN"
+    ],
+    "unMember": true,
+    "area": 147181,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "NR",
@@ -2679,7 +4545,15 @@
     "lng": 166.91666666,
     "capital": "Yaren",
     "region": "Oceania",
-    "population": 11680
+    "population": 11680,
+    "borders": [],
+    "unMember": true,
+    "area": 21,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "NU",
@@ -2693,7 +4567,15 @@
     "lng": -169.86666666,
     "capital": "Alofi",
     "region": "Oceania",
-    "population": 1681
+    "population": 1681,
+    "borders": [],
+    "unMember": false,
+    "area": 260,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "NZ",
@@ -2708,7 +4590,15 @@
     "lng": 174,
     "capital": "Wellington",
     "region": "Oceania",
-    "population": 5324700
+    "population": 5324700,
+    "borders": [],
+    "unMember": true,
+    "area": 268838,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "OM",
@@ -2724,7 +4614,19 @@
     "lng": 57,
     "capital": "Muscat",
     "region": "Asia",
-    "population": 5343630
+    "population": 5343630,
+    "borders": [
+      "SA",
+      "AE",
+      "YE"
+    ],
+    "unMember": true,
+    "area": 309500,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "PA",
@@ -2740,7 +4642,18 @@
     "lng": -80,
     "capital": "Panama City",
     "region": "Americas",
-    "population": 4064780
+    "population": 4064780,
+    "borders": [
+      "CO",
+      "CR"
+    ],
+    "unMember": true,
+    "area": 75417,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "PE",
@@ -2756,7 +4669,21 @@
     "lng": -76,
     "capital": "Lima",
     "region": "Americas",
-    "population": 34350244
+    "population": 34350244,
+    "borders": [
+      "BO",
+      "BR",
+      "CL",
+      "CO",
+      "EC"
+    ],
+    "unMember": true,
+    "area": 1285216,
+    "carSide": "right",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "PF",
@@ -2772,7 +4699,15 @@
     "lng": -149.4068,
     "capital": "Papeetē",
     "region": "Oceania",
-    "population": 279500
+    "population": 279500,
+    "borders": [],
+    "unMember": false,
+    "area": 4167,
+    "carSide": "right",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "PG",
@@ -2788,7 +4723,17 @@
     "lng": 147,
     "capital": "Port Moresby",
     "region": "Oceania",
-    "population": 11781559
+    "population": 11781559,
+    "borders": [
+      "ID"
+    ],
+    "unMember": true,
+    "area": 462840,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "PH",
@@ -2804,7 +4749,15 @@
     "lng": 122,
     "capital": "Manila",
     "region": "Asia",
-    "population": 114123600
+    "population": 114123600,
+    "borders": [],
+    "unMember": true,
+    "area": 342353,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "PK",
@@ -2821,7 +4774,20 @@
     "lng": 70,
     "capital": "Islamabad",
     "region": "Asia",
-    "population": 241499431
+    "population": 241499431,
+    "borders": [
+      "AF",
+      "CN",
+      "IN",
+      "IR"
+    ],
+    "unMember": true,
+    "area": 796095,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "PL",
@@ -2837,7 +4803,23 @@
     "lng": 20,
     "capital": "Warsaw",
     "region": "Europe",
-    "population": 37392000
+    "population": 37392000,
+    "borders": [
+      "BY",
+      "CZ",
+      "DE",
+      "LT",
+      "RU",
+      "SK",
+      "UA"
+    ],
+    "unMember": true,
+    "area": 312679,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "PM",
@@ -2852,7 +4834,15 @@
     "lng": -56.33333333,
     "capital": "Saint-Pierre",
     "region": "Americas",
-    "population": 5819
+    "population": 5819,
+    "borders": [],
+    "unMember": false,
+    "area": 242,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "PN",
@@ -2869,7 +4859,15 @@
     "lng": -130.1,
     "capital": "Adamstown",
     "region": "Oceania",
-    "population": 35
+    "population": 35,
+    "borders": [],
+    "unMember": false,
+    "area": 47,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "PR",
@@ -2885,7 +4883,15 @@
     "lng": -66.5,
     "capital": "San Juan",
     "region": "Americas",
-    "population": 3203295
+    "population": 3203295,
+    "borders": [],
+    "unMember": false,
+    "area": 8870,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "PT",
@@ -2902,7 +4908,17 @@
     "lng": -8,
     "capital": "Lisbon",
     "region": "Europe",
-    "population": 10749635
+    "population": 10749635,
+    "borders": [
+      "ES"
+    ],
+    "unMember": true,
+    "area": 92090,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "PW",
@@ -2918,7 +4934,15 @@
     "lng": 134.5,
     "capital": "Ngerulmud",
     "region": "Oceania",
-    "population": 16733
+    "population": 16733,
+    "borders": [],
+    "unMember": true,
+    "area": 459,
+    "carSide": "right",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "PY",
@@ -2935,7 +4959,19 @@
     "lng": -58,
     "capital": "Asunción",
     "region": "Americas",
-    "population": 6109644
+    "population": 6109644,
+    "borders": [
+      "AR",
+      "BO",
+      "BR"
+    ],
+    "unMember": true,
+    "area": 406752,
+    "carSide": "right",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "QA",
@@ -2951,7 +4987,17 @@
     "lng": 51.25,
     "capital": "Doha",
     "region": "Asia",
-    "population": 3173024
+    "population": 3173024,
+    "borders": [
+      "SA"
+    ],
+    "unMember": true,
+    "area": 11586,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "RE",
@@ -2967,7 +5013,15 @@
     "lng": 55.5,
     "capital": "Saint-Denis",
     "region": "Africa",
-    "population": 896175
+    "population": 896175,
+    "borders": [],
+    "unMember": false,
+    "area": 2511,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "RO",
@@ -2984,7 +5038,21 @@
     "lng": 25,
     "capital": "Bucharest",
     "region": "Europe",
-    "population": 19036031
+    "population": 19036031,
+    "borders": [
+      "BG",
+      "HU",
+      "MD",
+      "RS",
+      "UA"
+    ],
+    "unMember": true,
+    "area": 238391,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "RS",
@@ -3002,7 +5070,24 @@
     "lng": 21,
     "capital": "Belgrade",
     "region": "Europe",
-    "population": 6567783
+    "population": 6567783,
+    "borders": [
+      "BA",
+      "BG",
+      "HR",
+      "HU",
+      "XK",
+      "MK",
+      "ME",
+      "RO"
+    ],
+    "unMember": true,
+    "area": 77589,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "RU",
@@ -3018,7 +5103,31 @@
     "lng": 100,
     "capital": "Moscow",
     "region": "Europe",
-    "population": 146028325
+    "population": 146028325,
+    "borders": [
+      "AZ",
+      "BY",
+      "CN",
+      "EE",
+      "FI",
+      "GE",
+      "KZ",
+      "KP",
+      "LV",
+      "LT",
+      "MN",
+      "NO",
+      "PL",
+      "UA"
+    ],
+    "unMember": true,
+    "area": 17098246,
+    "carSide": "right",
+    "continents": [
+      "Europe",
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "RW",
@@ -3035,7 +5144,20 @@
     "lng": 30,
     "capital": "Kigali",
     "region": "Africa",
-    "population": 14104969
+    "population": 14104969,
+    "borders": [
+      "BI",
+      "CD",
+      "TZ",
+      "UG"
+    ],
+    "unMember": true,
+    "area": 26338,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SA",
@@ -3052,7 +5174,23 @@
     "lng": 45,
     "capital": "Riyadh",
     "region": "Asia",
-    "population": 35300280
+    "population": 35300280,
+    "borders": [
+      "IQ",
+      "JO",
+      "KW",
+      "OM",
+      "QA",
+      "AE",
+      "YE"
+    ],
+    "unMember": true,
+    "area": 2149690,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "SB",
@@ -3066,7 +5204,15 @@
     "lng": 159,
     "capital": "Honiara",
     "region": "Oceania",
-    "population": 750325
+    "population": 750325,
+    "borders": [],
+    "unMember": true,
+    "area": 28896,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SC",
@@ -3083,7 +5229,15 @@
     "lng": 55.66666666,
     "capital": "Victoria",
     "region": "Africa",
-    "population": 122729
+    "population": 122729,
+    "borders": [],
+    "unMember": true,
+    "area": 452,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SD",
@@ -3099,7 +5253,23 @@
     "lng": 30,
     "capital": "Khartoum",
     "region": "Africa",
-    "population": 51662000
+    "population": 51662000,
+    "borders": [
+      "CF",
+      "TD",
+      "EG",
+      "ER",
+      "ET",
+      "LY",
+      "SS"
+    ],
+    "unMember": true,
+    "area": 1886068,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SE",
@@ -3115,7 +5285,18 @@
     "lng": 15,
     "capital": "Stockholm",
     "region": "Europe",
-    "population": 10605098
+    "population": 10605098,
+    "borders": [
+      "FI",
+      "NO"
+    ],
+    "unMember": true,
+    "area": 450295,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SG",
@@ -3133,7 +5314,15 @@
     "lng": 103.8,
     "capital": "Singapore",
     "region": "Asia",
-    "population": 6110200
+    "population": 6110200,
+    "borders": [],
+    "unMember": true,
+    "area": 710,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SH",
@@ -3149,7 +5338,15 @@
     "lng": -5.72,
     "capital": "Jamestown",
     "region": "Africa",
-    "population": 5651
+    "population": 5651,
+    "borders": [],
+    "unMember": false,
+    "area": 394,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SI",
@@ -3165,7 +5362,20 @@
     "lng": 14.81666666,
     "capital": "Ljubljana",
     "region": "Europe",
-    "population": 2130638
+    "population": 2130638,
+    "borders": [
+      "AT",
+      "HR",
+      "IT",
+      "HU"
+    ],
+    "unMember": true,
+    "area": 20273,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SJ",
@@ -3181,7 +5391,15 @@
     "lng": 20,
     "capital": "Longyearbyen",
     "region": "Europe",
-    "population": 2530
+    "population": 2530,
+    "borders": [],
+    "unMember": false,
+    "area": 61399,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SK",
@@ -3197,7 +5415,21 @@
     "lng": 19.5,
     "capital": "Bratislava",
     "region": "Europe",
-    "population": 5413813
+    "population": 5413813,
+    "borders": [
+      "AT",
+      "CZ",
+      "HU",
+      "PL",
+      "UA"
+    ],
+    "unMember": true,
+    "area": 49037,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SL",
@@ -3212,7 +5444,18 @@
     "lng": -11.5,
     "capital": "Freetown",
     "region": "Africa",
-    "population": 9077691
+    "population": 9077691,
+    "borders": [
+      "GN",
+      "LR"
+    ],
+    "unMember": true,
+    "area": 71740,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SM",
@@ -3228,7 +5471,17 @@
     "lng": 12.41666666,
     "capital": "City of San Marino",
     "region": "Europe",
-    "population": 34132
+    "population": 34132,
+    "borders": [
+      "IT"
+    ],
+    "unMember": true,
+    "area": 61,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SN",
@@ -3244,7 +5497,21 @@
     "lng": -14,
     "capital": "Dakar",
     "region": "Africa",
-    "population": 18593258
+    "population": 18593258,
+    "borders": [
+      "GM",
+      "GN",
+      "GW",
+      "ML",
+      "MR"
+    ],
+    "unMember": true,
+    "area": 196722,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SO",
@@ -3262,7 +5529,19 @@
     "lng": 49,
     "capital": "Mogadishu",
     "region": "Africa",
-    "population": 19655000
+    "population": 19655000,
+    "borders": [
+      "DJ",
+      "ET",
+      "KE"
+    ],
+    "unMember": true,
+    "area": 637657,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SR",
@@ -3280,7 +5559,19 @@
     "lng": -56,
     "capital": "Paramaribo",
     "region": "Americas",
-    "population": 616500
+    "population": 616500,
+    "borders": [
+      "BR",
+      "GF",
+      "GY"
+    ],
+    "unMember": true,
+    "area": 163820,
+    "carSide": "left",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SS",
@@ -3295,7 +5586,22 @@
     "lng": 30,
     "capital": "Juba",
     "region": "Africa",
-    "population": 15786898
+    "population": 15786898,
+    "borders": [
+      "CF",
+      "CD",
+      "ET",
+      "KE",
+      "SD",
+      "UG"
+    ],
+    "unMember": true,
+    "area": 619745,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "ST",
@@ -3312,7 +5618,15 @@
     "lng": 7,
     "capital": "São Tomé",
     "region": "Africa",
-    "population": 209607
+    "population": 209607,
+    "borders": [],
+    "unMember": true,
+    "area": 964,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SV",
@@ -3328,7 +5642,18 @@
     "lng": -88.91666666,
     "capital": "San Salvador",
     "region": "Americas",
-    "population": 6029976
+    "population": 6029976,
+    "borders": [
+      "GT",
+      "HN"
+    ],
+    "unMember": true,
+    "area": 21041,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SX",
@@ -3343,7 +5668,17 @@
     "lng": -63.05,
     "capital": "Philipsburg",
     "region": "Americas",
-    "population": 41349
+    "population": 41349,
+    "borders": [
+      "MF"
+    ],
+    "unMember": false,
+    "area": 34,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SY",
@@ -3359,7 +5694,21 @@
     "lng": 38,
     "capital": "Damascus",
     "region": "Asia",
-    "population": 25620000
+    "population": 25620000,
+    "borders": [
+      "IQ",
+      "IL",
+      "JO",
+      "LB",
+      "TR"
+    ],
+    "unMember": true,
+    "area": 185180,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "SZ",
@@ -3379,7 +5728,18 @@
     "lng": 31.5,
     "capital": "Mbabane",
     "region": "Africa",
-    "population": 1235549
+    "population": 1235549,
+    "borders": [
+      "MZ",
+      "ZA"
+    ],
+    "unMember": true,
+    "area": 17364,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TC",
@@ -3393,7 +5753,15 @@
     "lng": -71.58333333,
     "capital": "Cockburn Town",
     "region": "Americas",
-    "population": 50828
+    "population": 50828,
+    "borders": [],
+    "unMember": false,
+    "area": 948,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TD",
@@ -3410,7 +5778,22 @@
     "lng": 19,
     "capital": "N'Djamena",
     "region": "Africa",
-    "population": 19340757
+    "population": 19340757,
+    "borders": [
+      "CM",
+      "CF",
+      "LY",
+      "NE",
+      "NG",
+      "SD"
+    ],
+    "unMember": true,
+    "area": 1284000,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TF",
@@ -3426,7 +5809,15 @@
     "lng": 69.167,
     "capital": "Port-aux-Français",
     "region": "Antarctic",
-    "population": 400
+    "population": 400,
+    "borders": [],
+    "unMember": false,
+    "area": 7747,
+    "carSide": "right",
+    "continents": [
+      "Antarctica"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TG",
@@ -3443,7 +5834,19 @@
     "lng": 1.16666666,
     "capital": "Lomé",
     "region": "Africa",
-    "population": 8095498
+    "population": 8095498,
+    "borders": [
+      "BJ",
+      "BF",
+      "GH"
+    ],
+    "unMember": true,
+    "area": 56785,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TH",
@@ -3462,7 +5865,20 @@
     "lng": 100,
     "capital": "Bangkok",
     "region": "Asia",
-    "population": 65859640
+    "population": 65859640,
+    "borders": [
+      "MM",
+      "KH",
+      "LA",
+      "MY"
+    ],
+    "unMember": true,
+    "area": 513120,
+    "carSide": "left",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TJ",
@@ -3480,7 +5896,20 @@
     "lng": 71,
     "capital": "Dushanbe",
     "region": "Asia",
-    "population": 10499000
+    "population": 10499000,
+    "borders": [
+      "AF",
+      "CN",
+      "KG",
+      "UZ"
+    ],
+    "unMember": true,
+    "area": 143100,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TK",
@@ -3494,7 +5923,15 @@
     "lng": -172,
     "capital": "Fakaofo",
     "region": "Oceania",
-    "population": 2608
+    "population": 2608,
+    "borders": [],
+    "unMember": false,
+    "area": 12,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TL",
@@ -3514,7 +5951,17 @@
     "lng": 125.91666666,
     "capital": "Dili",
     "region": "Asia",
-    "population": 1391221
+    "population": 1391221,
+    "borders": [
+      "ID"
+    ],
+    "unMember": true,
+    "area": 14874,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TM",
@@ -3528,7 +5975,20 @@
     "lng": 60,
     "capital": "Ashgabat",
     "region": "Asia",
-    "population": 7057841
+    "population": 7057841,
+    "borders": [
+      "AF",
+      "IR",
+      "KZ",
+      "UZ"
+    ],
+    "unMember": true,
+    "area": 488100,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TN",
@@ -3545,7 +6005,18 @@
     "lng": 9,
     "capital": "Tunis",
     "region": "Africa",
-    "population": 11972169
+    "population": 11972169,
+    "borders": [
+      "DZ",
+      "LY"
+    ],
+    "unMember": true,
+    "area": 163610,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TO",
@@ -3560,7 +6031,15 @@
     "lng": -175,
     "capital": "Nuku'alofa",
     "region": "Oceania",
-    "population": 100179
+    "population": 100179,
+    "borders": [],
+    "unMember": true,
+    "area": 747,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TR",
@@ -3577,7 +6056,25 @@
     "lng": 35,
     "capital": "Ankara",
     "region": "Asia",
-    "population": 85664944
+    "population": 85664944,
+    "borders": [
+      "AM",
+      "AZ",
+      "BG",
+      "GE",
+      "GR",
+      "IR",
+      "IQ",
+      "SY"
+    ],
+    "unMember": true,
+    "area": 783562,
+    "carSide": "right",
+    "continents": [
+      "Europe",
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TT",
@@ -3592,7 +6089,15 @@
     "lng": -61.2225,
     "capital": "Port of Spain",
     "region": "Americas",
-    "population": 1367764
+    "population": 1367764,
+    "borders": [],
+    "unMember": true,
+    "area": 5130,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TW",
@@ -3612,7 +6117,15 @@
     "lng": 121,
     "capital": "Taipei",
     "region": "Asia",
-    "population": 23317031
+    "population": 23317031,
+    "borders": [],
+    "unMember": false,
+    "area": 36197,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "TZ",
@@ -3629,7 +6142,24 @@
     "lng": 35,
     "capital": "Dodoma",
     "region": "Africa",
-    "population": 68153004
+    "population": 68153004,
+    "borders": [
+      "BI",
+      "CD",
+      "KE",
+      "MW",
+      "MZ",
+      "RW",
+      "UG",
+      "ZM"
+    ],
+    "unMember": true,
+    "area": 947303,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "UA",
@@ -3644,7 +6174,23 @@
     "lng": 32,
     "capital": "Kyiv",
     "region": "Europe",
-    "population": 32862000
+    "population": 32862000,
+    "borders": [
+      "BY",
+      "HU",
+      "MD",
+      "PL",
+      "RO",
+      "RU",
+      "SK"
+    ],
+    "unMember": true,
+    "area": 603550,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "UG",
@@ -3660,7 +6206,21 @@
     "lng": 32,
     "capital": "Kampala",
     "region": "Africa",
-    "population": 45905417
+    "population": 45905417,
+    "borders": [
+      "CD",
+      "KE",
+      "RW",
+      "SS",
+      "TZ"
+    ],
+    "unMember": true,
+    "area": 241550,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "US",
@@ -3676,7 +6236,18 @@
     "lng": -97,
     "capital": "Washington, D.C.",
     "region": "Americas",
-    "population": 340110988
+    "population": 340110988,
+    "borders": [
+      "CA",
+      "MX"
+    ],
+    "unMember": true,
+    "area": 9525067,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "UY",
@@ -3692,7 +6263,18 @@
     "lng": -56,
     "capital": "Montevideo",
     "region": "Americas",
-    "population": 3499451
+    "population": 3499451,
+    "borders": [
+      "AR",
+      "BR"
+    ],
+    "unMember": true,
+    "area": 181034,
+    "carSide": "right",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "UZ",
@@ -3709,7 +6291,21 @@
     "lng": 64,
     "capital": "Tashkent",
     "region": "Asia",
-    "population": 37859698
+    "population": 37859698,
+    "borders": [
+      "AF",
+      "KZ",
+      "KG",
+      "TJ",
+      "TM"
+    ],
+    "unMember": true,
+    "area": 447400,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "VA",
@@ -3726,7 +6322,17 @@
     "lng": 12.45,
     "capital": "Vatican City",
     "region": "Europe",
-    "population": 882
+    "population": 882,
+    "borders": [
+      "IT"
+    ],
+    "unMember": false,
+    "area": 0.49,
+    "carSide": "right",
+    "continents": [
+      "Europe"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "VC",
@@ -3740,7 +6346,15 @@
     "lng": -61.2,
     "capital": "Kingstown",
     "region": "Americas",
-    "population": 110872
+    "population": 110872,
+    "borders": [],
+    "unMember": true,
+    "area": 389,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "VE",
@@ -3757,7 +6371,19 @@
     "lng": -66,
     "capital": "Caracas",
     "region": "Americas",
-    "population": 28517000
+    "population": 28517000,
+    "borders": [
+      "BR",
+      "CO",
+      "GY"
+    ],
+    "unMember": true,
+    "area": 916445,
+    "carSide": "right",
+    "continents": [
+      "South America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "VG",
@@ -3773,7 +6399,15 @@
     "lng": -64.62305,
     "capital": "Road Town",
     "region": "Americas",
-    "population": 39471
+    "population": 39471,
+    "borders": [],
+    "unMember": false,
+    "area": 151,
+    "carSide": "left",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "VI",
@@ -3789,7 +6423,15 @@
     "lng": -64.933333,
     "capital": "Charlotte Amalie",
     "region": "Americas",
-    "population": 87146
+    "population": 87146,
+    "borders": [],
+    "unMember": false,
+    "area": 347,
+    "carSide": "right",
+    "continents": [
+      "North America"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "VN",
@@ -3806,7 +6448,19 @@
     "lng": 107.83333333,
     "capital": "Hanoi",
     "region": "Asia",
-    "population": 101343800
+    "population": 101343800,
+    "borders": [
+      "KH",
+      "CN",
+      "LA"
+    ],
+    "unMember": true,
+    "area": 331212,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "VU",
@@ -3823,7 +6477,15 @@
     "lng": 167,
     "capital": "Port Vila",
     "region": "Oceania",
-    "population": 321409
+    "population": 321409,
+    "borders": [],
+    "unMember": true,
+    "area": 12189,
+    "carSide": "right",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "WF",
@@ -3839,7 +6501,15 @@
     "lng": -176.2,
     "capital": "Mata-Utu",
     "region": "Oceania",
-    "population": 11620
+    "population": 11620,
+    "borders": [],
+    "unMember": false,
+    "area": 142,
+    "carSide": "right",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "WS",
@@ -3855,7 +6525,15 @@
     "lng": -172.33333333,
     "capital": "Apia",
     "region": "Oceania",
-    "population": 205557
+    "population": 205557,
+    "borders": [],
+    "unMember": true,
+    "area": 2842,
+    "carSide": "left",
+    "continents": [
+      "Oceania"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "YE",
@@ -3872,7 +6550,18 @@
     "lng": 48,
     "capital": "Sana'a",
     "region": "Asia",
-    "population": 32684503
+    "population": 32684503,
+    "borders": [
+      "OM",
+      "SA"
+    ],
+    "unMember": true,
+    "area": 527968,
+    "carSide": "right",
+    "continents": [
+      "Asia"
+    ],
+    "startOfWeek": "sunday"
   },
   {
     "code": "YT",
@@ -3888,7 +6577,15 @@
     "lng": 45.16666666,
     "capital": "Mamoudzou",
     "region": "Africa",
-    "population": 320901
+    "population": 320901,
+    "borders": [],
+    "unMember": false,
+    "area": 374,
+    "carSide": "right",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "ZA",
@@ -3905,7 +6602,22 @@
     "lng": 24,
     "capital": "Pretoria",
     "region": "Africa",
-    "population": 63100945
+    "population": 63100945,
+    "borders": [
+      "BW",
+      "LS",
+      "MZ",
+      "NA",
+      "SZ",
+      "ZW"
+    ],
+    "unMember": true,
+    "area": 1221037,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "ZM",
@@ -3920,7 +6632,24 @@
     "lng": 30,
     "capital": "Lusaka",
     "region": "Africa",
-    "population": 19693423
+    "population": 19693423,
+    "borders": [
+      "AO",
+      "BW",
+      "CD",
+      "MW",
+      "MZ",
+      "NA",
+      "TZ",
+      "ZW"
+    ],
+    "unMember": true,
+    "area": 752612,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   },
   {
     "code": "ZW",
@@ -3935,6 +6664,19 @@
     "lng": 30,
     "capital": "Harare",
     "region": "Africa",
-    "population": 17073087
+    "population": 17073087,
+    "borders": [
+      "BW",
+      "MZ",
+      "ZA",
+      "ZM"
+    ],
+    "unMember": true,
+    "area": 390757,
+    "carSide": "left",
+    "continents": [
+      "Africa"
+    ],
+    "startOfWeek": "monday"
   }
 ]

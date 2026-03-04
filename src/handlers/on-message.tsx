@@ -10,6 +10,7 @@ import { readFile } from "fs/promises";
 import { db } from "../config/db";
 import type { Country } from "../types";
 import countries from "../data/countries.json";
+import { getDirection } from "../util/get-direction";
 import { getDistanceKm } from "../util/get-distance";
 
 const composer = new Composer();
@@ -17,6 +18,41 @@ const composer = new Composer();
 const normalize = (str: string) => str.trim().toLowerCase();
 
 const countryMap = new Map(countries.map((c) => [c.code, c]));
+
+/*
+ Alias lookup map (O(1) search instead of scanning whole array)
+*/
+const aliasMap = new Map<string, Country>();
+
+for (const c of countries) {
+  for (const a of c.aliases) {
+    aliasMap.set(a, c);
+  }
+}
+
+function generateHints(country: Country, guesses: number): string[] {
+  const hints: string[] = [];
+
+  if (guesses >= 5) {
+    hints.push(`🌐 UN Member: ${country.unMember ? "Yes" : "No"}`);
+  }
+
+  if (guesses >= 10) {
+    hints.push(
+      `🚗 Drives on: ${country.carSide === "right" ? "Right side" : "Left side"}`,
+    );
+  }
+
+  if (guesses >= 12) {
+    hints.push(`🌍 Continent: ${country.continents.join(", ")}`);
+  }
+
+  if (guesses >= 14) {
+    hints.push(`📅 Week starts on: ${country.startOfWeek}`);
+  }
+
+  return hints;
+}
 
 async function handleWorldSeek(ctx: Context) {
   if (!ctx.msg || !ctx.chat || !ctx.message) return;
@@ -37,7 +73,7 @@ async function handleWorldSeek(ctx: Context) {
 
   if (guessText.length <= 2) return;
 
-  const guessedCountry = countries.find((c) => c.aliases.includes(guessText));
+  const guessedCountry = aliasMap.get(guessText);
 
   if (!guessedCountry) return;
 
@@ -54,12 +90,16 @@ async function handleWorldSeek(ctx: Context) {
 
   const correctCountry = countryMap.get(game.countryCode)!;
 
-  const distance = getDistanceKm(
+  const isNeighbor = correctCountry.borders.includes(guessedCountry.code);
+
+  let distance = getDistanceKm(
     guessedCountry.lat,
     guessedCountry.lng,
     correctCountry.lat,
     correctCountry.lng,
   );
+
+  if (isNeighbor) distance = 0;
 
   await db
     .insertInto("guesses")
@@ -96,9 +136,32 @@ async function handleWorldSeek(ctx: Context) {
   const guessLines = guesses
     .map((g, i) => {
       const country = countryMap.get(g.guessCode)!;
-      return `${i + 1}. ${country.name} — ${g.distanceKm.toLocaleString()} km`;
+
+      if (g.distanceKm === 0 && country.code !== correctCountry.code) {
+        return `${i + 1}. ${country.name} — 🟢 Neighbor`;
+      }
+
+      if (country.code === correctCountry.code) {
+        return `${i + 1}. ${country.name} — 🎯 Correct`;
+      }
+
+      const direction = getDirection(
+        country.lat,
+        country.lng,
+        correctCountry.lat,
+        correctCountry.lng,
+      );
+
+      return `${i + 1}. ${country.name} — ${g.distanceKm.toLocaleString()} km ${direction}`;
     })
     .join("\n");
+
+  const hints = generateHints(correctCountry, guesses.length);
+
+  const hintText =
+    hints.length > 0
+      ? `\n\n<b>Hints:</b>\n${hints.map((h) => `• ${h}`).join("\n")}`
+      : "";
 
   const imagePath = join(
     process.cwd(),
@@ -109,7 +172,7 @@ async function handleWorldSeek(ctx: Context) {
   );
 
   await ctx.replyWithPhoto(new InputFile(imagePath), {
-    caption: `🌍 WorldSeek\n\n<b>Distance from the country:</b>\n${guessLines}`,
+    caption: `🌍 WorldSeek\n\n<b>Distance from the country:</b>\n${guessLines}${hintText}`,
     parse_mode: "HTML",
   });
 }
@@ -495,14 +558,27 @@ export function formatWorldSeekDetails(
   isWin: boolean,
   reason?: string,
 ): string {
-  return `<blockquote>${isWin ? "🎉 Correct!" : "🎮 Game Ended"}
-Country: <b>${country.name}</b>
-Capital: ${country.capital ?? "N/A"}
-Region: ${country.region}
-Population: ${country.population.toLocaleString()}
-Coordinates: ${country.lat.toFixed(2)}° / ${country.lng.toFixed(2)}°</blockquote>
-<blockquote>${reason ? `${reason}\n` : ""}${isWin ? "Added 10 to the leaderboard." : ""}</blockquote>Start another game with /newworld
-`;
+  const borders =
+    country.borders.length > 0
+      ? country.borders.map((c) => countryMap.get(c)?.name ?? c).join(", ")
+      : "None";
+
+  return `
+<blockquote>${isWin ? "🎉 Correct!" : "🎮 Game Over"}</blockquote>
+<blockquote>🌍 <b>${country.name}</b> (${country.code})
+
+🏛 Capital: ${country.capital ?? "N/A"}
+🌎 Region: ${country.region}
+👥 Population: ${country.population.toLocaleString()}
+📏 Area: ${country.area.toLocaleString()} km²
+🗺 Continents: ${country.continents.join(", ")}
+🚗 Drives on: ${country.carSide}
+📅 Week starts: ${country.startOfWeek}
+🌐 UN Member: ${country.unMember ? "Yes" : "No"}
+📍 Coordinates: ${country.lat.toFixed(2)}° / ${country.lng.toFixed(2)}
+🧭 Neighboring Countries: ${borders}</blockquote><blockquote>${reason ?? ""}${isWin ? "🏆 +10 points added to leaderboard." : ""}</blockquote>
+Start another game with /newworld
+`.trim();
 }
 
 composer.on("message:text", async (ctx) => {

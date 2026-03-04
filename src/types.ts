@@ -11,6 +11,12 @@ export type Country =
       capital: string;
       region: string;
       population: number;
+      borders: string[];
+      unMember: boolean;
+      area: number;
+      carSide: string;
+      continents: string[];
+      startOfWeek: string;
     }
   | {
       code: string;
@@ -21,6 +27,12 @@ export type Country =
       lng: number;
       region: string;
       population: number;
+      borders: string[];
+      unMember: boolean;
+      area: number;
+      carSide: string;
+      continents: string[];
+      startOfWeek: string;
       capital: undefined;
     };
 
