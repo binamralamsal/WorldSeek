@@ -174,6 +174,7 @@ async function handleWorldSeek(ctx: Context) {
   await ctx.replyWithPhoto(new InputFile(imagePath), {
     caption: `🌍 WorldSeek\n\n<b>Distance from the country:</b>\n${guessLines}${hintText}`,
     parse_mode: "HTML",
+    protect_content: true,
   });
 }
 
@@ -548,6 +549,7 @@ export async function revealWorldSeekResult(
   await ctx.replyWithPhoto(new InputFile(imageBuffer), {
     caption,
     parse_mode: "HTML",
+    protect_content: true,
   });
 
   if (isWin) await reactWithRandom(ctx);

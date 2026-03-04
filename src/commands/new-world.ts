@@ -52,6 +52,7 @@ composer.command("newworld", async (ctx) => {
 
   await ctx.replyWithPhoto(new InputFile(imagePath), {
     caption: "🌍 WorldSeek started!\nGuess the country.",
+    protect_content: true,
   });
 });
 
