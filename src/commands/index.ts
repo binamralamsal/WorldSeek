@@ -1,0 +1,29 @@
+import { Composer } from "grammy";
+
+import { helpCommand } from "./help";
+import { scoreCommand } from "./score";
+import { startCommand } from "./start";
+import { statsCommand } from "./stats";
+import { endWorldCommand } from "./end-world";
+import { newWorldCommand } from "./new-world";
+import { worldAuthCommand } from "./worldauth";
+import { leaderboardCommand } from "./leaderboard";
+import { setGameTopicCommand } from "./setgametopic";
+import { unsetGameTopicCommand } from "./unsetgametopic";
+
+const composer = new Composer();
+
+composer.use(
+  newWorldCommand,
+  endWorldCommand,
+  statsCommand,
+  setGameTopicCommand,
+  worldAuthCommand,
+  unsetGameTopicCommand,
+  leaderboardCommand,
+  scoreCommand,
+  helpCommand,
+  startCommand,
+);
+
+export const commands = composer;
