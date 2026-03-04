@@ -73,8 +73,7 @@ The arrow shows the direction of the correct country:
 ← West  
 ↗ ↘ ↖ ↙ Diagonal directions
 </blockquote>
-<b>Neighbor Hint</b><blockquote>
-If your guess shares a border with the correct country, the bot will show:
+<b>Neighbor Hint</b><blockquote>If your guess shares a border with the correct country, the bot will show:
 
 <b>🟢 Neighbor</b>
 
@@ -96,8 +95,8 @@ Use these hints to help narrow down the correct country before the <b>20 guess l
 • /leaderboard — Show top players  
 • /score — Show your score or another user's score  
 • /help — Show this help message
-<b>Tips</b>
-<blockquote>
+
+<b>Tips</b><blockquote>
 • Study the silhouette carefully  
 • Use direction arrows to move your guesses closer  
 • A "Neighbor" guess means you're very close  
