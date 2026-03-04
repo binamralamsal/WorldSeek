@@ -32,19 +32,17 @@ for (const c of countries) {
 
 function generateHints(country: Country, guesses: number): string[] {
   const hints: string[] = [];
-
   if (guesses >= 5) {
+    hints.push(`🌍 Continent: ${country.continents.join(", ")}`);
+  }
+  if (guesses >= 10) {
     hints.push(`🌐 UN Member: ${country.unMember ? "Yes" : "No"}`);
   }
 
-  if (guesses >= 10) {
+  if (guesses >= 12) {
     hints.push(
       `🚗 Drives on: ${country.carSide === "right" ? "Right side" : "Left side"}`,
     );
-  }
-
-  if (guesses >= 12) {
-    hints.push(`🌍 Continent: ${country.continents.join(", ")}`);
   }
 
   if (guesses >= 14) {

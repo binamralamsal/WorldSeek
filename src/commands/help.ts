@@ -78,9 +78,9 @@ This means the correct country directly borders your guess.
 </blockquote>
 <b>Progressive Hints</b><blockquote>As the game continues, extra hints will appear:
 
-After 5 guesses — UN membership  
-After 10 guesses — Driving side (left/right)  
-After 12 guesses — Continent  
+After 5 guesses — Continent  
+After 10 guesses — UN membership  
+After 12 guesses — Driving side (left/right)  
 After 14 guesses — First day of the week
 
 Use these hints to help narrow down the correct country before the <b>20 guess limit</b>.
