@@ -49,9 +49,7 @@ export function getMainHelpKeyboard(
 }
 
 export function getHowToPlayMessage() {
-  return `<b>▸ How to Play WorldSeek</b>
-<blockquote>
-1. Start a game using <code>/newworld</code>  
+  return `<b>▸ How to Play WorldSeek</b><blockquote>1. Start a game using <code>/newworld</code>  
 2. The bot sends a silhouette map of a random country  
 3. Guess the country by sending its name in chat  
 4. After each guess, the bot shows how far your guess is from the correct country  
@@ -60,8 +58,7 @@ export function getHowToPlayMessage() {
 7. The winner receives <b>10 points</b>  
 8. Each game allows a maximum of <b>20 guesses</b>
 </blockquote>
-<b>Distance & Direction</b><blockquote>
-Each guess shows how far your country is from the correct one.
+<b>Distance & Direction</b><blockquote>Each guess shows how far your country is from the correct one.
 
 Example  
 Brazil — <b>4200 km ↗</b>
@@ -79,8 +76,7 @@ The arrow shows the direction of the correct country:
 
 This means the correct country directly borders your guess.
 </blockquote>
-<b>Progressive Hints</b><blockquote>
-As the game continues, extra hints will appear:
+<b>Progressive Hints</b><blockquote>As the game continues, extra hints will appear:
 
 After 5 guesses — UN membership  
 After 10 guesses — Driving side (left/right)  
@@ -96,8 +92,7 @@ Use these hints to help narrow down the correct country before the <b>20 guess l
 • /score — Show your score or another user's score  
 • /help — Show this help message
 
-<b>Tips</b><blockquote>
-• Study the silhouette carefully  
+<b>Tips</b><blockquote>• Study the silhouette carefully  
 • Use direction arrows to move your guesses closer  
 • A "Neighbor" guess means you're very close  
 • Think geographically — continents and regions help a lot
