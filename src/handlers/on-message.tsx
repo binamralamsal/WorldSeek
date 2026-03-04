@@ -186,7 +186,7 @@ export async function generateWorldlSeekImage(
     "src",
     "data",
     "countries",
-    `${country.code.toLowerCase()}.png`,
+    `${country.code.toLowerCase()}-raw.png`,
   );
 
   const silhouette = await readFile(silhouettePath);
