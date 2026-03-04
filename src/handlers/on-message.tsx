@@ -33,76 +33,85 @@ async function handleWorldSeek(ctx: Context) {
 
   if (!game) return;
 
-  if (game) {
-    const guessText = normalize(ctx.message.text ?? "");
+  const guessText = normalize(ctx.message.text ?? "");
 
-    if (guessText.length <= 2) return;
+  if (guessText.length <= 2) return;
 
-    const guessedCountry = countries.find((c) => c.aliases.includes(guessText));
+  const guessedCountry = countries.find((c) => c.aliases.includes(guessText));
 
-    if (!guessedCountry) return;
+  if (!guessedCountry) return;
 
-    const existingGuess = await db
-      .selectFrom("guesses")
-      .select("id")
-      .where("gameId", "=", game.id)
-      .where("guessCode", "=", guessedCountry.code)
-      .executeTakeFirst();
+  const existingGuess = await db
+    .selectFrom("guesses")
+    .select("id")
+    .where("gameId", "=", game.id)
+    .where("guessCode", "=", guessedCountry.code)
+    .executeTakeFirst();
 
-    if (existingGuess) {
-      return ctx.reply(`Someone has already guessed ${guessedCountry.name}`);
-    }
-
-    const correctCountry = countryMap.get(game.countryCode)!;
-
-    const distance = getDistanceKm(
-      guessedCountry.lat,
-      guessedCountry.lng,
-      correctCountry.lat,
-      correctCountry.lng,
-    );
-
-    await db
-      .insertInto("guesses")
-      .values({
-        gameId: game.id,
-        guessCode: guessedCountry.code,
-        distanceKm: distance,
-      })
-      .execute();
-
-    if (guessedCountry.code === correctCountry.code) {
-      await revealWorldSeekResult(ctx, game.id, correctCountry, true);
-      return;
-    }
-
-    const guesses = await db
-      .selectFrom("guesses")
-      .selectAll()
-      .where("gameId", "=", game.id)
-      .orderBy("id", "asc")
-      .execute();
-
-    const guessLines = guesses
-      .map((g, i) => {
-        const country = countryMap.get(g.guessCode)!;
-        return `${i + 1}. ${country.name} — ${g.distanceKm.toLocaleString()} km`;
-      })
-      .join("\n");
-
-    const imagePath = join(
-      process.cwd(),
-      "src",
-      "data",
-      "countries",
-      `${correctCountry.code.toLowerCase()}.png`,
-    );
-
-    await ctx.replyWithPhoto(new InputFile(imagePath), {
-      caption: `🌍 WorldSeek\n\n<b>Distance from the country:</b>\n${guessLines}`,
-      parse_mode: "HTML",
-    });
+  if (existingGuess) {
+    return ctx.reply(`Someone has already guessed ${guessedCountry.name}`);
   }
+
+  const correctCountry = countryMap.get(game.countryCode)!;
+
+  const distance = getDistanceKm(
+    guessedCountry.lat,
+    guessedCountry.lng,
+    correctCountry.lat,
+    correctCountry.lng,
+  );
+
+  await db
+    .insertInto("guesses")
+    .values({
+      gameId: game.id,
+      guessCode: guessedCountry.code,
+      distanceKm: distance,
+    })
+    .execute();
+
+  if (guessedCountry.code === correctCountry.code) {
+    await revealWorldSeekResult(ctx, game.id, correctCountry, true);
+    return;
+  }
+
+  const guesses = await db
+    .selectFrom("guesses")
+    .selectAll()
+    .where("gameId", "=", game.id)
+    .orderBy("id", "asc")
+    .execute();
+
+  if (guesses.length >= 20) {
+    await revealWorldSeekResult(
+      ctx,
+      game.id,
+      correctCountry,
+      false,
+      "Maximum guesses (20) reached.",
+    );
+    return;
+  }
+
+  const guessLines = guesses
+    .map((g, i) => {
+      const country = countryMap.get(g.guessCode)!;
+      return `${i + 1}. ${country.name} — ${g.distanceKm.toLocaleString()} km`;
+    })
+    .join("\n");
+
+  const imagePath = join(
+    process.cwd(),
+    "src",
+    "data",
+    "countries",
+    `${correctCountry.code.toLowerCase()}.png`,
+  );
+
+  await ctx.replyWithPhoto(new InputFile(imagePath), {
+    caption: `🌍 WorldSeek\n\n<b>Distance from the country:</b>\n${guessLines}`,
+    parse_mode: "HTML",
+  });
 }
 
 export async function generateWorldlSeekImage(
