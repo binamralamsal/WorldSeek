@@ -50,7 +50,6 @@ export function getMainHelpKeyboard(
 
 export function getHowToPlayMessage() {
   return `<b>▸ How to Play WorldSeek</b>
-
 <blockquote>
 1. Start a game using <code>/newworld</code>  
 2. The bot sends a silhouette map of a random country  
@@ -61,9 +60,7 @@ export function getHowToPlayMessage() {
 7. The winner receives <b>10 points</b>  
 8. Each game allows a maximum of <b>20 guesses</b>
 </blockquote>
-
-<b>Distance & Direction</b>
-<blockquote>
+<b>Distance & Direction</b><blockquote>
 Each guess shows how far your country is from the correct one.
 
 Example  
@@ -76,18 +73,14 @@ The arrow shows the direction of the correct country:
 ← West  
 ↗ ↘ ↖ ↙ Diagonal directions
 </blockquote>
-
-<b>Neighbor Hint</b>
-<blockquote>
+<b>Neighbor Hint</b><blockquote>
 If your guess shares a border with the correct country, the bot will show:
 
 <b>🟢 Neighbor</b>
 
 This means the correct country directly borders your guess.
 </blockquote>
-
-<b>Progressive Hints</b>
-<blockquote>
+<b>Progressive Hints</b><blockquote>
 As the game continues, extra hints will appear:
 
 After 5 guesses — UN membership  
@@ -97,14 +90,12 @@ After 14 guesses — First day of the week
 
 Use these hints to help narrow down the correct country before the <b>20 guess limit</b>.
 </blockquote>
-
 <b>Basic Commands</b>
 • /newworld — Start a new WorldSeek game  
 • /endworld — End the current game (admin or vote)  
 • /leaderboard — Show top players  
 • /score — Show your score or another user's score  
 • /help — Show this help message
-
 <b>Tips</b>
 <blockquote>
 • Study the silhouette carefully  
