@@ -19,6 +19,12 @@ export interface AuthorizedUser {
   userId: string;
 }
 
+export interface BannedUser {
+  createdAt: Generated<Timestamp>;
+  updatedAt: Generated<Timestamp>;
+  userId: string;
+}
+
 export interface BroadcastChat {
   createdAt: Generated<Timestamp>;
   id: string;
@@ -74,6 +80,7 @@ export interface User {
 
 export interface DB {
   authorizedUsers: AuthorizedUser;
+  bannedUsers: BannedUser;
   broadcastChats: BroadcastChat;
   chatGameTopics: ChatGameTopic;
   games: Game;

@@ -4,6 +4,8 @@ import { helpCommand } from "./help";
 import { scoreCommand } from "./score";
 import { startCommand } from "./start";
 import { statsCommand } from "./stats";
+import { banCommand } from "./ban-user";
+import { unbanCommand } from "./unban-user";
 import { endWorldCommand } from "./end-world";
 import { newWorldCommand } from "./new-world";
 import { worldAuthCommand } from "./worldauth";
@@ -24,6 +26,8 @@ composer.use(
   scoreCommand,
   helpCommand,
   startCommand,
+  banCommand,
+  unbanCommand,
 );
 
 export const commands = composer;

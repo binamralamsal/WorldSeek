@@ -1,5 +1,3 @@
-import { InputFile } from "grammy";
-
 import { autoRetry } from "@grammyjs/auto-retry";
 import { run, sequentialize } from "@grammyjs/runner";
 
@@ -9,6 +7,7 @@ import { errorHandler } from "./handlers/error-handler";
 import { onMessageHander } from "./handlers/on-message";
 import { CommandsHelper } from "./util/commands-helper";
 import { callbackQueryHandler } from "./handlers/callback-query";
+import { handleBannedUsers } from "./handlers/handle-banned-users";
 import { topicEditedHandler } from "./handlers/topic-edited-handler";
 import { userAndChatSyncHandler } from "./handlers/user-and-chat-sync-handler";
 
@@ -24,6 +23,8 @@ bot.use(
     return ctx.chatId?.toString() || ctx.from?.id.toString();
   }),
 );
+
+bot.use(handleBannedUsers);
 
 bot.use(commands);
 bot.use(onMessageHander);
