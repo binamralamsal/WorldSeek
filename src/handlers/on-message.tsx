@@ -201,7 +201,7 @@ export async function generateWorldlSeekImage(
         display: "flex",
         width: 900,
         height: 450,
-        background: "linear-gradient(145deg, #0a0f1e 0%, #111d2b 100%)",
+        background: "linear-gradient(145deg, #01193d 0%, #000c1d 100%)",
         position: "relative",
         overflow: "hidden",
         fontFamily: "Inter",
@@ -216,7 +216,7 @@ export async function generateWorldlSeekImage(
           height: 500,
           borderRadius: "50%",
           background:
-            "radial-gradient(circle, rgba(16, 185, 129, 0.12) 0%, transparent 70%)",
+            "radial-gradient(circle, rgba(95, 166, 70, 0.12) 0%, transparent 70%)",
           top: -150,
           left: -150,
           display: "flex",
@@ -229,7 +229,7 @@ export async function generateWorldlSeekImage(
           height: 400,
           borderRadius: "50%",
           background:
-            "radial-gradient(circle, rgba(59, 130, 246, 0.08) 0%, transparent 70%)",
+            "radial-gradient(circle, rgba(1, 25, 61, 0.4) 0%, transparent 70%)",
           bottom: -100,
           right: -50,
           display: "flex",
@@ -244,9 +244,9 @@ export async function generateWorldlSeekImage(
           left: 0,
           right: 0,
           bottom: 0,
-          opacity: 0.1,
+          opacity: 0.08,
           backgroundImage:
-            "radial-gradient(rgba(255,255,255,0.2) 1px, transparent 1px)",
+            "radial-gradient(rgba(95, 166, 70, 0.4) 1px, transparent 1px)",
           backgroundSize: "24px 24px",
           display: "flex",
         }}
@@ -262,8 +262,8 @@ export async function generateWorldlSeekImage(
           width: 320,
           minWidth: 320,
           position: "relative",
-          background: "rgba(255, 255, 255, 0.02)",
-          borderRight: "1px solid rgba(255, 255, 255, 0.05)",
+          background: "rgba(255, 255, 255, 0.03)",
+          borderRight: "1px solid rgba(95, 166, 70, 0.1)",
         }}
       >
         {/* Silhouette Glow */}
@@ -274,12 +274,12 @@ export async function generateWorldlSeekImage(
             height: 240,
             borderRadius: "50%",
             background:
-              "radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, transparent 70%)",
+              "radial-gradient(circle, rgba(95, 166, 70, 0.15) 0%, transparent 70%)",
             display: "flex",
           }}
         />
 
-        {/* Silhouette Image */}
+        {/* Silhouette Image — Updated to match #5fa646 */}
         <img
           src={`data:image/png;base64,${greenSilhouette.toString("base64")}`}
           style={{
@@ -287,7 +287,7 @@ export async function generateWorldlSeekImage(
             height: 200,
             objectFit: "contain",
             filter:
-              "invert(1) sepia(1) saturate(6) hue-rotate(100deg) brightness(0.85)",
+              "invert(61%) sepia(38%) saturate(543%) hue-rotate(61deg) brightness(92%) contrast(88%)",
             display: "flex",
           }}
         />
@@ -363,7 +363,7 @@ export async function generateWorldlSeekImage(
           <div
             style={{
               display: "flex",
-              color: "#10b981",
+              color: "#5fa646",
               fontWeight: 800,
               fontSize: 14,
               letterSpacing: 1.5,
@@ -491,7 +491,7 @@ export async function generateWorldlSeekImage(
           </div>
         </div>
 
-        {/* Bottom Accent Line */}
+        {/* Bottom Accent Line — Updated to #5fa646 */}
         <div
           style={{
             display: "flex",
@@ -499,7 +499,7 @@ export async function generateWorldlSeekImage(
             height: 3,
             width: 80,
             borderRadius: 2,
-            background: "linear-gradient(90deg, #10b981, transparent)",
+            background: "linear-gradient(90deg, #5fa646, transparent)",
           }}
         />
       </div>
@@ -521,7 +521,7 @@ export async function revealWorldSeekResult(
   isWin: boolean,
   reason?: string,
 ) {
-  if (!ctx.chat || !ctx.from) return;
+  if (!ctx.chat || !ctx.from || !ctx.msgId) return;
 
   const chatId = ctx.chat.id.toString();
 
@@ -550,6 +550,7 @@ export async function revealWorldSeekResult(
     caption,
     parse_mode: "HTML",
     protect_content: true,
+    reply_parameters: { message_id: ctx.msgId },
   });
 
   if (isWin) await reactWithRandom(ctx);
