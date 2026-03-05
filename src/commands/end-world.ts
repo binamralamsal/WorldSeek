@@ -54,6 +54,8 @@ export async function endGame(
 
 composer.command("endworld", async (ctx) => {
   const chatId = ctx.chat.id;
+  const topicId = ctx.msg.message_thread_id?.toString() || "general";
+
   if (!ctx.message) return;
 
   const guard = await runGuards(ctx, [requireAllowedTopic]);
@@ -63,6 +65,7 @@ composer.command("endworld", async (ctx) => {
     .selectFrom("games")
     .selectAll()
     .where("chatId", "=", String(ctx.chat.id))
+    .where("topicId", "=", topicId)
     .executeTakeFirst();
 
   if (!currentGame) return ctx.reply("There is no game in progress.");
