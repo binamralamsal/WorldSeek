@@ -12,6 +12,7 @@ import { newWorldCommand } from "./new-world";
 import { worldAuthCommand } from "./worldauth";
 import { leaderboardCommand } from "./leaderboard";
 import { setGameTopicCommand } from "./setgametopic";
+import { allowOnlyModeCommand } from "./allowonlymode";
 import { unsetGameTopicCommand } from "./unsetgametopic";
 
 const composer = new Composer();
@@ -30,6 +31,7 @@ composer.use(
   startCommand,
   banCommand,
   unbanCommand,
+  allowOnlyModeCommand,
 );
 
 export const commands = composer;
