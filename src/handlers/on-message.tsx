@@ -101,6 +101,7 @@ async function handleWorldSeek(ctx: Context) {
   }
 
   const correctCountry = countryMap.get(game.countryCode)!;
+  const isWin = guessedCountry.code === correctCountry.code;
 
   const isNeighbor = correctCountry.borders.includes(guessedCountry.code);
 
@@ -122,7 +123,7 @@ async function handleWorldSeek(ctx: Context) {
     })
     .execute();
 
-  if (guessedCountry.code === correctCountry.code) {
+  if (isWin) {
     await revealWorldSeekResult(ctx, game.id, correctCountry, true);
     return;
   }
@@ -183,8 +184,12 @@ async function handleWorldSeek(ctx: Context) {
     `${correctCountry.code.toLowerCase()}.png`,
   );
 
-  await ctx.replyWithPhoto(new InputFile(imagePath), {
-    caption: `🌍 WorldSeek\n\n<b>Distance from the country:</b>\n${guessLines}${hintText}`,
+  const photo =
+    game.mode === "flag" ? correctCountry.flag : new InputFile(imagePath);
+  const title = game.mode === "flag" ? "🚩 FlagSeek" : "🌍 WorldSeek";
+
+  await ctx.replyWithPhoto(photo, {
+    caption: `${title}\n\n<b>Distance from the country:</b>\n${guessLines}${hintText}`,
     parse_mode: "HTML",
     protect_content: true,
   });
@@ -537,8 +542,17 @@ export async function revealWorldSeekResult(
 
   const chatId = ctx.chat.id.toString();
 
+  const game = await db
+    .selectFrom("games")
+    .select("mode")
+    .where("id", "=", gameId)
+    .executeTakeFirst();
+
+  const mode = game?.mode ?? "map";
+
   const imageBuffer = await generateWorldlSeekImage(country);
-  const caption = formatWorldSeekDetails(country, isWin, reason);
+  const caption = formatWorldSeekDetails(country, isWin, mode, reason);
+  const photo = mode === "flag" ? country.flag : new InputFile(imageBuffer);
 
   await db.transaction().execute(async (trx) => {
     if (!ctx.from) return;
@@ -550,6 +564,7 @@ export async function revealWorldSeekResult(
           score: 10,
           chatId,
           userId: ctx.from.id.toString(),
+          mode,
         })
         .execute();
     }
@@ -558,7 +573,7 @@ export async function revealWorldSeekResult(
     await trx.deleteFrom("games").where("id", "=", gameId).execute();
   });
 
-  await ctx.replyWithPhoto(new InputFile(imageBuffer), {
+  await ctx.replyWithPhoto(photo, {
     caption,
     parse_mode: "HTML",
     protect_content: true,
@@ -571,12 +586,15 @@ export async function revealWorldSeekResult(
 export function formatWorldSeekDetails(
   country: Country,
   isWin: boolean,
+  mode: "map" | "flag",
   reason?: string,
 ): string {
   const borders =
     country.borders.length > 0
       ? country.borders.map((c) => countryMap.get(c)?.name ?? c).join(", ")
       : "None";
+
+  const restartCommand = mode === "flag" ? "/newflag" : "/newworld";
 
   return `
 <blockquote>${isWin ? "🎉 Correct!" : "🎮 Game Over"}</blockquote>
@@ -592,7 +610,7 @@ export function formatWorldSeekDetails(
 🌐 UN Member: ${country.unMember ? "Yes" : "No"}
 📍 Coordinates: ${country.lat.toFixed(2)}° / ${country.lng.toFixed(2)}
 🧭 Neighboring Countries: ${borders}</blockquote><blockquote>${reason ?? ""}${isWin ? "🏆 +10 points added to leaderboard." : ""}</blockquote>
-Start another game with /newworld
+Start another game with ${restartCommand}
 `.trim();
 }
 

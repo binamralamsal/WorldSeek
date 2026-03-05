@@ -1,7 +1,5 @@
 import { Composer, InputFile } from "grammy";
 
-import { join } from "path";
-
 import { db } from "../config/db";
 import { CommandsHelper } from "../util/commands-helper";
 import { CountrySelector } from "../util/country-selector";
@@ -9,7 +7,7 @@ import { regularGameGuards, runGuards } from "../util/guards";
 
 const composer = new Composer();
 
-composer.command("newworld", async (ctx) => {
+composer.command("newflag", async (ctx) => {
   if (!ctx.chat || !ctx.from) return;
 
   const chatId = ctx.chat.id.toString();
@@ -26,7 +24,7 @@ composer.command("newworld", async (ctx) => {
     .executeTakeFirst();
 
   if (existing) {
-    return ctx.reply("A WorldSeek game is already running here.");
+    return ctx.reply("A game is already running here.");
   }
 
   const countrySelector = new CountrySelector();
@@ -39,27 +37,16 @@ composer.command("newworld", async (ctx) => {
       topicId: topicId,
       countryCode: randomCountry.code,
       startedBy: ctx.from.id.toString(),
-      mode: "map",
+      mode: "flag",
     })
     .execute();
 
-  const imagePath = join(
-    process.cwd(),
-    "src",
-    "data",
-    "countries",
-    `${randomCountry.code.toLowerCase()}.png`,
-  );
-
-  await ctx.replyWithPhoto(new InputFile(imagePath), {
-    caption: "🌍 WorldSeek started!\nGuess the country.",
+  await ctx.replyWithPhoto(randomCountry.flag, {
+    caption: "🚩 FlagSeek started!\nGuess the country by its flag.",
     protect_content: true,
   });
 });
 
-CommandsHelper.addNewCommand(
-  "newworld",
-  "Guess the country with map given and distance",
-);
+CommandsHelper.addNewCommand("newflag", "Guess the country from its flag");
 
-export const newWorldCommand = composer;
+export const newFlagCommand = composer;

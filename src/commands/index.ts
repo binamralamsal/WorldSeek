@@ -5,6 +5,7 @@ import { scoreCommand } from "./score";
 import { startCommand } from "./start";
 import { statsCommand } from "./stats";
 import { banCommand } from "./ban-user";
+import { newFlagCommand } from "./new-flag";
 import { unbanCommand } from "./unban-user";
 import { endWorldCommand } from "./end-world";
 import { newWorldCommand } from "./new-world";
@@ -17,6 +18,7 @@ const composer = new Composer();
 
 composer.use(
   newWorldCommand,
+  newFlagCommand,
   endWorldCommand,
   statsCommand,
   setGameTopicCommand,

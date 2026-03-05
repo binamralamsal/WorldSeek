@@ -5,6 +5,8 @@
 
 import type { ColumnType } from "kysely";
 
+export type GameMode = "flag" | "map";
+
 export type Generated<T> = T extends ColumnType<infer S, infer I, infer U>
   ? ColumnType<S, I | undefined, U>
   : ColumnType<T, T | undefined, T>;
@@ -48,6 +50,7 @@ export interface Game {
   countryCode: string;
   createdAt: Generated<Timestamp>;
   id: Generated<number>;
+  mode: Generated<GameMode>;
   startedBy: string | null;
   topicId: string;
   updatedAt: Generated<Timestamp>;
@@ -65,6 +68,7 @@ export interface Leaderboard {
   chatId: string;
   createdAt: Generated<Timestamp>;
   id: Generated<number>;
+  mode: Generated<GameMode>;
   score: number;
   updatedAt: Generated<Timestamp>;
   userId: string;
