@@ -1,6 +1,7 @@
 import { InlineKeyboard } from "grammy";
 
 import { formatActiveButton } from "../commands/help";
+import type { GameMode } from "../util/parse-leaderboard-inputs";
 import type { AllowedChatSearchKey, AllowedChatTimeKey } from "../types";
 import {
   DISCUSSION_GROUP,
@@ -9,14 +10,30 @@ import {
   allowedChatTimeKeys,
 } from "../config/constants";
 
+const allowedModes: GameMode[] = ["map", "flag"];
+
 export function generateLeaderboardKeyboard(
   searchKey: AllowedChatSearchKey,
   timeKey: AllowedChatTimeKey,
+  mode: GameMode = "map",
   callbackKey: "leaderboard" | `score ${string | number}` = "leaderboard",
   backButton?: { text: string; callback: string },
 ) {
   const keyboard = new InlineKeyboard();
 
+  // Mode row
+  allowedModes.forEach((m) => {
+    keyboard
+      .text(
+        generateButtonText(mode, m, m === "map" ? "🗺 Map" : "🚩 Flag"),
+        `${callbackKey} ${searchKey} ${timeKey} ${m}`,
+      )
+      .style(mode === m ? "primary" : undefined);
+  });
+
+  keyboard.row();
+
+  // Search key row
   allowedChatSearchKeys.forEach((key) => {
     keyboard
       .text(
@@ -25,13 +42,14 @@ export function generateLeaderboardKeyboard(
           key,
           key === "group" ? "This chat" : "Global",
         ),
-        `${callbackKey} ${key} ${timeKey}`,
+        `${callbackKey} ${key} ${timeKey} ${mode}`,
       )
       .style(searchKey === key ? "primary" : undefined);
   });
 
   keyboard.row();
 
+  // Time key rows
   allowedChatTimeKeys.forEach((key, index) => {
     keyboard
       .text(
@@ -44,7 +62,7 @@ export function generateLeaderboardKeyboard(
               ? "Today"
               : `This ${key}`,
         ),
-        `${callbackKey} ${searchKey} ${key}`,
+        `${callbackKey} ${searchKey} ${key} ${mode}`,
       )
       .style(timeKey === key ? "primary" : undefined);
 
@@ -52,10 +70,8 @@ export function generateLeaderboardKeyboard(
   });
 
   keyboard.row();
-
-  keyboard.row();
   keyboard.url("📢 Updates", UPDATES_CHANNEL);
-  keyboard.text("🔄", `${callbackKey} ${searchKey} ${timeKey}`);
+  keyboard.text("🔄", `${callbackKey} ${searchKey} ${timeKey} ${mode}`);
   keyboard.url("💬 Discussion", DISCUSSION_GROUP);
 
   if (backButton) {

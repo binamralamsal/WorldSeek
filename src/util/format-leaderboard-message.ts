@@ -1,9 +1,11 @@
+import type { GameMode } from "../util/parse-leaderboard-inputs";
 import { escapeHtmlEntities } from "../util/escape-html-entities";
 import type { AllowedChatSearchKey, LeaderboardEntry } from "../types";
 
 export function formatLeaderboardMessage(
   data: LeaderboardEntry[],
   searchKey: AllowedChatSearchKey,
+  mode: GameMode = "map",
 ) {
   const blocks = data.reduce((acc, entry, index) => {
     const rank = index < 3 ? ["🥇", "🥈", "🥉"][index] : "🔅";
@@ -29,7 +31,8 @@ export function formatLeaderboardMessage(
     .map((block) => `<blockquote>${block.join("\n")}</blockquote>`)
     .join("\n");
 
-  return `<blockquote>🏆 ${
-    searchKey === "global" ? "Global" : "Group"
-  } Leaderboard 🏆</blockquote>\n\n${formattedEntries}`;
+  const modeLabel = mode === "flag" ? "Flag" : "Map";
+  const scopeLabel = searchKey === "global" ? "Global" : "Group";
+
+  return `<blockquote>🏆 ${scopeLabel} ${modeLabel} Leaderboard 🏆</blockquote>\n\n${formattedEntries}`;
 }

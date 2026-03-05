@@ -15,20 +15,21 @@ composer.command("leaderboard", async (ctx) => {
   const guard = await runGuards(ctx, [requireAllowedTopic]);
   if (!guard.ok) return ctx.reply(guard.message);
 
-  const { searchKey, timeKey } = parseLeaderboardFilters(
+  const { searchKey, timeKey, mode } = parseLeaderboardFilters(
     ctx.match,
     ctx.chat.type === "private" ? "global" : undefined,
   );
 
-  const keyboard = generateLeaderboardKeyboard(searchKey, timeKey);
+  const keyboard = generateLeaderboardKeyboard(searchKey, timeKey, mode);
 
   const memberScores = await getLeaderboardScores({
     chatId,
     searchKey,
     timeKey,
+    mode,
   });
 
-  ctx.reply(formatLeaderboardMessage(memberScores, searchKey), {
+  ctx.reply(formatLeaderboardMessage(memberScores, searchKey, mode), {
     disable_notification: true,
     reply_markup: keyboard,
     parse_mode: "HTML",

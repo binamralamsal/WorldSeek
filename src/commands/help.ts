@@ -49,25 +49,38 @@ export function getMainHelpKeyboard(
 }
 
 export function getHowToPlayMessage() {
-  return `<b>▸ How to Play WorldSeek</b><blockquote>1. Start a game using <code>/newworld</code>  
-2. The bot sends a silhouette map of a random country  
-3. Guess the country by sending its name in chat  
-4. After each guess, the bot shows how far your guess is from the correct country  
-5. Use the distance, direction arrows, and hints to narrow it down  
-6. The first person to guess correctly wins the game  
-7. The winner receives <b>10 points</b>  
+  return `<b>▸ How to Play WorldSeek</b>
+
+WorldSeek has two game modes: <b>Map Mode</b> and <b>Flag Mode</b>.
+
+<b>🗺 Map Mode</b><blockquote>1. Start a game using <code>/newworld</code>
+2. The bot sends a silhouette map of a random country
+3. Guess the country by sending its name in chat
+4. After each guess, the bot shows how far your guess is from the correct country
+5. Use the distance, direction arrows, and hints to narrow it down
+6. The first person to guess correctly wins the game
+7. The winner receives <b>10 points</b>
+8. Each game allows a maximum of <b>20 guesses</b>
+</blockquote>
+<b>🚩 Flag Mode</b><blockquote>1. Start a game using <code>/newflag</code>
+2. The bot sends the flag of a random country
+3. Guess the country by sending its name in chat
+4. After each guess, the bot shows how far your guess is from the correct country
+5. Use the distance, direction arrows, and hints to narrow it down
+6. The first person to guess correctly wins the game
+7. The winner receives <b>10 points</b>
 8. Each game allows a maximum of <b>20 guesses</b>
 </blockquote>
 <b>Distance & Direction</b><blockquote>Each guess shows how far your country is from the correct one.
 
-Example  
+Example
 Brazil — <b>4200 km ↗</b>
 
 The arrow shows the direction of the correct country:
-↑ North  
-↓ South  
-→ East  
-← West  
+↑ North
+↓ South
+→ East
+← West
 ↗ ↘ ↖ ↙ Diagonal directions
 </blockquote>
 <b>Neighbor Hint</b><blockquote>If your guess shares a border with the correct country, the bot will show:
@@ -76,25 +89,28 @@ The arrow shows the direction of the correct country:
 
 This means the correct country directly borders your guess.
 </blockquote>
-<b>Progressive Hints</b><blockquote>As the game continues, extra hints will appear:
+<b>Progressive Hints</b><blockquote>As the game continues, extra hints will appear (same for both modes):
 
-After 5 guesses — Continent  
-After 10 guesses — UN membership  
-After 12 guesses — Driving side (left/right)  
+After 5 guesses — Continent
+After 8 guesses — Neighboring country
+After 10 guesses — Another neighbor
+After 12 guesses — Driving side (left/right)
 After 14 guesses — First day of the week
 
 Use these hints to help narrow down the correct country before the <b>20 guess limit</b>.
 </blockquote>
 <b>Basic Commands</b>
-• /newworld — Start a new WorldSeek game  
-• /endworld — End the current game (admin or vote)  
-• /leaderboard — Show top players  
-• /score — Show your score or another user's score  
+• /newworld — Start a new Map mode game
+• /newflag — Start a new Flag mode game
+• /endworld — End the current game (admin or vote)
+• /leaderboard — Show top players
+• /score — Show your score or another user's score
 • /help — Show this help message
 
-<b>Tips</b><blockquote>• Study the silhouette carefully  
-• Use direction arrows to move your guesses closer  
-• A "Neighbor" guess means you're very close  
+<b>Tips</b><blockquote>• In Map mode, study the silhouette carefully
+• In Flag mode, think about flag colors, symbols, and patterns
+• Use direction arrows to move your guesses closer
+• A "Neighbor" guess means you're very close
 • Think geographically — continents and regions help a lot
 </blockquote>`;
 }
@@ -102,29 +118,42 @@ Use these hints to help narrow down the correct country before the <b>20 guess l
 export function getScoresMessage() {
   return `<b>▸ Leaderboard & Scores</b>
 
+Scores are tracked separately for <b>🗺 Map</b> and <b>🚩 Flag</b> modes. Use the mode toggle buttons on the leaderboard to switch between them.
+
 <b>Quick Examples:</b>
-<blockquote><code>/leaderboard</code> - Group leaderboard
-<code>/leaderboard global</code> - Global leaderboard
+<blockquote><code>/leaderboard</code> - Group leaderboard (Map mode)
+<code>/leaderboard flag</code> - Group leaderboard (Flag mode)
+<code>/leaderboard global</code> - Global leaderboard (Map mode)
+<code>/leaderboard global flag</code> - Global leaderboard (Flag mode)
 
 <code>/score</code> - Your score in the current group
 <code>/score @username</code> - View another user's score
 <code>/score 123456789</code> - View score by user ID
-<code>/score global</code> - Your global score</blockquote>
+<code>/score global</code> - Your global score
+<code>/score flag</code> - Your Flag mode score</blockquote>
 
 <b>Leaderboard Command</b>
-<blockquote><b>Syntax:</b> <code>/leaderboard [scope]</code>
+<blockquote><b>Syntax:</b> <code>/leaderboard [scope] [mode]</code>
 
 <b>Scope:</b>
-• <code>group</code> (default) - Current group only  
-• <code>global</code> - All groups combined</blockquote>
+• <code>group</code> (default) - Current group only
+• <code>global</code> - All groups combined
+
+<b>Mode:</b>
+• <code>map</code> (default) - Map mode scores
+• <code>flag</code> - Flag mode scores</blockquote>
 
 <b>Score Command</b>
-<blockquote><b>Syntax:</b> <code>/score [target] [scope]</code>
+<blockquote><b>Syntax:</b> <code>/score [target] [scope] [mode]</code>
 
 <b>Target (optional):</b>
-• Leave empty for your own score  
-• <code>@username</code> - Look up by username  
-• <code>user_id</code> - Look up by Telegram user ID</blockquote>`;
+• Leave empty for your own score
+• <code>@username</code> - Look up by username
+• <code>user_id</code> - Look up by Telegram user ID
+
+<b>Mode (optional):</b>
+• <code>map</code> (default) - Map mode scores
+• <code>flag</code> - Flag mode scores</blockquote>`;
 }
 
 export function getGroupSettingsMessage() {
@@ -134,22 +163,34 @@ export function getGroupSettingsMessage() {
 <blockquote><b>/worldauth</b> – Manage users who can end games without a vote.
 
 <b>Usage:</b>
-• <code>/worldauth @username</code> – Authorize a user  
-• <code>/worldauth remove @username</code> – Remove authorization  
+• <code>/worldauth @username</code> – Authorize a user
+• <code>/worldauth remove @username</code> – Remove authorization
 • <code>/worldauth list</code> – List all authorized users
 
 You can also use a user ID or reply to a message instead of @username.</blockquote>
 
 <b>Game Topic (Forum Groups)</b>
-<blockquote><b>/setgametopic</b> – Restrict games to specific topics  
+<blockquote><b>/setgametopic</b> – Restrict games to specific topics
 Run this command <i>inside the topic</i> where you want games to run.
 
 After setting, the bot will only allow games inside configured topics.
 
-<b>/unsetgametopic</b> – Remove topic restriction  
+<b>/unsetgametopic</b> – Remove topic restriction
 Usage: <code>/unsetgametopic</code>
 
-After removing the restriction, games can run in any topic again.</blockquote>`;
+After removing the restriction, games can run in any topic again.</blockquote>
+
+<b>Allowed Game Modes (Forum Groups)</b>
+<blockquote><b>/allowonlymode</b> – Restrict which game modes can be started in a topic.
+Run this command <i>inside the topic</i> you want to configure.
+Requires <code>/setgametopic</code> to be set first.
+
+<b>Usage:</b>
+• <code>/allowonlymode map</code> – Allow only Map mode
+• <code>/allowonlymode flag</code> – Allow only Flag mode
+• <code>/allowonlymode map flag</code> – Allow both modes (default)
+
+When a mode is restricted, the bot will suggest the correct command if a user tries to start a disallowed mode.</blockquote>`;
 }
 
 export function getAdminCommandsMessage() {

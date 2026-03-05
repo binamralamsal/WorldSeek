@@ -1,16 +1,19 @@
 import { sql } from "kysely";
 
 import { db } from "../config/db";
+import type { GameMode } from "../util/parse-leaderboard-inputs";
 import type { AllowedChatSearchKey, AllowedChatTimeKey } from "../types";
 
 export async function getLeaderboardScores({
   chatId,
   searchKey,
   timeKey,
+  mode = "map",
 }: {
   chatId: string;
   searchKey: AllowedChatSearchKey;
   timeKey: AllowedChatTimeKey;
+  mode?: GameMode;
 }) {
   let leaderboardQuery = db
     .selectFrom("leaderboard")
@@ -33,6 +36,7 @@ export async function getLeaderboardScores({
         ),
       ),
     )
+    .where("leaderboard.mode", "=", mode)
     .groupBy("users.id")
     .orderBy(sql`sum(${sql.ref("leaderboard.score")}) desc`)
     .limit(20);

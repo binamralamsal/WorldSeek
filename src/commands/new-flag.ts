@@ -1,4 +1,4 @@
-import { Composer, InputFile } from "grammy";
+import { Composer } from "grammy";
 
 import { db } from "../config/db";
 import { CommandsHelper } from "../util/commands-helper";
@@ -15,6 +15,21 @@ composer.command("newflag", async (ctx) => {
 
   const guard = await runGuards(ctx, regularGameGuards);
   if (!guard.ok) return ctx.reply(guard.message);
+
+  const topicSettings = await db
+    .selectFrom("chatGameTopics")
+    .select("allowedModes")
+    .where("chatId", "=", chatId)
+    .where("topicId", "=", topicId)
+    .executeTakeFirst();
+
+  const allowedModes = topicSettings?.allowedModes ?? ["map", "flag"];
+
+  if (!allowedModes.includes("flag")) {
+    return ctx.reply(
+      "Flag mode is not allowed in this topic. Use /newworld instead.",
+    );
+  }
 
   const existing = await db
     .selectFrom("games")

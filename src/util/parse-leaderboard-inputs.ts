@@ -4,9 +4,13 @@ import {
   allowedChatTimeKeys,
 } from "../config/constants";
 
+export type GameMode = "map" | "flag";
+const allowedModes: GameMode[] = ["map", "flag"];
+
 type ParseResult = {
   searchKey: AllowedChatSearchKey | undefined;
   timeKey: AllowedChatTimeKey | undefined;
+  mode: GameMode | undefined;
   target: string | undefined;
 };
 
@@ -20,6 +24,7 @@ export function parseLeaderboardInput(
   let target: string | undefined;
   let foundSearchKey: AllowedChatSearchKey | undefined;
   let foundTimeKey: AllowedChatTimeKey | undefined;
+  let foundMode: GameMode | undefined;
 
   for (const part of parts) {
     if (allowedChatSearchKeys.includes(part as AllowedChatSearchKey)) {
@@ -29,6 +34,11 @@ export function parseLeaderboardInput(
 
     if (allowedChatTimeKeys.includes(part as AllowedChatTimeKey)) {
       foundTimeKey = part as AllowedChatTimeKey;
+      continue;
+    }
+
+    if (allowedModes.includes(part as GameMode)) {
+      foundMode = part as GameMode;
       continue;
     }
 
@@ -46,13 +56,14 @@ export function parseLeaderboardInput(
   const timeKey =
     foundTimeKey || (defaultTimeKey === null ? undefined : defaultTimeKey);
 
-  return { searchKey, timeKey, target };
+  return { searchKey, timeKey, mode: foundMode, target };
 }
 
 export function parseLeaderboardFilters(
   input: string,
   defaultSearchKey: AllowedChatSearchKey = "group",
   defaultTimeKey: AllowedChatTimeKey = "month",
+  defaultMode: GameMode = "map",
 ) {
   const parts = input.toLowerCase().trim().split(/\s+/).filter(Boolean);
 
@@ -64,5 +75,8 @@ export function parseLeaderboardFilters(
     allowedChatTimeKeys.includes(part as AllowedChatTimeKey),
   ) || defaultTimeKey) as AllowedChatTimeKey;
 
-  return { searchKey, timeKey };
+  const mode = (parts.find((part) => allowedModes.includes(part as GameMode)) ||
+    defaultMode) as GameMode;
+
+  return { searchKey, timeKey, mode };
 }

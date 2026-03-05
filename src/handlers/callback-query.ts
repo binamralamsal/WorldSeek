@@ -7,6 +7,7 @@ import { env } from "../config/env";
 import { redis } from "../config/redis";
 import { getUserScores } from "../services/get-user-scores";
 import { getSmartDefaults } from "../util/get-smart-defaults";
+import type { GameMode } from "../util/parse-leaderboard-inputs";
 import { endGame, isUserAuthorized } from "../commands/end-world";
 import type { AllowedChatSearchKey, AllowedChatTimeKey } from "../types";
 import { formatNoScoresMessage } from "../util/format-no-scores-message";
@@ -27,17 +28,19 @@ import {
   getScoresMessage,
 } from "../commands/help";
 
+const allowedModes: GameMode[] = ["map", "flag"];
+
 const composer = new Composer();
 
 composer.on("callback_query:data", async (ctx) => {
   condition: if (ctx.callbackQuery.data.startsWith("leaderboard")) {
-    const [, searchKey, timeKey, wordLength] =
-      ctx.callbackQuery.data.split(" ");
-    console.log(searchKey, timeKey, wordLength);
+    const [, searchKey, timeKey, mode] = ctx.callbackQuery.data.split(" ");
+
     if (!allowedChatSearchKeys.includes(searchKey as AllowedChatSearchKey))
       break condition;
     if (!allowedChatTimeKeys.includes(timeKey as AllowedChatTimeKey))
       break condition;
+    if (!allowedModes.includes(mode as GameMode)) break condition;
     if (!ctx.chat) break condition;
 
     const chatId = ctx.chat.id.toString();
@@ -45,11 +48,13 @@ composer.on("callback_query:data", async (ctx) => {
       chatId,
       searchKey: searchKey as AllowedChatSearchKey,
       timeKey: timeKey as AllowedChatTimeKey,
+      mode: mode as GameMode,
     });
 
     const keyboard = generateLeaderboardKeyboard(
       searchKey as AllowedChatSearchKey,
       timeKey as AllowedChatTimeKey,
+      mode as GameMode,
     );
 
     await ctx
@@ -57,6 +62,7 @@ composer.on("callback_query:data", async (ctx) => {
         formatLeaderboardMessage(
           memberScores,
           searchKey as AllowedChatSearchKey,
+          mode as GameMode,
         ),
         {
           reply_markup: keyboard,
@@ -123,19 +129,22 @@ composer.on("callback_query:data", async (ctx) => {
         });
       }
 
-      const { searchKey, timeKey, hasAnyScores } = await getSmartDefaults({
-        userId,
-        chatId,
-        requestedSearchKey: undefined,
-        requestedTimeKey: undefined,
-        chatType: ctx.chat.type,
-      });
+      const { searchKey, timeKey, mode, hasAnyScores } = await getSmartDefaults(
+        {
+          userId,
+          chatId,
+          requestedSearchKey: undefined,
+          requestedTimeKey: undefined,
+          chatType: ctx.chat.type,
+        },
+      );
 
       const userScore = await getUserScores({
         chatId,
         userId,
         searchKey,
         timeKey,
+        mode,
       });
 
       if (!userScore) {
@@ -157,6 +166,7 @@ composer.on("callback_query:data", async (ctx) => {
           ? generateLeaderboardKeyboard(
               searchKey,
               timeKey,
+              mode,
               `score ${userId}`,
               username ? backButtonDetails : undefined,
             )
@@ -180,6 +190,7 @@ composer.on("callback_query:data", async (ctx) => {
       const keyboard = generateLeaderboardKeyboard(
         searchKey,
         timeKey,
+        mode,
         `score ${userId}`,
         username
           ? {
@@ -199,17 +210,20 @@ composer.on("callback_query:data", async (ctx) => {
 
       return await ctx.answerCallbackQuery();
     }
+
     if (
       ctx.callbackQuery.data.startsWith("score ") &&
       !ctx.callbackQuery.data.startsWith("score_select") &&
       !ctx.callbackQuery.data.startsWith("score_list")
     ) {
-      const [, userId, searchKey, timeKey, wordLength] = parts;
+      // callback data format: `score ${userId} ${searchKey} ${timeKey} ${mode}`
+      const [, userId, searchKey, timeKey, mode] = parts;
+
       if (!allowedChatSearchKeys.includes(searchKey as AllowedChatSearchKey))
         break condition;
       if (!allowedChatTimeKeys.includes(timeKey as AllowedChatTimeKey))
         break condition;
-
+      if (!allowedModes.includes(mode as GameMode)) break condition;
       if (!ctx.chat) break condition;
       if (!userId) break condition;
 
@@ -232,6 +246,7 @@ composer.on("callback_query:data", async (ctx) => {
         .selectFrom("leaderboard")
         .select("userId")
         .where("userId", "=", userId)
+        .where("mode", "=", mode as GameMode)
         .limit(1);
 
       if (searchKey === "group") {
@@ -245,6 +260,7 @@ composer.on("callback_query:data", async (ctx) => {
         userId,
         searchKey: searchKey as AllowedChatSearchKey,
         timeKey: timeKey as AllowedChatTimeKey,
+        mode: mode as GameMode,
       });
 
       if (!userScore) {
@@ -260,6 +276,7 @@ composer.on("callback_query:data", async (ctx) => {
         const keyboard = generateLeaderboardKeyboard(
           searchKey as AllowedChatSearchKey,
           timeKey as AllowedChatTimeKey,
+          mode as GameMode,
           `score ${userId}`,
         );
 
@@ -279,6 +296,7 @@ composer.on("callback_query:data", async (ctx) => {
       const keyboard = generateLeaderboardKeyboard(
         searchKey as AllowedChatSearchKey,
         timeKey as AllowedChatTimeKey,
+        mode as GameMode,
         `score ${userId}`,
       );
 
@@ -295,6 +313,7 @@ composer.on("callback_query:data", async (ctx) => {
 
       return await ctx.answerCallbackQuery();
     }
+
     await ctx.answerCallbackQuery();
   } else if (ctx.callbackQuery.data.startsWith("vote_end")) {
     const [, chatIdStr] = ctx.callbackQuery.data.split(" ");

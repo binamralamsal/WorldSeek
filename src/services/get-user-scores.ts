@@ -1,6 +1,7 @@
 import { sql } from "kysely";
 
 import { db } from "../config/db";
+import type { GameMode } from "../util/parse-leaderboard-inputs";
 import type { AllowedChatSearchKey, AllowedChatTimeKey } from "../types";
 
 export async function getUserScores({
@@ -8,11 +9,13 @@ export async function getUserScores({
   searchKey,
   userId,
   timeKey,
+  mode = "map",
 }: {
   chatId: string;
   searchKey: AllowedChatSearchKey;
   userId: string;
   timeKey: AllowedChatTimeKey;
+  mode?: GameMode;
 }) {
   const userQuery = db
     .selectFrom((eb) => {
@@ -28,6 +31,7 @@ export async function getUserScores({
             ),
           ),
         )
+        .where("leaderboard.mode", "=", mode)
         .select("leaderboard.userId")
         .select(sql<number>`sum(leaderboard.score)`.as("totalScore"))
         .groupBy("leaderboard.userId")

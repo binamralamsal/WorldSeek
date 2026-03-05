@@ -18,6 +18,21 @@ composer.command("newworld", async (ctx) => {
   const guard = await runGuards(ctx, regularGameGuards);
   if (!guard.ok) return ctx.reply(guard.message);
 
+  const topicSettings = await db
+    .selectFrom("chatGameTopics")
+    .select("allowedModes")
+    .where("chatId", "=", chatId)
+    .where("topicId", "=", topicId)
+    .executeTakeFirst();
+
+  const allowedModes = topicSettings?.allowedModes ?? ["map", "flag"];
+
+  if (!allowedModes.includes("map")) {
+    return ctx.reply(
+      "Map mode is not allowed in this topic. Use /newflag instead.",
+    );
+  }
+
   const existing = await db
     .selectFrom("games")
     .selectAll()

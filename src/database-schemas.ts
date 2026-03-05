@@ -5,6 +5,14 @@
 
 import type { ColumnType } from "kysely";
 
+export type ArrayType<T> = ArrayTypeImpl<T> extends (infer U)[]
+  ? U[]
+  : ArrayTypeImpl<T>;
+
+export type ArrayTypeImpl<T> = T extends ColumnType<infer S, infer I, infer U>
+  ? ColumnType<S[], I[], U[]>
+  : T[];
+
 export type GameMode = "flag" | "map";
 
 export type Generated<T> = T extends ColumnType<infer S, infer I, infer U>
@@ -36,6 +44,7 @@ export interface BroadcastChat {
 }
 
 export interface ChatGameTopic {
+  allowedModes: Generated<ArrayType<GameMode>>;
   chatId: string;
   createdAt: Generated<Timestamp>;
   iconCustomEmojiId: string | null;
