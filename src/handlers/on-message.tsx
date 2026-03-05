@@ -554,7 +554,7 @@ export async function revealWorldSeekResult(
 
   const imageBuffer = await generateWorldlSeekImage(country);
   const caption = formatWorldSeekDetails(country, isWin, mode, reason);
-  const photo = mode === "flag" ? country.flag : new InputFile(imageBuffer);
+  // const photo = mode === "flag" ? country.flag : new InputFile(imageBuffer);
 
   await db.transaction().execute(async (trx) => {
     if (!ctx.from) return;
@@ -575,7 +575,7 @@ export async function revealWorldSeekResult(
     await trx.deleteFrom("games").where("id", "=", gameId).execute();
   });
 
-  await ctx.replyWithPhoto(photo, {
+  await ctx.replyWithPhoto(new InputFile(imageBuffer), {
     caption,
     parse_mode: "HTML",
     protect_content: true,
