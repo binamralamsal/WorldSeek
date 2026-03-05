@@ -190,7 +190,13 @@ Requires <code>/setgametopic</code> to be set first.
 • <code>/allowonlymode flag</code> – Allow only Flag mode
 • <code>/allowonlymode map flag</code> – Allow both modes (default)
 
-When a mode is restricted, the bot will suggest the correct command if a user tries to start a disallowed mode.</blockquote>`;
+When a mode is restricted, the bot will suggest the correct command if a user tries to start a disallowed mode.
+
+<b>/recreatetopic</b> – Auto-recreate topic when it expires
+Usage: <code>/recreatetopic on</code> or <code>/recreatetopic off</code>
+Run this command inside a game topic.
+
+When enabled, if the topic automatically expires (Telegram forum feature), the bot will recreate the same topic so games can continue.</blockquote>`;
 }
 
 export function getAdminCommandsMessage() {
