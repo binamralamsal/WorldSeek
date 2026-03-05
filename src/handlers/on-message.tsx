@@ -32,11 +32,25 @@ for (const c of countries) {
 
 function generateHints(country: Country, guesses: number): string[] {
   const hints: string[] = [];
+
   if (guesses >= 5) {
     hints.push(`🌍 Continent: ${country.continents.join(", ")}`);
   }
-  if (guesses >= 10) {
-    hints.push(`🌐 UN Member: ${country.unMember ? "Yes" : "No"}`);
+
+  const neighbors = country.borders
+    .map((c) => countryMap.get(c)?.name)
+    .filter(Boolean) as string[];
+
+  if (guesses >= 8) {
+    if (neighbors.length === 0) {
+      hints.push(`🏝 This country is an island nation`);
+    } else {
+      hints.push(`🧭 Neighboring country: ${neighbors[0]}`);
+    }
+  }
+
+  if (guesses >= 10 && neighbors.length >= 2) {
+    hints.push(`🧭 Another neighbor: ${neighbors[1]}`);
   }
 
   if (guesses >= 12) {
