@@ -538,14 +538,16 @@ export async function revealWorldSeekResult(
   isWin: boolean,
   reason?: string,
 ) {
-  if (!ctx.chat || !ctx.from || !ctx.msgId) return;
+  if (!ctx.chat || !ctx.from || !ctx.msg || !ctx.msgId) return;
 
   const chatId = ctx.chat.id.toString();
+  const topicId = ctx.msg.message_thread_id?.toString() || "general";
 
   const game = await db
     .selectFrom("games")
     .select("mode")
     .where("id", "=", gameId)
+    .where("topicId", "=", topicId)
     .executeTakeFirst();
 
   const mode = game?.mode ?? "map";
