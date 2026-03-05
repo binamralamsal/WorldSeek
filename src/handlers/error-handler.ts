@@ -63,6 +63,7 @@ export async function errorHandler(error: BotError<Context>) {
             iconCustomEmojiId: createdTopic.icon_custom_emoji_id,
             shouldRecreateOnExpire: true,
             name: topic.name,
+            allowedModes: topic.allowedModes,
           })
           .execute();
         await db
