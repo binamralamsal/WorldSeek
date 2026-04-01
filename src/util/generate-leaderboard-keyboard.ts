@@ -5,6 +5,7 @@ import type { GameMode } from "../util/parse-leaderboard-inputs";
 import type { AllowedChatSearchKey, AllowedChatTimeKey } from "../types";
 import {
   DISCUSSION_GROUP,
+  DONATION_LINK,
   UPDATES_CHANNEL,
   allowedChatSearchKeys,
   allowedChatTimeKeys,
@@ -21,8 +22,13 @@ export function generateLeaderboardKeyboard(
 ) {
   const keyboard = new InlineKeyboard();
 
-  // Mode row
-  allowedModes.forEach((m) => {
+  const mid = Math.floor(allowedModes.length / 2);
+
+  allowedModes.forEach((m, index) => {
+    if (index === mid) {
+      keyboard.text("🔄", `${callbackKey} ${searchKey} ${timeKey} ${mode}`);
+    }
+
     keyboard
       .text(
         generateButtonText(mode, m, m === "map" ? "🗺 Map" : "🚩 Flag"),
@@ -71,7 +77,7 @@ export function generateLeaderboardKeyboard(
 
   keyboard.row();
   keyboard.url("📢 Updates", UPDATES_CHANNEL);
-  keyboard.text("🔄", `${callbackKey} ${searchKey} ${timeKey} ${mode}`);
+  keyboard.url("💓 Donate", DONATION_LINK).success();
   keyboard.url("💬 Discussion", DISCUSSION_GROUP);
 
   if (backButton) {
