@@ -14,43 +14,28 @@
     "capital": "Andorra la Vella",
     "region": "Europe",
     "population": 88406,
-    "borders": [
-      "FR",
-      "ES"
-    ],
+    "borders": ["FR", "ES"],
     "unMember": true,
     "area": 468,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "AE",
     "name": "United Arab Emirates",
-    "aliases": [
-      "united arab emirates",
-      "ae",
-      "uae",
-      "emirates"
-    ],
+    "aliases": ["united arab emirates", "ae", "uae", "emirates"],
     "flag": "https://flagcdn.com/w320/ae.png",
     "lat": 24,
     "lng": 54,
     "capital": "Abu Dhabi",
     "region": "Asia",
     "population": 11294243,
-    "borders": [
-      "OM",
-      "SA"
-    ],
+    "borders": ["OM", "SA"],
     "unMember": true,
     "area": 83600,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "sunday"
   },
   {
@@ -62,35 +47,23 @@
       "af",
       "afġānistān"
     ],
-    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
+    "flag": "https://flagcdn.com/w320/af.png",
     "lat": 33,
     "lng": 65,
     "capital": "Kabul",
     "region": "Asia",
     "population": 43844000,
-    "borders": [
-      "IR",
-      "PK",
-      "TM",
-      "UZ",
-      "TJ",
-      "CN"
-    ],
+    "borders": ["IR", "PK", "TM", "UZ", "TJ", "CN"],
     "unMember": true,
     "area": 652230,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
     "code": "AG",
     "name": "Antigua and Barbuda",
-    "aliases": [
-      "antigua and barbuda",
-      "ag"
-    ],
+    "aliases": ["antigua and barbuda", "ag"],
     "flag": "https://flagcdn.com/w320/ag.png",
     "lat": 17.05,
     "lng": -61.8,
@@ -101,9 +74,7 @@
     "unMember": true,
     "area": 442,
     "carSide": "left",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
@@ -123,18 +94,11 @@
     "capital": "Tirana",
     "region": "Europe",
     "population": 2363314,
-    "borders": [
-      "ME",
-      "GR",
-      "MK",
-      "XK"
-    ],
+    "borders": ["ME", "GR", "MK", "XK"],
     "unMember": true,
     "area": 28748,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -153,18 +117,11 @@
     "capital": "Yerevan",
     "region": "Asia",
     "population": 3076200,
-    "borders": [
-      "AZ",
-      "GE",
-      "IR",
-      "TR"
-    ],
+    "borders": ["AZ", "GE", "IR", "TR"],
     "unMember": true,
     "area": 29743,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -183,48 +140,28 @@
     "capital": "Luanda",
     "region": "Africa",
     "population": 36170961,
-    "borders": [
-      "CG",
-      "CD",
-      "ZM",
-      "NA"
-    ],
+    "borders": ["CG", "CD", "ZM", "NA"],
     "unMember": true,
     "area": 1246700,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "AR",
     "name": "Argentina",
-    "aliases": [
-      "argentina",
-      "argentine republic",
-      "ar",
-      "república argentina"
-    ],
+    "aliases": ["argentina", "argentine republic", "ar", "república argentina"],
     "flag": "https://flagcdn.com/w320/ar.png",
     "lat": -34,
     "lng": -64,
     "capital": "Buenos Aires",
     "region": "Americas",
     "population": 46735004,
-    "borders": [
-      "BO",
-      "BR",
-      "CL",
-      "PY",
-      "UY"
-    ],
+    "borders": ["BO", "BR", "CL", "PY", "UY"],
     "unMember": true,
     "area": 2780400,
     "carSide": "right",
-    "continents": [
-      "South America"
-    ],
+    "continents": ["South America"],
     "startOfWeek": "monday"
   },
   {
@@ -243,32 +180,17 @@
     "capital": "Vienna",
     "region": "Europe",
     "population": 9200931,
-    "borders": [
-      "CZ",
-      "DE",
-      "HU",
-      "IT",
-      "LI",
-      "SK",
-      "SI",
-      "CH"
-    ],
+    "borders": ["CZ", "DE", "HU", "IT", "LI", "SK", "SI", "CH"],
     "unMember": true,
     "area": 83871,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "AU",
     "name": "Australia",
-    "aliases": [
-      "australia",
-      "commonwealth of australia",
-      "au"
-    ],
+    "aliases": ["australia", "commonwealth of australia", "au"],
     "flag": "https://flagcdn.com/w320/au.png",
     "lat": -27,
     "lng": 133,
@@ -279,9 +201,7 @@
     "unMember": true,
     "area": 7692024,
     "carSide": "left",
-    "continents": [
-      "Oceania"
-    ],
+    "continents": ["Oceania"],
     "startOfWeek": "monday"
   },
   {
@@ -299,20 +219,11 @@
     "capital": "Baku",
     "region": "Asia",
     "population": 10241722,
-    "borders": [
-      "AM",
-      "GE",
-      "IR",
-      "RU",
-      "TR"
-    ],
+    "borders": ["AM", "GE", "IR", "RU", "TR"],
     "unMember": true,
     "area": 86600,
     "carSide": "right",
-    "continents": [
-      "Europe",
-      "Asia"
-    ],
+    "continents": ["Europe", "Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -330,26 +241,17 @@
     "capital": "Sarajevo",
     "region": "Europe",
     "population": 3422000,
-    "borders": [
-      "HR",
-      "ME",
-      "RS"
-    ],
+    "borders": ["HR", "ME", "RS"],
     "unMember": true,
     "area": 51209,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "BB",
     "name": "Barbados",
-    "aliases": [
-      "barbados",
-      "bb"
-    ],
+    "aliases": ["barbados", "bb"],
     "flag": "https://flagcdn.com/w320/bb.png",
     "lat": 13.16666666,
     "lng": -59.53333333,
@@ -360,9 +262,7 @@
     "unMember": true,
     "area": 430,
     "carSide": "left",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
@@ -380,16 +280,11 @@
     "capital": "Dhaka",
     "region": "Asia",
     "population": 169828911,
-    "borders": [
-      "MM",
-      "IN"
-    ],
+    "borders": ["MM", "IN"],
     "unMember": true,
     "area": 147570,
     "carSide": "left",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "sunday"
   },
   {
@@ -413,88 +308,51 @@
     "capital": "Brussels",
     "region": "Europe",
     "population": 11825551,
-    "borders": [
-      "FR",
-      "DE",
-      "LU",
-      "NL"
-    ],
+    "borders": ["FR", "DE", "LU", "NL"],
     "unMember": true,
     "area": 30528,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "BF",
     "name": "Burkina Faso",
-    "aliases": [
-      "burkina faso",
-      "bf"
-    ],
+    "aliases": ["burkina faso", "bf"],
     "flag": "https://flagcdn.com/w320/bf.png",
     "lat": 13,
     "lng": -2,
     "capital": "Ouagadougou",
     "region": "Africa",
     "population": 24070553,
-    "borders": [
-      "BJ",
-      "CI",
-      "GH",
-      "ML",
-      "NE",
-      "TG"
-    ],
+    "borders": ["BJ", "CI", "GH", "ML", "NE", "TG"],
     "unMember": true,
     "area": 272967,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "BG",
     "name": "Bulgaria",
-    "aliases": [
-      "bulgaria",
-      "republic of bulgaria",
-      "bg",
-      "република българия"
-    ],
+    "aliases": ["bulgaria", "republic of bulgaria", "bg", "република българия"],
     "flag": "https://flagcdn.com/w320/bg.png",
     "lat": 43,
     "lng": 25,
     "capital": "Sofia",
     "region": "Europe",
     "population": 6437360,
-    "borders": [
-      "GR",
-      "MK",
-      "RO",
-      "RS",
-      "TR"
-    ],
+    "borders": ["GR", "MK", "RO", "RS", "TR"],
     "unMember": true,
     "area": 110879,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "BH",
     "name": "Bahrain",
-    "aliases": [
-      "bahrain",
-      "kingdom of bahrain",
-      "bh",
-      "mamlakat al-baḥrayn"
-    ],
+    "aliases": ["bahrain", "kingdom of bahrain", "bh", "mamlakat al-baḥrayn"],
     "flag": "https://flagcdn.com/w320/bh.png",
     "lat": 26,
     "lng": 50.55,
@@ -505,9 +363,7 @@
     "unMember": true,
     "area": 765,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -526,46 +382,28 @@
     "capital": "Gitega",
     "region": "Africa",
     "population": 12332788,
-    "borders": [
-      "CD",
-      "RW",
-      "TZ"
-    ],
+    "borders": ["CD", "RW", "TZ"],
     "unMember": true,
     "area": 27834,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "BJ",
     "name": "Benin",
-    "aliases": [
-      "benin",
-      "republic of benin",
-      "bj",
-      "république du bénin"
-    ],
+    "aliases": ["benin", "republic of benin", "bj", "république du bénin"],
     "flag": "https://flagcdn.com/w320/bj.png",
     "lat": 9.5,
     "lng": 2.25,
     "capital": "Porto-Novo",
     "region": "Africa",
     "population": 13224860,
-    "borders": [
-      "BF",
-      "NE",
-      "NG",
-      "TG"
-    ],
+    "borders": ["BF", "NE", "NG", "TG"],
     "unMember": true,
     "area": 112622,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -585,15 +423,11 @@
     "capital": "Bandar Seri Begawan",
     "region": "Asia",
     "population": 455500,
-    "borders": [
-      "MY"
-    ],
+    "borders": ["MY"],
     "unMember": true,
     "area": 5765,
     "carSide": "left",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -617,19 +451,11 @@
     "capital": "Sucre",
     "region": "Americas",
     "population": 11365333,
-    "borders": [
-      "AR",
-      "BR",
-      "CL",
-      "PY",
-      "PE"
-    ],
+    "borders": ["AR", "BR", "CL", "PY", "PE"],
     "unMember": true,
     "area": 1098581,
     "carSide": "right",
-    "continents": [
-      "South America"
-    ],
+    "continents": ["South America"],
     "startOfWeek": "monday"
   },
   {
@@ -648,34 +474,17 @@
     "capital": "Brasília",
     "region": "Americas",
     "population": 213421037,
-    "borders": [
-      "AR",
-      "BO",
-      "CO",
-      "GF",
-      "GY",
-      "PY",
-      "PE",
-      "SR",
-      "UY",
-      "VE"
-    ],
+    "borders": ["AR", "BO", "CO", "GF", "GY", "PY", "PE", "SR", "UY", "VE"],
     "unMember": true,
     "area": 8515767,
     "carSide": "right",
-    "continents": [
-      "South America"
-    ],
+    "continents": ["South America"],
     "startOfWeek": "sunday"
   },
   {
     "code": "BS",
     "name": "Bahamas",
-    "aliases": [
-      "bahamas",
-      "commonwealth of the bahamas",
-      "bs"
-    ],
+    "aliases": ["bahamas", "commonwealth of the bahamas", "bs"],
     "flag": "https://flagcdn.com/w320/bs.png",
     "lat": 25.0343,
     "lng": -77.3963,
@@ -686,35 +495,24 @@
     "unMember": true,
     "area": 13943,
     "carSide": "left",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
     "code": "BT",
     "name": "Bhutan",
-    "aliases": [
-      "bhutan",
-      "kingdom of bhutan",
-      "bt"
-    ],
+    "aliases": ["bhutan", "kingdom of bhutan", "bt"],
     "flag": "https://flagcdn.com/w320/bt.png",
     "lat": 27.5,
     "lng": 90.5,
     "capital": "Thimphu",
     "region": "Asia",
     "population": 784043,
-    "borders": [
-      "CN",
-      "IN"
-    ],
+    "borders": ["CN", "IN"],
     "unMember": true,
     "area": 38394,
     "carSide": "left",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -732,18 +530,11 @@
     "capital": "Gaborone",
     "region": "Africa",
     "population": 2359609,
-    "borders": [
-      "NA",
-      "ZA",
-      "ZM",
-      "ZW"
-    ],
+    "borders": ["NA", "ZA", "ZM", "ZW"],
     "unMember": true,
     "area": 582000,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -763,68 +554,45 @@
     "capital": "Minsk",
     "region": "Europe",
     "population": 9109280,
-    "borders": [
-      "LV",
-      "LT",
-      "PL",
-      "RU",
-      "UA"
-    ],
+    "borders": ["LV", "LT", "PL", "RU", "UA"],
     "unMember": true,
     "area": 207600,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "BZ",
     "name": "Belize",
-    "aliases": [
-      "belize",
-      "bz"
-    ],
+    "aliases": ["belize", "bz"],
     "flag": "https://flagcdn.com/w320/bz.png",
     "lat": 17.25,
     "lng": -88.75,
     "capital": "Belmopan",
     "region": "Americas",
     "population": 417634,
-    "borders": [
-      "GT",
-      "MX"
-    ],
+    "borders": ["GT", "MX"],
     "unMember": true,
     "area": 22966,
     "carSide": "right",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
     "code": "CA",
     "name": "Canada",
-    "aliases": [
-      "canada",
-      "ca"
-    ],
+    "aliases": ["canada", "ca"],
     "flag": "https://flagcdn.com/w320/ca.png",
     "lat": 60,
     "lng": -95,
     "capital": "Ottawa",
     "region": "Americas",
     "population": 41651653,
-    "borders": [
-      "US"
-    ],
+    "borders": ["US"],
     "unMember": true,
     "area": 9984670,
     "carSide": "right",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "sunday"
   },
   {
@@ -844,83 +612,45 @@
     "capital": "Kinshasa",
     "region": "Africa",
     "population": 112832000,
-    "borders": [
-      "AO",
-      "BI",
-      "CF",
-      "CG",
-      "RW",
-      "SS",
-      "TZ",
-      "UG",
-      "ZM"
-    ],
+    "borders": ["AO", "BI", "CF", "CG", "RW", "SS", "TZ", "UG", "ZM"],
     "unMember": true,
     "area": 2344858,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "CF",
     "name": "Central African Republic",
-    "aliases": [
-      "central african republic",
-      "cf",
-      "république centrafricaine"
-    ],
+    "aliases": ["central african republic", "cf", "république centrafricaine"],
     "flag": "https://flagcdn.com/w320/cf.png",
     "lat": 7,
     "lng": 21,
     "capital": "Bangui",
     "region": "Africa",
     "population": 6470307,
-    "borders": [
-      "CM",
-      "TD",
-      "CD",
-      "CG",
-      "SS",
-      "SD"
-    ],
+    "borders": ["CM", "TD", "CD", "CG", "SS", "SD"],
     "unMember": true,
     "area": 622984,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "CG",
     "name": "Republic of the Congo",
-    "aliases": [
-      "republic of the congo",
-      "cg",
-      "congo",
-      "congo-brazzaville"
-    ],
+    "aliases": ["republic of the congo", "cg", "congo", "congo-brazzaville"],
     "flag": "https://flagcdn.com/w320/cg.png",
     "lat": -1,
     "lng": 15,
     "capital": "Brazzaville",
     "region": "Africa",
     "population": 6142180,
-    "borders": [
-      "AO",
-      "CM",
-      "CF",
-      "CD",
-      "GA"
-    ],
+    "borders": ["AO", "CM", "CF", "CD", "GA"],
     "unMember": true,
     "area": 342000,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -941,19 +671,11 @@
     "capital": "Bern",
     "region": "Europe",
     "population": 9082848,
-    "borders": [
-      "AT",
-      "FR",
-      "IT",
-      "LI",
-      "DE"
-    ],
+    "borders": ["AT", "FR", "IT", "LI", "DE"],
     "unMember": true,
     "area": 41284,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -972,47 +694,28 @@
     "capital": "Yamoussoukro",
     "region": "Africa",
     "population": 31719275,
-    "borders": [
-      "BF",
-      "GH",
-      "GN",
-      "LR",
-      "ML"
-    ],
+    "borders": ["BF", "GH", "GN", "LR", "ML"],
     "unMember": true,
     "area": 322463,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "CL",
     "name": "Chile",
-    "aliases": [
-      "chile",
-      "republic of chile",
-      "cl",
-      "república de chile"
-    ],
+    "aliases": ["chile", "republic of chile", "cl", "república de chile"],
     "flag": "https://flagcdn.com/w320/cl.png",
     "lat": -30,
     "lng": -71,
     "capital": "Santiago",
     "region": "Americas",
     "population": 20206953,
-    "borders": [
-      "AR",
-      "BO",
-      "PE"
-    ],
+    "borders": ["AR", "BO", "PE"],
     "unMember": true,
     "area": 756102,
     "carSide": "right",
-    "continents": [
-      "South America"
-    ],
+    "continents": ["South America"],
     "startOfWeek": "monday"
   },
   {
@@ -1030,20 +733,11 @@
     "capital": "Yaoundé",
     "region": "Africa",
     "population": 29442327,
-    "borders": [
-      "CF",
-      "TD",
-      "CG",
-      "GQ",
-      "GA",
-      "NG"
-    ],
+    "borders": ["CF", "TD", "CG", "GQ", "GA", "NG"],
     "unMember": true,
     "area": 475442,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -1086,9 +780,7 @@
     "unMember": true,
     "area": 9706961,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -1106,19 +798,11 @@
     "capital": "Bogotá",
     "region": "Americas",
     "population": 53057212,
-    "borders": [
-      "BR",
-      "EC",
-      "PA",
-      "PE",
-      "VE"
-    ],
+    "borders": ["BR", "EC", "PA", "PE", "VE"],
     "unMember": true,
     "area": 1141748,
     "carSide": "right",
-    "continents": [
-      "South America"
-    ],
+    "continents": ["South America"],
     "startOfWeek": "monday"
   },
   {
@@ -1136,27 +820,17 @@
     "capital": "San José",
     "region": "Americas",
     "population": 5309625,
-    "borders": [
-      "NI",
-      "PA"
-    ],
+    "borders": ["NI", "PA"],
     "unMember": true,
     "area": 51100,
     "carSide": "right",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
     "code": "CU",
     "name": "Cuba",
-    "aliases": [
-      "cuba",
-      "republic of cuba",
-      "cu",
-      "república de cuba"
-    ],
+    "aliases": ["cuba", "republic of cuba", "cu", "república de cuba"],
     "flag": "https://flagcdn.com/w320/cu.png",
     "lat": 21.5,
     "lng": -80,
@@ -1167,9 +841,7 @@
     "unMember": true,
     "area": 109884,
     "carSide": "right",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
@@ -1191,9 +863,7 @@
     "unMember": true,
     "area": 4033,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -1218,39 +888,24 @@
     "unMember": true,
     "area": 9251,
     "carSide": "left",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "CZ",
     "name": "Czechia",
-    "aliases": [
-      "czechia",
-      "czech republic",
-      "cz",
-      "česká republika",
-      "česko"
-    ],
+    "aliases": ["czechia", "czech republic", "cz", "česká republika", "česko"],
     "flag": "https://flagcdn.com/w320/cz.png",
     "lat": 49.75,
     "lng": 15.5,
     "capital": "Prague",
     "region": "Europe",
     "population": 10882341,
-    "borders": [
-      "AT",
-      "DE",
-      "PL",
-      "SK"
-    ],
+    "borders": ["AT", "DE", "PL", "SK"],
     "unMember": true,
     "area": 78865,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -1268,23 +923,11 @@
     "capital": "Berlin",
     "region": "Europe",
     "population": 83491249,
-    "borders": [
-      "AT",
-      "BE",
-      "CZ",
-      "DK",
-      "FR",
-      "LU",
-      "NL",
-      "PL",
-      "CH"
-    ],
+    "borders": ["AT", "BE", "CZ", "DK", "FR", "LU", "NL", "PL", "CH"],
     "unMember": true,
     "area": 357114,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -1306,17 +949,11 @@
     "capital": "Djibouti",
     "region": "Africa",
     "population": 1066809,
-    "borders": [
-      "ER",
-      "ET",
-      "SO"
-    ],
+    "borders": ["ER", "ET", "SO"],
     "unMember": true,
     "area": 23200,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -1335,15 +972,11 @@
     "capital": "Copenhagen",
     "region": "Europe",
     "population": 6011488,
-    "borders": [
-      "DE"
-    ],
+    "borders": ["DE"],
     "unMember": true,
     "area": 43094,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -1366,33 +999,24 @@
     "unMember": true,
     "area": 751,
     "carSide": "left",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
     "code": "DO",
     "name": "Dominican Republic",
-    "aliases": [
-      "dominican republic",
-      "do"
-    ],
+    "aliases": ["dominican republic", "do"],
     "flag": "https://flagcdn.com/w320/do.png",
     "lat": 19,
     "lng": -70.66666666,
     "capital": "Santo Domingo",
     "region": "Americas",
     "population": 10771504,
-    "borders": [
-      "HT"
-    ],
+    "borders": ["HT"],
     "unMember": true,
     "area": 48671,
     "carSide": "right",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
@@ -1411,21 +1035,11 @@
     "capital": "Algiers",
     "region": "Africa",
     "population": 47400000,
-    "borders": [
-      "TN",
-      "LY",
-      "NE",
-      "EH",
-      "MR",
-      "ML",
-      "MA"
-    ],
+    "borders": ["TN", "LY", "NE", "EH", "MR", "ML", "MA"],
     "unMember": true,
     "area": 2381741,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "sunday"
   },
   {
@@ -1443,16 +1057,11 @@
     "capital": "Quito",
     "region": "Americas",
     "population": 18103660,
-    "borders": [
-      "CO",
-      "PE"
-    ],
+    "borders": ["CO", "PE"],
     "unMember": true,
     "area": 276841,
     "carSide": "right",
-    "continents": [
-      "South America"
-    ],
+    "continents": ["South America"],
     "startOfWeek": "monday"
   },
   {
@@ -1471,44 +1080,28 @@
     "capital": "Tallinn",
     "region": "Europe",
     "population": 1369995,
-    "borders": [
-      "LV",
-      "RU"
-    ],
+    "borders": ["LV", "RU"],
     "unMember": true,
     "area": 45227,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "EG",
     "name": "Egypt",
-    "aliases": [
-      "egypt",
-      "arab republic of egypt",
-      "eg"
-    ],
+    "aliases": ["egypt", "arab republic of egypt", "eg"],
     "flag": "https://flagcdn.com/w320/eg.png",
     "lat": 27,
     "lng": 30,
     "capital": "Cairo",
     "region": "Africa",
     "population": 107271260,
-    "borders": [
-      "IL",
-      "LY",
-      "PS",
-      "SD"
-    ],
+    "borders": ["IL", "LY", "PS", "SD"],
     "unMember": true,
     "area": 1002450,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "sunday"
   },
   {
@@ -1529,47 +1122,28 @@
     "capital": "Asmara",
     "region": "Africa",
     "population": 3607000,
-    "borders": [
-      "DJ",
-      "ET",
-      "SD"
-    ],
+    "borders": ["DJ", "ET", "SD"],
     "unMember": true,
     "area": 117600,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "ES",
     "name": "Spain",
-    "aliases": [
-      "spain",
-      "kingdom of spain",
-      "es",
-      "reino de españa"
-    ],
+    "aliases": ["spain", "kingdom of spain", "es", "reino de españa"],
     "flag": "https://flagcdn.com/w320/es.png",
     "lat": 40,
     "lng": -4,
     "capital": "Madrid",
     "region": "Europe",
     "population": 49315949,
-    "borders": [
-      "AD",
-      "FR",
-      "GI",
-      "PT",
-      "MA"
-    ],
+    "borders": ["AD", "FR", "GI", "PT", "MA"],
     "unMember": true,
     "area": 505992,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -1588,20 +1162,11 @@
     "capital": "Addis Ababa",
     "region": "Africa",
     "population": 111652998,
-    "borders": [
-      "DJ",
-      "ER",
-      "KE",
-      "SO",
-      "SS",
-      "SD"
-    ],
+    "borders": ["DJ", "ER", "KE", "SO", "SS", "SD"],
     "unMember": true,
     "area": 1104300,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -1621,17 +1186,11 @@
     "capital": "Helsinki",
     "region": "Europe",
     "population": 5650325,
-    "borders": [
-      "NO",
-      "SE",
-      "RU"
-    ],
+    "borders": ["NO", "SE", "RU"],
     "unMember": true,
     "area": 338455,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -1655,70 +1214,41 @@
     "unMember": true,
     "area": 18272,
     "carSide": "left",
-    "continents": [
-      "Oceania"
-    ],
+    "continents": ["Oceania"],
     "startOfWeek": "monday"
   },
   {
     "code": "FR",
     "name": "France",
-    "aliases": [
-      "france",
-      "french republic",
-      "fr",
-      "république française"
-    ],
+    "aliases": ["france", "french republic", "fr", "république française"],
     "flag": "https://flagcdn.com/w320/fr.png",
     "lat": 46,
     "lng": 2,
     "capital": "Paris",
     "region": "Europe",
     "population": 66351959,
-    "borders": [
-      "AD",
-      "BE",
-      "DE",
-      "IT",
-      "LU",
-      "MC",
-      "ES",
-      "CH"
-    ],
+    "borders": ["AD", "BE", "DE", "IT", "LU", "MC", "ES", "CH"],
     "unMember": true,
     "area": 543908,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "GA",
     "name": "Gabon",
-    "aliases": [
-      "gabon",
-      "gabonese republic",
-      "ga",
-      "république gabonaise"
-    ],
+    "aliases": ["gabon", "gabonese republic", "ga", "république gabonaise"],
     "flag": "https://flagcdn.com/w320/ga.png",
     "lat": -1,
     "lng": 11.75,
     "capital": "Libreville",
     "region": "Africa",
     "population": 2469296,
-    "borders": [
-      "CM",
-      "CG",
-      "GQ"
-    ],
+    "borders": ["CM", "CG", "GQ"],
     "unMember": true,
     "area": 267668,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -1737,24 +1267,17 @@
     "capital": "London",
     "region": "Europe",
     "population": 69281437,
-    "borders": [
-      "IE"
-    ],
+    "borders": ["IE"],
     "unMember": true,
     "area": 244376,
     "carSide": "left",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "GD",
     "name": "Grenada",
-    "aliases": [
-      "grenada",
-      "gd"
-    ],
+    "aliases": ["grenada", "gd"],
     "flag": "https://flagcdn.com/w320/gd.png",
     "lat": 12.11666666,
     "lng": -61.66666666,
@@ -1765,120 +1288,75 @@
     "unMember": true,
     "area": 344,
     "carSide": "left",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
     "code": "GE",
     "name": "Georgia",
-    "aliases": [
-      "georgia",
-      "ge",
-      "sakartvelo"
-    ],
+    "aliases": ["georgia", "ge", "sakartvelo"],
     "flag": "https://flagcdn.com/w320/ge.png",
     "lat": 42,
     "lng": 43.5,
     "capital": "Tbilisi",
     "region": "Asia",
     "population": 4000921,
-    "borders": [
-      "AM",
-      "AZ",
-      "RU",
-      "TR"
-    ],
+    "borders": ["AM", "AZ", "RU", "TR"],
     "unMember": true,
     "area": 69700,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
     "code": "GH",
     "name": "Ghana",
-    "aliases": [
-      "ghana",
-      "republic of ghana",
-      "gh"
-    ],
+    "aliases": ["ghana", "republic of ghana", "gh"],
     "flag": "https://flagcdn.com/w320/gh.png",
     "lat": 8,
     "lng": -2,
     "capital": "Accra",
     "region": "Africa",
     "population": 33742380,
-    "borders": [
-      "BF",
-      "CI",
-      "TG"
-    ],
+    "borders": ["BF", "CI", "TG"],
     "unMember": true,
     "area": 238533,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "GM",
     "name": "Gambia",
-    "aliases": [
-      "gambia",
-      "republic of the gambia",
-      "gm"
-    ],
+    "aliases": ["gambia", "republic of the gambia", "gm"],
     "flag": "https://flagcdn.com/w320/gm.png",
     "lat": 13.46666666,
     "lng": -16.56666666,
     "capital": "Banjul",
     "region": "Africa",
     "population": 2422712,
-    "borders": [
-      "SN"
-    ],
+    "borders": ["SN"],
     "unMember": true,
     "area": 10689,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "GN",
     "name": "Guinea",
-    "aliases": [
-      "guinea",
-      "republic of guinea",
-      "gn",
-      "république de guinée"
-    ],
+    "aliases": ["guinea", "republic of guinea", "gn", "république de guinée"],
     "flag": "https://flagcdn.com/w320/gn.png",
     "lat": 11,
     "lng": -10,
     "capital": "Conakry",
     "region": "Africa",
     "population": 14363931,
-    "borders": [
-      "CI",
-      "GW",
-      "LR",
-      "ML",
-      "SN",
-      "SL"
-    ],
+    "borders": ["CI", "GW", "LR", "ML", "SN", "SL"],
     "unMember": true,
     "area": 245857,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -1898,16 +1376,11 @@
     "capital": "Ciudad de la Paz",
     "region": "Africa",
     "population": 1668768,
-    "borders": [
-      "CM",
-      "GA"
-    ],
+    "borders": ["CM", "GA"],
     "unMember": true,
     "area": 28051,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -1926,73 +1399,45 @@
     "capital": "Athens",
     "region": "Europe",
     "population": 10400720,
-    "borders": [
-      "AL",
-      "BG",
-      "TR",
-      "MK"
-    ],
+    "borders": ["AL", "BG", "TR", "MK"],
     "unMember": true,
     "area": 131990,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "GT",
     "name": "Guatemala",
-    "aliases": [
-      "guatemala",
-      "republic of guatemala",
-      "gt"
-    ],
+    "aliases": ["guatemala", "republic of guatemala", "gt"],
     "flag": "https://flagcdn.com/w320/gt.png",
     "lat": 15.5,
     "lng": -90.25,
     "capital": "Guatemala City",
     "region": "Americas",
     "population": 18079810,
-    "borders": [
-      "BZ",
-      "SV",
-      "HN",
-      "MX"
-    ],
+    "borders": ["BZ", "SV", "HN", "MX"],
     "unMember": true,
     "area": 108889,
     "carSide": "right",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
     "code": "GY",
     "name": "Guyana",
-    "aliases": [
-      "guyana",
-      "co-operative republic of guyana",
-      "gy"
-    ],
+    "aliases": ["guyana", "co-operative republic of guyana", "gy"],
     "flag": "https://flagcdn.com/w320/gy.png",
     "lat": 5,
     "lng": -59,
     "capital": "Georgetown",
     "region": "Americas",
     "population": 772975,
-    "borders": [
-      "BR",
-      "SR",
-      "VE"
-    ],
+    "borders": ["BR", "SR", "VE"],
     "unMember": true,
     "area": 214969,
     "carSide": "left",
-    "continents": [
-      "South America"
-    ],
+    "continents": ["South America"],
     "startOfWeek": "monday"
   },
   {
@@ -2010,17 +1455,11 @@
     "capital": "Tegucigalpa",
     "region": "Americas",
     "population": 9892632,
-    "borders": [
-      "GT",
-      "SV",
-      "NI"
-    ],
+    "borders": ["GT", "SV", "NI"],
     "unMember": true,
     "area": 112492,
     "carSide": "right",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
@@ -2039,19 +1478,11 @@
     "capital": "Zagreb",
     "region": "Europe",
     "population": 3866233,
-    "borders": [
-      "BA",
-      "HU",
-      "ME",
-      "RS",
-      "SI"
-    ],
+    "borders": ["BA", "HU", "ME", "RS", "SI"],
     "unMember": true,
     "area": 56594,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -2070,45 +1501,28 @@
     "capital": "Port-au-Prince",
     "region": "Americas",
     "population": 11867032,
-    "borders": [
-      "DO"
-    ],
+    "borders": ["DO"],
     "unMember": true,
     "area": 27750,
     "carSide": "right",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
     "code": "HU",
     "name": "Hungary",
-    "aliases": [
-      "hungary",
-      "hu"
-    ],
+    "aliases": ["hungary", "hu"],
     "flag": "https://flagcdn.com/w320/hu.png",
     "lat": 47,
     "lng": 20,
     "capital": "Budapest",
     "region": "Europe",
     "population": 9539502,
-    "borders": [
-      "AT",
-      "HR",
-      "RO",
-      "RS",
-      "SK",
-      "SI",
-      "UA"
-    ],
+    "borders": ["AT", "HR", "RO", "RS", "SK", "SI", "UA"],
     "unMember": true,
     "area": 93028,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -2126,17 +1540,11 @@
     "capital": "Jakarta",
     "region": "Asia",
     "population": 284438782,
-    "borders": [
-      "TL",
-      "MY",
-      "PG"
-    ],
+    "borders": ["TL", "MY", "PG"],
     "unMember": true,
     "area": 1904569,
     "carSide": "left",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -2155,45 +1563,28 @@
     "capital": "Dublin",
     "region": "Europe",
     "population": 5458600,
-    "borders": [
-      "GB"
-    ],
+    "borders": ["GB"],
     "unMember": true,
     "area": 70273,
     "carSide": "left",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "IL",
     "name": "Israel",
-    "aliases": [
-      "israel",
-      "state of israel",
-      "il",
-      "medīnat yisrā'el"
-    ],
+    "aliases": ["israel", "state of israel", "il", "medīnat yisrā'el"],
     "flag": "https://flagcdn.com/w320/il.png",
     "lat": 31.47,
     "lng": 35.13,
     "capital": "Jerusalem",
     "region": "Asia",
     "population": 10134800,
-    "borders": [
-      "EG",
-      "JO",
-      "LB",
-      "PS",
-      "SY"
-    ],
+    "borders": ["EG", "JO", "LB", "PS", "SY"],
     "unMember": true,
     "area": 21937,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "sunday"
   },
   {
@@ -2213,51 +1604,28 @@
     "capital": "New Delhi",
     "region": "Asia",
     "population": 1417492000,
-    "borders": [
-      "BD",
-      "BT",
-      "MM",
-      "CN",
-      "NP",
-      "PK"
-    ],
+    "borders": ["BD", "BT", "MM", "CN", "NP", "PK"],
     "unMember": true,
     "area": 3287263,
     "carSide": "left",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
     "code": "IQ",
     "name": "Iraq",
-    "aliases": [
-      "iraq",
-      "republic of iraq",
-      "iq",
-      "jumhūriyyat al-‘irāq"
-    ],
+    "aliases": ["iraq", "republic of iraq", "iq", "jumhūriyyat al-‘irāq"],
     "flag": "https://flagcdn.com/w320/iq.png",
     "lat": 33,
     "lng": 44,
     "capital": "Baghdad",
     "region": "Asia",
     "population": 46118793,
-    "borders": [
-      "IR",
-      "JO",
-      "KW",
-      "SA",
-      "SY",
-      "TR"
-    ],
+    "borders": ["IR", "JO", "KW", "SA", "SY", "TR"],
     "unMember": true,
     "area": 438317,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "sunday"
   },
   {
@@ -2276,21 +1644,11 @@
     "capital": "Tehran",
     "region": "Asia",
     "population": 85961000,
-    "borders": [
-      "AF",
-      "AM",
-      "AZ",
-      "IQ",
-      "PK",
-      "TR",
-      "TM"
-    ],
+    "borders": ["AF", "AM", "AZ", "IQ", "PK", "TR", "TM"],
     "unMember": true,
     "area": 1648195,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "saturday"
   },
   {
@@ -2313,49 +1671,30 @@
     "unMember": true,
     "area": 103000,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "IT",
     "name": "Italy",
-    "aliases": [
-      "italy",
-      "italian republic",
-      "it",
-      "repubblica italiana"
-    ],
+    "aliases": ["italy", "italian republic", "it", "repubblica italiana"],
     "flag": "https://flagcdn.com/w320/it.png",
     "lat": 42.83333333,
     "lng": 12.83333333,
     "capital": "Rome",
     "region": "Europe",
     "population": 58927633,
-    "borders": [
-      "AT",
-      "FR",
-      "SM",
-      "SI",
-      "CH",
-      "VA"
-    ],
+    "borders": ["AT", "FR", "SM", "SI", "CH", "VA"],
     "unMember": true,
     "area": 301336,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "JM",
     "name": "Jamaica",
-    "aliases": [
-      "jamaica",
-      "jm"
-    ],
+    "aliases": ["jamaica", "jm"],
     "flag": "https://flagcdn.com/w320/jm.png",
     "lat": 18.25,
     "lng": -77.5,
@@ -2366,9 +1705,7 @@
     "unMember": true,
     "area": 10991,
     "carSide": "left",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
@@ -2386,30 +1723,17 @@
     "capital": "Amman",
     "region": "Asia",
     "population": 11734000,
-    "borders": [
-      "IQ",
-      "IL",
-      "PS",
-      "SA",
-      "SY"
-    ],
+    "borders": ["IQ", "IL", "PS", "SA", "SY"],
     "unMember": true,
     "area": 89342,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "sunday"
   },
   {
     "code": "JP",
     "name": "Japan",
-    "aliases": [
-      "japan",
-      "jp",
-      "nippon",
-      "nihon"
-    ],
+    "aliases": ["japan", "jp", "nippon", "nihon"],
     "flag": "https://flagcdn.com/w320/jp.png",
     "lat": 36,
     "lng": 138,
@@ -2420,39 +1744,24 @@
     "unMember": true,
     "area": 377930,
     "carSide": "left",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
     "code": "KE",
     "name": "Kenya",
-    "aliases": [
-      "kenya",
-      "republic of kenya",
-      "ke",
-      "jamhuri ya kenya"
-    ],
+    "aliases": ["kenya", "republic of kenya", "ke", "jamhuri ya kenya"],
     "flag": "https://flagcdn.com/w320/ke.png",
     "lat": 1,
     "lng": 38,
     "capital": "Nairobi",
     "region": "Africa",
     "population": 53330978,
-    "borders": [
-      "ET",
-      "SO",
-      "SS",
-      "TZ",
-      "UG"
-    ],
+    "borders": ["ET", "SO", "SS", "TZ", "UG"],
     "unMember": true,
     "area": 580367,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -2472,45 +1781,28 @@
     "capital": "Bishkek",
     "region": "Asia",
     "population": 7281800,
-    "borders": [
-      "CN",
-      "KZ",
-      "TJ",
-      "UZ"
-    ],
+    "borders": ["CN", "KZ", "TJ", "UZ"],
     "unMember": true,
     "area": 199951,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
     "code": "KH",
     "name": "Cambodia",
-    "aliases": [
-      "cambodia",
-      "kingdom of cambodia",
-      "kh"
-    ],
+    "aliases": ["cambodia", "kingdom of cambodia", "kh"],
     "flag": "https://flagcdn.com/w320/kh.png",
     "lat": 13,
     "lng": 105,
     "capital": "Phnom Penh",
     "region": "Asia",
     "population": 17577760,
-    "borders": [
-      "LA",
-      "TH",
-      "VN"
-    ],
+    "borders": ["LA", "TH", "VN"],
     "unMember": true,
     "area": 181035,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -2533,9 +1825,7 @@
     "unMember": true,
     "area": 811,
     "carSide": "left",
-    "continents": [
-      "Oceania"
-    ],
+    "continents": ["Oceania"],
     "startOfWeek": "monday"
   },
   {
@@ -2559,9 +1849,7 @@
     "unMember": true,
     "area": 1862,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -2582,9 +1870,7 @@
     "unMember": true,
     "area": 261,
     "carSide": "left",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
@@ -2607,17 +1893,11 @@
     "capital": "Pyongyang",
     "region": "Asia",
     "population": 25950000,
-    "borders": [
-      "CN",
-      "KR",
-      "RU"
-    ],
+    "borders": ["CN", "KR", "RU"],
     "unMember": true,
     "area": 120538,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -2637,42 +1917,28 @@
     "capital": "Seoul",
     "region": "Asia",
     "population": 51159889,
-    "borders": [
-      "KP"
-    ],
+    "borders": ["KP"],
     "unMember": true,
     "area": 100210,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
     "code": "KW",
     "name": "Kuwait",
-    "aliases": [
-      "kuwait",
-      "state of kuwait",
-      "kw",
-      "dawlat al-kuwait"
-    ],
+    "aliases": ["kuwait", "state of kuwait", "kw", "dawlat al-kuwait"],
     "flag": "https://flagcdn.com/w320/kw.png",
     "lat": 29.5,
     "lng": 45.75,
     "capital": "Kuwait City",
     "region": "Asia",
     "population": 4881254,
-    "borders": [
-      "IQ",
-      "SA"
-    ],
+    "borders": ["IQ", "SA"],
     "unMember": true,
     "area": 17818,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "sunday"
   },
   {
@@ -2695,19 +1961,11 @@
     "capital": "Astana",
     "region": "Asia",
     "population": 20426568,
-    "borders": [
-      "CN",
-      "KG",
-      "RU",
-      "TM",
-      "UZ"
-    ],
+    "borders": ["CN", "KG", "RU", "TM", "UZ"],
     "unMember": true,
     "area": 2724900,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -2726,19 +1984,11 @@
     "capital": "Vientiane",
     "region": "Asia",
     "population": 7647000,
-    "borders": [
-      "MM",
-      "KH",
-      "CN",
-      "TH",
-      "VN"
-    ],
+    "borders": ["MM", "KH", "CN", "TH", "VN"],
     "unMember": true,
     "area": 236800,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -2756,25 +2006,17 @@
     "capital": "Beirut",
     "region": "Asia",
     "population": 5490000,
-    "borders": [
-      "IL",
-      "SY"
-    ],
+    "borders": ["IL", "SY"],
     "unMember": true,
     "area": 10452,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
     "code": "LC",
     "name": "Saint Lucia",
-    "aliases": [
-      "saint lucia",
-      "lc"
-    ],
+    "aliases": ["saint lucia", "lc"],
     "flag": "https://flagcdn.com/w320/lc.png",
     "lat": 13.88333333,
     "lng": -60.96666666,
@@ -2785,9 +2027,7 @@
     "unMember": true,
     "area": 616,
     "carSide": "left",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
@@ -2805,16 +2045,11 @@
     "capital": "Vaduz",
     "region": "Europe",
     "population": 40900,
-    "borders": [
-      "AT",
-      "CH"
-    ],
+    "borders": ["AT", "CH"],
     "unMember": true,
     "area": 160,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -2836,62 +2071,41 @@
     "unMember": true,
     "area": 65610,
     "carSide": "left",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
     "code": "LR",
     "name": "Liberia",
-    "aliases": [
-      "liberia",
-      "republic of liberia",
-      "lr"
-    ],
+    "aliases": ["liberia", "republic of liberia", "lr"],
     "flag": "https://flagcdn.com/w320/lr.png",
     "lat": 6.5,
     "lng": -9.5,
     "capital": "Monrovia",
     "region": "Africa",
     "population": 5248621,
-    "borders": [
-      "GN",
-      "CI",
-      "SL"
-    ],
+    "borders": ["GN", "CI", "SL"],
     "unMember": true,
     "area": 111369,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "LS",
     "name": "Lesotho",
-    "aliases": [
-      "lesotho",
-      "kingdom of lesotho",
-      "ls",
-      "muso oa lesotho"
-    ],
+    "aliases": ["lesotho", "kingdom of lesotho", "ls", "muso oa lesotho"],
     "flag": "https://flagcdn.com/w320/ls.png",
     "lat": -29.5,
     "lng": 28.5,
     "capital": "Maseru",
     "region": "Africa",
     "population": 2116427,
-    "borders": [
-      "ZA"
-    ],
+    "borders": ["ZA"],
     "unMember": true,
     "area": 30355,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -2909,18 +2123,11 @@
     "capital": "Vilnius",
     "region": "Europe",
     "population": 2894886,
-    "borders": [
-      "BY",
-      "LV",
-      "PL",
-      "RU"
-    ],
+    "borders": ["BY", "LV", "PL", "RU"],
     "unMember": true,
     "area": 65300,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -2940,77 +2147,45 @@
     "capital": "Luxembourg",
     "region": "Europe",
     "population": 681973,
-    "borders": [
-      "BE",
-      "FR",
-      "DE"
-    ],
+    "borders": ["BE", "FR", "DE"],
     "unMember": true,
     "area": 2586,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "LV",
     "name": "Latvia",
-    "aliases": [
-      "latvia",
-      "republic of latvia",
-      "lv",
-      "latvijas republika"
-    ],
+    "aliases": ["latvia", "republic of latvia", "lv", "latvijas republika"],
     "flag": "https://flagcdn.com/w320/lv.png",
     "lat": 57,
     "lng": 25,
     "capital": "Riga",
     "region": "Europe",
     "population": 1829000,
-    "borders": [
-      "BY",
-      "EE",
-      "LT",
-      "RU"
-    ],
+    "borders": ["BY", "EE", "LT", "RU"],
     "unMember": true,
     "area": 64559,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "LY",
     "name": "Libya",
-    "aliases": [
-      "libya",
-      "state of libya",
-      "ly",
-      "dawlat libya"
-    ],
+    "aliases": ["libya", "state of libya", "ly", "dawlat libya"],
     "flag": "https://flagcdn.com/w320/ly.png",
     "lat": 25,
     "lng": 17,
     "capital": "Tripoli",
     "region": "Africa",
     "population": 7459000,
-    "borders": [
-      "DZ",
-      "TD",
-      "EG",
-      "NE",
-      "SD",
-      "TN"
-    ],
+    "borders": ["DZ", "TD", "EG", "NE", "SD", "TN"],
     "unMember": true,
     "area": 1759540,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "sunday"
   },
   {
@@ -3028,17 +2203,11 @@
     "capital": "Rabat",
     "region": "Africa",
     "population": 36828330,
-    "borders": [
-      "DZ",
-      "EH",
-      "ES"
-    ],
+    "borders": ["DZ", "EH", "ES"],
     "unMember": true,
     "area": 446550,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -3056,15 +2225,11 @@
     "capital": "Monaco",
     "region": "Europe",
     "population": 38423,
-    "borders": [
-      "FR"
-    ],
+    "borders": ["FR"],
     "unMember": true,
     "area": 2.02,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -3083,45 +2248,28 @@
     "capital": "Chișinău",
     "region": "Europe",
     "population": 2749076,
-    "borders": [
-      "RO",
-      "UA"
-    ],
+    "borders": ["RO", "UA"],
     "unMember": true,
     "area": 33847,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "ME",
     "name": "Montenegro",
-    "aliases": [
-      "montenegro",
-      "me",
-      "crna gora"
-    ],
+    "aliases": ["montenegro", "me", "crna gora"],
     "flag": "https://flagcdn.com/w320/me.png",
     "lat": 42.5,
     "lng": 19.3,
     "capital": "Podgorica",
     "region": "Europe",
     "population": 623327,
-    "borders": [
-      "AL",
-      "BA",
-      "HR",
-      "XK",
-      "RS"
-    ],
+    "borders": ["AL", "BA", "HR", "XK", "RS"],
     "unMember": true,
     "area": 13812,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -3144,9 +2292,7 @@
     "unMember": true,
     "area": 587041,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -3166,51 +2312,28 @@
     "capital": "Skopje",
     "region": "Europe",
     "population": 1822612,
-    "borders": [
-      "AL",
-      "BG",
-      "GR",
-      "XK",
-      "RS"
-    ],
+    "borders": ["AL", "BG", "GR", "XK", "RS"],
     "unMember": true,
     "area": 25713,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "ML",
     "name": "Mali",
-    "aliases": [
-      "mali",
-      "republic of mali",
-      "ml",
-      "république du mali"
-    ],
+    "aliases": ["mali", "republic of mali", "ml", "république du mali"],
     "flag": "https://flagcdn.com/w320/ml.png",
     "lat": 17,
     "lng": -4,
     "capital": "Bamako",
     "region": "Africa",
     "population": 22395489,
-    "borders": [
-      "DZ",
-      "BF",
-      "GN",
-      "CI",
-      "MR",
-      "NE",
-      "SN"
-    ],
+    "borders": ["DZ", "BF", "GN", "CI", "MR", "NE", "SN"],
     "unMember": true,
     "area": 1240192,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -3229,44 +2352,28 @@
     "capital": "Naypyidaw",
     "region": "Asia",
     "population": 51316756,
-    "borders": [
-      "BD",
-      "CN",
-      "IN",
-      "LA",
-      "TH"
-    ],
+    "borders": ["BD", "CN", "IN", "LA", "TH"],
     "unMember": true,
     "area": 676578,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
     "code": "MN",
     "name": "Mongolia",
-    "aliases": [
-      "mongolia",
-      "mn"
-    ],
+    "aliases": ["mongolia", "mn"],
     "flag": "https://flagcdn.com/w320/mn.png",
     "lat": 46,
     "lng": 105,
     "capital": "Ulan Bator",
     "region": "Asia",
     "population": 3544835,
-    "borders": [
-      "CN",
-      "RU"
-    ],
+    "borders": ["CN", "RU"],
     "unMember": true,
     "area": 1564110,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -3284,29 +2391,17 @@
     "capital": "Nouakchott",
     "region": "Africa",
     "population": 4927532,
-    "borders": [
-      "DZ",
-      "ML",
-      "SN",
-      "EH"
-    ],
+    "borders": ["DZ", "ML", "SN", "EH"],
     "unMember": true,
     "area": 1030700,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "MT",
     "name": "Malta",
-    "aliases": [
-      "malta",
-      "republic of malta",
-      "mt",
-      "repubblika ta' malta"
-    ],
+    "aliases": ["malta", "republic of malta", "mt", "repubblika ta' malta"],
     "flag": "https://flagcdn.com/w320/mt.png",
     "lat": 35.9375,
     "lng": 14.3754,
@@ -3317,9 +2412,7 @@
     "unMember": true,
     "area": 316,
     "carSide": "left",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -3341,9 +2434,7 @@
     "unMember": true,
     "area": 2040,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -3366,36 +2457,24 @@
     "unMember": true,
     "area": 300,
     "carSide": "left",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "sunday"
   },
   {
     "code": "MW",
     "name": "Malawi",
-    "aliases": [
-      "malawi",
-      "republic of malawi",
-      "mw"
-    ],
+    "aliases": ["malawi", "republic of malawi", "mw"],
     "flag": "https://flagcdn.com/w320/mw.png",
     "lat": -13.5,
     "lng": 34,
     "capital": "Lilongwe",
     "region": "Africa",
     "population": 20734262,
-    "borders": [
-      "MZ",
-      "TZ",
-      "ZM"
-    ],
+    "borders": ["MZ", "TZ", "ZM"],
     "unMember": true,
     "area": 118484,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -3414,43 +2493,28 @@
     "capital": "Mexico City",
     "region": "Americas",
     "population": 130575786,
-    "borders": [
-      "BZ",
-      "GT",
-      "US"
-    ],
+    "borders": ["BZ", "GT", "US"],
     "unMember": true,
     "area": 1964375,
     "carSide": "right",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
     "code": "MY",
     "name": "Malaysia",
-    "aliases": [
-      "malaysia",
-      "my"
-    ],
+    "aliases": ["malaysia", "my"],
     "flag": "https://flagcdn.com/w320/my.png",
     "lat": 2.5,
     "lng": 112.5,
     "capital": "Kuala Lumpur",
     "region": "Asia",
     "population": 34231700,
-    "borders": [
-      "BN",
-      "ID",
-      "TH"
-    ],
+    "borders": ["BN", "ID", "TH"],
     "unMember": true,
     "area": 330803,
     "carSide": "left",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "sunday"
   },
   {
@@ -3468,81 +2532,45 @@
     "capital": "Maputo",
     "region": "Africa",
     "population": 34090466,
-    "borders": [
-      "MW",
-      "ZA",
-      "SZ",
-      "TZ",
-      "ZM",
-      "ZW"
-    ],
+    "borders": ["MW", "ZA", "SZ", "TZ", "ZM", "ZW"],
     "unMember": true,
     "area": 801590,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "NA",
     "name": "Namibia",
-    "aliases": [
-      "namibia",
-      "republic of namibia",
-      "na",
-      "namibië"
-    ],
+    "aliases": ["namibia", "republic of namibia", "na", "namibië"],
     "flag": "https://flagcdn.com/w320/na.png",
     "lat": -22,
     "lng": 17,
     "capital": "Windhoek",
     "region": "Africa",
     "population": 3022401,
-    "borders": [
-      "AO",
-      "BW",
-      "ZA",
-      "ZM"
-    ],
+    "borders": ["AO", "BW", "ZA", "ZM"],
     "unMember": true,
     "area": 825615,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "NE",
     "name": "Niger",
-    "aliases": [
-      "niger",
-      "republic of niger",
-      "ne",
-      "nijar"
-    ],
+    "aliases": ["niger", "republic of niger", "ne", "nijar"],
     "flag": "https://flagcdn.com/w320/ne.png",
     "lat": 16,
     "lng": 8,
     "capital": "Niamey",
     "region": "Africa",
     "population": 26312034,
-    "borders": [
-      "DZ",
-      "BJ",
-      "BF",
-      "TD",
-      "LY",
-      "ML",
-      "NG"
-    ],
+    "borders": ["DZ", "BJ", "BF", "TD", "LY", "ML", "NG"],
     "unMember": true,
     "area": 1267000,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -3561,18 +2589,11 @@
     "capital": "Abuja",
     "region": "Africa",
     "population": 223800000,
-    "borders": [
-      "BJ",
-      "CM",
-      "TD",
-      "NE"
-    ],
+    "borders": ["BJ", "CM", "TD", "NE"],
     "unMember": true,
     "area": 923768,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -3590,16 +2611,11 @@
     "capital": "Managua",
     "region": "Americas",
     "population": 6803886,
-    "borders": [
-      "CR",
-      "HN"
-    ],
+    "borders": ["CR", "HN"],
     "unMember": true,
     "area": 130373,
     "carSide": "right",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
@@ -3619,16 +2635,11 @@
     "capital": "Amsterdam",
     "region": "Europe",
     "population": 18100436,
-    "borders": [
-      "BE",
-      "DE"
-    ],
+    "borders": ["BE", "DE"],
     "unMember": true,
     "area": 41865,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -3649,17 +2660,11 @@
     "capital": "Oslo",
     "region": "Europe",
     "population": 5606944,
-    "borders": [
-      "FI",
-      "SE",
-      "RU"
-    ],
+    "borders": ["FI", "SE", "RU"],
     "unMember": true,
     "area": 386224,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -3677,16 +2682,11 @@
     "capital": "Kathmandu",
     "region": "Asia",
     "population": 29911840,
-    "borders": [
-      "CN",
-      "IN"
-    ],
+    "borders": ["CN", "IN"],
     "unMember": true,
     "area": 147181,
     "carSide": "left",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "sunday"
   },
   {
@@ -3710,19 +2710,13 @@
     "unMember": true,
     "area": 21,
     "carSide": "left",
-    "continents": [
-      "Oceania"
-    ],
+    "continents": ["Oceania"],
     "startOfWeek": "monday"
   },
   {
     "code": "NZ",
     "name": "New Zealand",
-    "aliases": [
-      "new zealand",
-      "nz",
-      "aotearoa"
-    ],
+    "aliases": ["new zealand", "nz", "aotearoa"],
     "flag": "https://flagcdn.com/w320/nz.png",
     "lat": -41,
     "lng": 174,
@@ -3733,94 +2727,58 @@
     "unMember": true,
     "area": 268838,
     "carSide": "left",
-    "continents": [
-      "Oceania"
-    ],
+    "continents": ["Oceania"],
     "startOfWeek": "monday"
   },
   {
     "code": "OM",
     "name": "Oman",
-    "aliases": [
-      "oman",
-      "sultanate of oman",
-      "om",
-      "salṭanat ʻumān"
-    ],
+    "aliases": ["oman", "sultanate of oman", "om", "salṭanat ʻumān"],
     "flag": "https://flagcdn.com/w320/om.png",
     "lat": 21,
     "lng": 57,
     "capital": "Muscat",
     "region": "Asia",
     "population": 5343630,
-    "borders": [
-      "SA",
-      "AE",
-      "YE"
-    ],
+    "borders": ["SA", "AE", "YE"],
     "unMember": true,
     "area": 309500,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "sunday"
   },
   {
     "code": "PA",
     "name": "Panama",
-    "aliases": [
-      "panama",
-      "republic of panama",
-      "pa",
-      "república de panamá"
-    ],
+    "aliases": ["panama", "republic of panama", "pa", "república de panamá"],
     "flag": "https://flagcdn.com/w320/pa.png",
     "lat": 9,
     "lng": -80,
     "capital": "Panama City",
     "region": "Americas",
     "population": 4064780,
-    "borders": [
-      "CO",
-      "CR"
-    ],
+    "borders": ["CO", "CR"],
     "unMember": true,
     "area": 75417,
     "carSide": "right",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
     "code": "PE",
     "name": "Peru",
-    "aliases": [
-      "peru",
-      "republic of peru",
-      "pe",
-      "república del perú"
-    ],
+    "aliases": ["peru", "republic of peru", "pe", "república del perú"],
     "flag": "https://flagcdn.com/w320/pe.png",
     "lat": -10,
     "lng": -76,
     "capital": "Lima",
     "region": "Americas",
     "population": 34350244,
-    "borders": [
-      "BO",
-      "BR",
-      "CL",
-      "CO",
-      "EC"
-    ],
+    "borders": ["BO", "BR", "CL", "CO", "EC"],
     "unMember": true,
     "area": 1285216,
     "carSide": "right",
-    "continents": [
-      "South America"
-    ],
+    "continents": ["South America"],
     "startOfWeek": "monday"
   },
   {
@@ -3838,15 +2796,11 @@
     "capital": "Port Moresby",
     "region": "Oceania",
     "population": 11781559,
-    "borders": [
-      "ID"
-    ],
+    "borders": ["ID"],
     "unMember": true,
     "area": 462840,
     "carSide": "left",
-    "continents": [
-      "Oceania"
-    ],
+    "continents": ["Oceania"],
     "startOfWeek": "monday"
   },
   {
@@ -3868,9 +2822,7 @@
     "unMember": true,
     "area": 342353,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -3889,50 +2841,28 @@
     "capital": "Islamabad",
     "region": "Asia",
     "population": 241499431,
-    "borders": [
-      "AF",
-      "CN",
-      "IN",
-      "IR"
-    ],
+    "borders": ["AF", "CN", "IN", "IR"],
     "unMember": true,
     "area": 796095,
     "carSide": "left",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
     "code": "PL",
     "name": "Poland",
-    "aliases": [
-      "poland",
-      "republic of poland",
-      "pl",
-      "rzeczpospolita polska"
-    ],
+    "aliases": ["poland", "republic of poland", "pl", "rzeczpospolita polska"],
     "flag": "https://flagcdn.com/w320/pl.png",
     "lat": 52,
     "lng": 20,
     "capital": "Warsaw",
     "region": "Europe",
     "population": 37392000,
-    "borders": [
-      "BY",
-      "CZ",
-      "DE",
-      "LT",
-      "RU",
-      "SK",
-      "UA"
-    ],
+    "borders": ["BY", "CZ", "DE", "LT", "RU", "SK", "UA"],
     "unMember": true,
     "area": 312679,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -3951,26 +2881,17 @@
     "capital": "Lisbon",
     "region": "Europe",
     "population": 10749635,
-    "borders": [
-      "ES"
-    ],
+    "borders": ["ES"],
     "unMember": true,
     "area": 92090,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "PW",
     "name": "Palau",
-    "aliases": [
-      "palau",
-      "republic of palau",
-      "pw",
-      "beluu er a belau"
-    ],
+    "aliases": ["palau", "republic of palau", "pw", "beluu er a belau"],
     "flag": "https://flagcdn.com/w320/pw.png",
     "lat": 7.5,
     "lng": 134.5,
@@ -3981,9 +2902,7 @@
     "unMember": true,
     "area": 459,
     "carSide": "right",
-    "continents": [
-      "Oceania"
-    ],
+    "continents": ["Oceania"],
     "startOfWeek": "monday"
   },
   {
@@ -4002,74 +2921,45 @@
     "capital": "Asunción",
     "region": "Americas",
     "population": 6109644,
-    "borders": [
-      "AR",
-      "BO",
-      "BR"
-    ],
+    "borders": ["AR", "BO", "BR"],
     "unMember": true,
     "area": 406752,
     "carSide": "right",
-    "continents": [
-      "South America"
-    ],
+    "continents": ["South America"],
     "startOfWeek": "monday"
   },
   {
     "code": "QA",
     "name": "Qatar",
-    "aliases": [
-      "qatar",
-      "state of qatar",
-      "qa",
-      "dawlat qaṭar"
-    ],
+    "aliases": ["qatar", "state of qatar", "qa", "dawlat qaṭar"],
     "flag": "https://flagcdn.com/w320/qa.png",
     "lat": 25.5,
     "lng": 51.25,
     "capital": "Doha",
     "region": "Asia",
     "population": 3173024,
-    "borders": [
-      "SA"
-    ],
+    "borders": ["SA"],
     "unMember": true,
     "area": 11586,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "sunday"
   },
   {
     "code": "RO",
     "name": "Romania",
-    "aliases": [
-      "romania",
-      "ro",
-      "rumania",
-      "roumania",
-      "românia"
-    ],
+    "aliases": ["romania", "ro", "rumania", "roumania", "românia"],
     "flag": "https://flagcdn.com/w320/ro.png",
     "lat": 46,
     "lng": 25,
     "capital": "Bucharest",
     "region": "Europe",
     "population": 19036031,
-    "borders": [
-      "BG",
-      "HU",
-      "MD",
-      "RS",
-      "UA"
-    ],
+    "borders": ["BG", "HU", "MD", "RS", "UA"],
     "unMember": true,
     "area": 238391,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -4089,33 +2979,17 @@
     "capital": "Belgrade",
     "region": "Europe",
     "population": 6567783,
-    "borders": [
-      "BA",
-      "BG",
-      "HR",
-      "HU",
-      "XK",
-      "MK",
-      "ME",
-      "RO"
-    ],
+    "borders": ["BA", "BG", "HR", "HU", "XK", "MK", "ME", "RO"],
     "unMember": true,
     "area": 77589,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "RU",
     "name": "Russia",
-    "aliases": [
-      "russia",
-      "russian federation",
-      "ru",
-      "российская федерация"
-    ],
+    "aliases": ["russia", "russian federation", "ru", "российская федерация"],
     "flag": "https://flagcdn.com/w320/ru.png",
     "lat": 60,
     "lng": 100,
@@ -4141,10 +3015,7 @@
     "unMember": true,
     "area": 17098246,
     "carSide": "right",
-    "continents": [
-      "Europe",
-      "Asia"
-    ],
+    "continents": ["Europe", "Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -4163,18 +3034,11 @@
     "capital": "Kigali",
     "region": "Africa",
     "population": 14104969,
-    "borders": [
-      "BI",
-      "CD",
-      "TZ",
-      "UG"
-    ],
+    "borders": ["BI", "CD", "TZ", "UG"],
     "unMember": true,
     "area": 26338,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -4193,30 +3057,17 @@
     "capital": "Riyadh",
     "region": "Asia",
     "population": 35300280,
-    "borders": [
-      "IQ",
-      "JO",
-      "KW",
-      "OM",
-      "QA",
-      "AE",
-      "YE"
-    ],
+    "borders": ["IQ", "JO", "KW", "OM", "QA", "AE", "YE"],
     "unMember": true,
     "area": 2149690,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "sunday"
   },
   {
     "code": "SB",
     "name": "Solomon Islands",
-    "aliases": [
-      "solomon islands",
-      "sb"
-    ],
+    "aliases": ["solomon islands", "sb"],
     "flag": "https://flagcdn.com/w320/sb.png",
     "lat": -8,
     "lng": 159,
@@ -4227,9 +3078,7 @@
     "unMember": true,
     "area": 28896,
     "carSide": "left",
-    "continents": [
-      "Oceania"
-    ],
+    "continents": ["Oceania"],
     "startOfWeek": "monday"
   },
   {
@@ -4252,68 +3101,41 @@
     "unMember": true,
     "area": 452,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "SD",
     "name": "Sudan",
-    "aliases": [
-      "sudan",
-      "republic of the sudan",
-      "sd",
-      "jumhūrīyat as-sūdān"
-    ],
+    "aliases": ["sudan", "republic of the sudan", "sd", "jumhūrīyat as-sūdān"],
     "flag": "https://flagcdn.com/w320/sd.png",
     "lat": 15,
     "lng": 30,
     "capital": "Khartoum",
     "region": "Africa",
     "population": 51662000,
-    "borders": [
-      "CF",
-      "TD",
-      "EG",
-      "ER",
-      "ET",
-      "LY",
-      "SS"
-    ],
+    "borders": ["CF", "TD", "EG", "ER", "ET", "LY", "SS"],
     "unMember": true,
     "area": 1886068,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "SE",
     "name": "Sweden",
-    "aliases": [
-      "sweden",
-      "kingdom of sweden",
-      "se",
-      "konungariket sverige"
-    ],
+    "aliases": ["sweden", "kingdom of sweden", "se", "konungariket sverige"],
     "flag": "https://flagcdn.com/w320/se.png",
     "lat": 62,
     "lng": 15,
     "capital": "Stockholm",
     "region": "Europe",
     "population": 10605098,
-    "borders": [
-      "FI",
-      "NO"
-    ],
+    "borders": ["FI", "NO"],
     "unMember": true,
     "area": 450295,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -4337,9 +3159,7 @@
     "unMember": true,
     "area": 710,
     "carSide": "left",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -4357,74 +3177,45 @@
     "capital": "Ljubljana",
     "region": "Europe",
     "population": 2130638,
-    "borders": [
-      "AT",
-      "HR",
-      "IT",
-      "HU"
-    ],
+    "borders": ["AT", "HR", "IT", "HU"],
     "unMember": true,
     "area": 20273,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "SK",
     "name": "Slovakia",
-    "aliases": [
-      "slovakia",
-      "slovak republic",
-      "sk",
-      "slovenská republika"
-    ],
+    "aliases": ["slovakia", "slovak republic", "sk", "slovenská republika"],
     "flag": "https://flagcdn.com/w320/sk.png",
     "lat": 48.66666666,
     "lng": 19.5,
     "capital": "Bratislava",
     "region": "Europe",
     "population": 5413813,
-    "borders": [
-      "AT",
-      "CZ",
-      "HU",
-      "PL",
-      "UA"
-    ],
+    "borders": ["AT", "CZ", "HU", "PL", "UA"],
     "unMember": true,
     "area": 49037,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "SL",
     "name": "Sierra Leone",
-    "aliases": [
-      "sierra leone",
-      "republic of sierra leone",
-      "sl"
-    ],
+    "aliases": ["sierra leone", "republic of sierra leone", "sl"],
     "flag": "https://flagcdn.com/w320/sl.png",
     "lat": 8.5,
     "lng": -11.5,
     "capital": "Freetown",
     "region": "Africa",
     "population": 9077691,
-    "borders": [
-      "GN",
-      "LR"
-    ],
+    "borders": ["GN", "LR"],
     "unMember": true,
     "area": 71740,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -4442,15 +3233,11 @@
     "capital": "City of San Marino",
     "region": "Europe",
     "population": 34132,
-    "borders": [
-      "IT"
-    ],
+    "borders": ["IT"],
     "unMember": true,
     "area": 61,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
@@ -4468,19 +3255,11 @@
     "capital": "Dakar",
     "region": "Africa",
     "population": 18593258,
-    "borders": [
-      "GM",
-      "GN",
-      "GW",
-      "ML",
-      "MR"
-    ],
+    "borders": ["GM", "GN", "GW", "ML", "MR"],
     "unMember": true,
     "area": 196722,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -4500,17 +3279,11 @@
     "capital": "Mogadishu",
     "region": "Africa",
     "population": 19655000,
-    "borders": [
-      "DJ",
-      "ET",
-      "KE"
-    ],
+    "borders": ["DJ", "ET", "KE"],
     "unMember": true,
     "area": 637657,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -4530,47 +3303,28 @@
     "capital": "Paramaribo",
     "region": "Americas",
     "population": 616500,
-    "borders": [
-      "BR",
-      "GF",
-      "GY"
-    ],
+    "borders": ["BR", "GF", "GY"],
     "unMember": true,
     "area": 163820,
     "carSide": "left",
-    "continents": [
-      "South America"
-    ],
+    "continents": ["South America"],
     "startOfWeek": "monday"
   },
   {
     "code": "SS",
     "name": "South Sudan",
-    "aliases": [
-      "south sudan",
-      "republic of south sudan",
-      "ss"
-    ],
+    "aliases": ["south sudan", "republic of south sudan", "ss"],
     "flag": "https://flagcdn.com/w320/ss.png",
     "lat": 7,
     "lng": 30,
     "capital": "Juba",
     "region": "Africa",
     "population": 15786898,
-    "borders": [
-      "CF",
-      "CD",
-      "ET",
-      "KE",
-      "SD",
-      "UG"
-    ],
+    "borders": ["CF", "CD", "ET", "KE", "SD", "UG"],
     "unMember": true,
     "area": 619745,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "sunday"
   },
   {
@@ -4593,9 +3347,7 @@
     "unMember": true,
     "area": 964,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -4613,16 +3365,11 @@
     "capital": "San Salvador",
     "region": "Americas",
     "population": 6029976,
-    "borders": [
-      "GT",
-      "HN"
-    ],
+    "borders": ["GT", "HN"],
     "unMember": true,
     "area": 21041,
     "carSide": "right",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
@@ -4640,19 +3387,11 @@
     "capital": "Damascus",
     "region": "Asia",
     "population": 25620000,
-    "borders": [
-      "IQ",
-      "IL",
-      "JO",
-      "LB",
-      "TR"
-    ],
+    "borders": ["IQ", "IL", "JO", "LB", "TR"],
     "unMember": true,
     "area": 185180,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -4674,16 +3413,11 @@
     "capital": "Mbabane",
     "region": "Africa",
     "population": 1235549,
-    "borders": [
-      "MZ",
-      "ZA"
-    ],
+    "borders": ["MZ", "ZA"],
     "unMember": true,
     "area": 17364,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -4702,20 +3436,11 @@
     "capital": "N'Djamena",
     "region": "Africa",
     "population": 19340757,
-    "borders": [
-      "CM",
-      "CF",
-      "LY",
-      "NE",
-      "NG",
-      "SD"
-    ],
+    "borders": ["CM", "CF", "LY", "NE", "NG", "SD"],
     "unMember": true,
     "area": 1284000,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -4734,17 +3459,11 @@
     "capital": "Lomé",
     "region": "Africa",
     "population": 8095498,
-    "borders": [
-      "BJ",
-      "BF",
-      "GH"
-    ],
+    "borders": ["BJ", "BF", "GH"],
     "unMember": true,
     "area": 56785,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
@@ -4765,18 +3484,11 @@
     "capital": "Bangkok",
     "region": "Asia",
     "population": 65859640,
-    "borders": [
-      "MM",
-      "KH",
-      "LA",
-      "MY"
-    ],
+    "borders": ["MM", "KH", "LA", "MY"],
     "unMember": true,
     "area": 513120,
     "carSide": "left",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -4796,18 +3508,11 @@
     "capital": "Dushanbe",
     "region": "Asia",
     "population": 10499000,
-    "borders": [
-      "AF",
-      "CN",
-      "KG",
-      "UZ"
-    ],
+    "borders": ["AF", "CN", "KG", "UZ"],
     "unMember": true,
     "area": 143100,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -4829,42 +3534,28 @@
     "capital": "Dili",
     "region": "Asia",
     "population": 1391221,
-    "borders": [
-      "ID"
-    ],
+    "borders": ["ID"],
     "unMember": true,
     "area": 14874,
     "carSide": "left",
-    "continents": [
-      "Oceania"
-    ],
+    "continents": ["Oceania"],
     "startOfWeek": "monday"
   },
   {
     "code": "TM",
     "name": "Turkmenistan",
-    "aliases": [
-      "turkmenistan",
-      "tm"
-    ],
+    "aliases": ["turkmenistan", "tm"],
     "flag": "https://flagcdn.com/w320/tm.png",
     "lat": 40,
     "lng": 60,
     "capital": "Ashgabat",
     "region": "Asia",
     "population": 7057841,
-    "borders": [
-      "AF",
-      "IR",
-      "KZ",
-      "UZ"
-    ],
+    "borders": ["AF", "IR", "KZ", "UZ"],
     "unMember": true,
     "area": 488100,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -4883,26 +3574,17 @@
     "capital": "Tunis",
     "region": "Africa",
     "population": 11972169,
-    "borders": [
-      "DZ",
-      "LY"
-    ],
+    "borders": ["DZ", "LY"],
     "unMember": true,
     "area": 163610,
     "carSide": "right",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "TO",
     "name": "Tonga",
-    "aliases": [
-      "tonga",
-      "kingdom of tonga",
-      "to"
-    ],
+    "aliases": ["tonga", "kingdom of tonga", "to"],
     "flag": "https://flagcdn.com/w320/to.png",
     "lat": -20,
     "lng": -175,
@@ -4913,9 +3595,7 @@
     "unMember": true,
     "area": 747,
     "carSide": "left",
-    "continents": [
-      "Oceania"
-    ],
+    "continents": ["Oceania"],
     "startOfWeek": "monday"
   },
   {
@@ -4934,33 +3614,17 @@
     "capital": "Ankara",
     "region": "Asia",
     "population": 85664944,
-    "borders": [
-      "AM",
-      "AZ",
-      "BG",
-      "GE",
-      "GR",
-      "IR",
-      "IQ",
-      "SY"
-    ],
+    "borders": ["AM", "AZ", "BG", "GE", "GR", "IR", "IQ", "SY"],
     "unMember": true,
     "area": 783562,
     "carSide": "right",
-    "continents": [
-      "Europe",
-      "Asia"
-    ],
+    "continents": ["Europe", "Asia"],
     "startOfWeek": "monday"
   },
   {
     "code": "TT",
     "name": "Trinidad and Tobago",
-    "aliases": [
-      "trinidad and tobago",
-      "republic of trinidad and tobago",
-      "tt"
-    ],
+    "aliases": ["trinidad and tobago", "republic of trinidad and tobago", "tt"],
     "flag": "https://flagcdn.com/w320/tt.png",
     "lat": 10.6918,
     "lng": -61.2225,
@@ -4971,9 +3635,7 @@
     "unMember": true,
     "area": 5130,
     "carSide": "left",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
@@ -4992,110 +3654,62 @@
     "capital": "Dodoma",
     "region": "Africa",
     "population": 68153004,
-    "borders": [
-      "BI",
-      "CD",
-      "KE",
-      "MW",
-      "MZ",
-      "RW",
-      "UG",
-      "ZM"
-    ],
+    "borders": ["BI", "CD", "KE", "MW", "MZ", "RW", "UG", "ZM"],
     "unMember": true,
     "area": 947303,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "UA",
     "name": "Ukraine",
-    "aliases": [
-      "ukraine",
-      "ua",
-      "ukrayina"
-    ],
+    "aliases": ["ukraine", "ua", "ukrayina"],
     "flag": "https://flagcdn.com/w320/ua.png",
     "lat": 49,
     "lng": 32,
     "capital": "Kyiv",
     "region": "Europe",
     "population": 32862000,
-    "borders": [
-      "BY",
-      "HU",
-      "MD",
-      "PL",
-      "RO",
-      "RU",
-      "SK"
-    ],
+    "borders": ["BY", "HU", "MD", "PL", "RO", "RU", "SK"],
     "unMember": true,
     "area": 603550,
     "carSide": "right",
-    "continents": [
-      "Europe"
-    ],
+    "continents": ["Europe"],
     "startOfWeek": "monday"
   },
   {
     "code": "UG",
     "name": "Uganda",
-    "aliases": [
-      "uganda",
-      "republic of uganda",
-      "ug",
-      "jamhuri ya uganda"
-    ],
+    "aliases": ["uganda", "republic of uganda", "ug", "jamhuri ya uganda"],
     "flag": "https://flagcdn.com/w320/ug.png",
     "lat": 1,
     "lng": 32,
     "capital": "Kampala",
     "region": "Africa",
     "population": 45905417,
-    "borders": [
-      "CD",
-      "KE",
-      "RW",
-      "SS",
-      "TZ"
-    ],
+    "borders": ["CD", "KE", "RW", "SS", "TZ"],
     "unMember": true,
     "area": 241550,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "US",
     "name": "United States",
-    "aliases": [
-      "united states",
-      "united states of america",
-      "us",
-      "usa"
-    ],
+    "aliases": ["united states", "united states of america", "us", "usa"],
     "flag": "https://flagcdn.com/w320/us.png",
     "lat": 38,
     "lng": -97,
     "capital": "Washington, D.C.",
     "region": "Americas",
     "population": 340110988,
-    "borders": [
-      "CA",
-      "MX"
-    ],
+    "borders": ["CA", "MX"],
     "unMember": true,
     "area": 9525067,
     "carSide": "right",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "sunday"
   },
   {
@@ -5113,16 +3727,11 @@
     "capital": "Montevideo",
     "region": "Americas",
     "population": 3499451,
-    "borders": [
-      "AR",
-      "BR"
-    ],
+    "borders": ["AR", "BR"],
     "unMember": true,
     "area": 181034,
     "carSide": "right",
-    "continents": [
-      "South America"
-    ],
+    "continents": ["South America"],
     "startOfWeek": "monday"
   },
   {
@@ -5141,28 +3750,17 @@
     "capital": "Tashkent",
     "region": "Asia",
     "population": 37859698,
-    "borders": [
-      "AF",
-      "KZ",
-      "KG",
-      "TJ",
-      "TM"
-    ],
+    "borders": ["AF", "KZ", "KG", "TJ", "TM"],
     "unMember": true,
     "area": 447400,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
     "code": "VC",
     "name": "Saint Vincent and the Grenadines",
-    "aliases": [
-      "saint vincent and the grenadines",
-      "vc"
-    ],
+    "aliases": ["saint vincent and the grenadines", "vc"],
     "flag": "https://flagcdn.com/w320/vc.png",
     "lat": 13.25,
     "lng": -61.2,
@@ -5173,9 +3771,7 @@
     "unMember": true,
     "area": 389,
     "carSide": "left",
-    "continents": [
-      "North America"
-    ],
+    "continents": ["North America"],
     "startOfWeek": "monday"
   },
   {
@@ -5194,17 +3790,11 @@
     "capital": "Caracas",
     "region": "Americas",
     "population": 28517000,
-    "borders": [
-      "BR",
-      "CO",
-      "GY"
-    ],
+    "borders": ["BR", "CO", "GY"],
     "unMember": true,
     "area": 916445,
     "carSide": "right",
-    "continents": [
-      "South America"
-    ],
+    "continents": ["South America"],
     "startOfWeek": "monday"
   },
   {
@@ -5223,17 +3813,11 @@
     "capital": "Hanoi",
     "region": "Asia",
     "population": 101343800,
-    "borders": [
-      "KH",
-      "CN",
-      "LA"
-    ],
+    "borders": ["KH", "CN", "LA"],
     "unMember": true,
     "area": 331212,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "monday"
   },
   {
@@ -5256,9 +3840,7 @@
     "unMember": true,
     "area": 12189,
     "carSide": "right",
-    "continents": [
-      "Oceania"
-    ],
+    "continents": ["Oceania"],
     "startOfWeek": "monday"
   },
   {
@@ -5280,9 +3862,7 @@
     "unMember": true,
     "area": 2842,
     "carSide": "left",
-    "continents": [
-      "Oceania"
-    ],
+    "continents": ["Oceania"],
     "startOfWeek": "monday"
   },
   {
@@ -5301,16 +3881,11 @@
     "capital": "Sana'a",
     "region": "Asia",
     "population": 32684503,
-    "borders": [
-      "OM",
-      "SA"
-    ],
+    "borders": ["OM", "SA"],
     "unMember": true,
     "area": 527968,
     "carSide": "right",
-    "continents": [
-      "Asia"
-    ],
+    "continents": ["Asia"],
     "startOfWeek": "sunday"
   },
   {
@@ -5329,80 +3904,45 @@
     "capital": "Pretoria",
     "region": "Africa",
     "population": 63100945,
-    "borders": [
-      "BW",
-      "LS",
-      "MZ",
-      "NA",
-      "SZ",
-      "ZW"
-    ],
+    "borders": ["BW", "LS", "MZ", "NA", "SZ", "ZW"],
     "unMember": true,
     "area": 1221037,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "ZM",
     "name": "Zambia",
-    "aliases": [
-      "zambia",
-      "republic of zambia",
-      "zm"
-    ],
+    "aliases": ["zambia", "republic of zambia", "zm"],
     "flag": "https://flagcdn.com/w320/zm.png",
     "lat": -15,
     "lng": 30,
     "capital": "Lusaka",
     "region": "Africa",
     "population": 19693423,
-    "borders": [
-      "AO",
-      "BW",
-      "CD",
-      "MW",
-      "MZ",
-      "NA",
-      "TZ",
-      "ZW"
-    ],
+    "borders": ["AO", "BW", "CD", "MW", "MZ", "NA", "TZ", "ZW"],
     "unMember": true,
     "area": 752612,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   },
   {
     "code": "ZW",
     "name": "Zimbabwe",
-    "aliases": [
-      "zimbabwe",
-      "republic of zimbabwe",
-      "zw"
-    ],
+    "aliases": ["zimbabwe", "republic of zimbabwe", "zw"],
     "flag": "https://flagcdn.com/w320/zw.png",
     "lat": -20,
     "lng": 30,
     "capital": "Harare",
     "region": "Africa",
     "population": 17073087,
-    "borders": [
-      "BW",
-      "MZ",
-      "ZA",
-      "ZM"
-    ],
+    "borders": ["BW", "MZ", "ZA", "ZM"],
     "unMember": true,
     "area": 390757,
     "carSide": "left",
-    "continents": [
-      "Africa"
-    ],
+    "continents": ["Africa"],
     "startOfWeek": "monday"
   }
 ]
