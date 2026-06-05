@@ -32,6 +32,7 @@ bot.use(callbackQueryHandler);
 
 bot.catch(errorHandler);
 
+await bot.api.deleteWebhook({ drop_pending_updates: true });
 run(bot);
 console.log("Bot started");
 
